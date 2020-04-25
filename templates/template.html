@@ -177,7 +177,7 @@
 <div class="card bg-dark">
 <div class="card-body" style="font-size:0; text-align: center;">
 {% for result in results_bc[:25] %}
-    <a href="https://open.spotify.com/artist/{{result['sp_album_id']}}" 
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
         target="_blank">
     {% if loop.index <= 5 %}
         <img src="{{ result['sp_img'] }}" width="18.8%">
@@ -214,10 +214,12 @@
     <tr>
     <td>
     <span style="font-size:1.1rem">
-    <a href="https://open.spotify.com/artist/{{result['sp_album_id']}}" 
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
         target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
     <br/>
-    <span style="color:#dedede; font-size:0.8rem">{{result['title']}}</span>
+    <span style="color:#dedede; font-size:0.8rem">
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
     </td>
     <td class="align-middle">{{result['sp_popularity']}}</td>
     <td class="align-middle">{{result['score']|round|int}}</td>
