@@ -55,7 +55,7 @@
     AllMusic Recommendations</div> -->
 <div class="card-body" style="font-size:0; text-align: center;">
 {% for result in results_am[:25] %}
-    <a href="https://open.spotify.com/artist/{{result['sp_id']}}" 
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
         target="_blank">
     {% if loop.index <= 5 %}
         <img src="{{ result['image'] }}" width="18.8%">
@@ -92,7 +92,7 @@
     <tr>
     <td>
     <span style="font-size:1.1rem">
-    <a href="https://open.spotify.com/artist/{{result['sp_id']}}" 
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
         target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
     <br/>
     <span style="color:#dedede; font-size:0.8rem">{{result['title']}}</span>
@@ -108,14 +108,14 @@
 </div>
 </div>
 
-<!---------------------------- ALL MUSIC ----------------------------->
+<!---------------------------- Pitchfork ----------------------------->
 <h1 class="mt-5">Pitchfork Recommendations</h1>
 <div class="row ml-3 mr-3">
 <div class="col-lg-8 col-xl-8 mb-3">
 <div class="card bg-dark">
 <div class="card-body" style="font-size:0; text-align: center;">
 {% for result in results_pf[:25] %}
-    <a href="https://open.spotify.com/artist/{{result['sp_id']}}" 
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
         target="_blank">
     {% if loop.index <= 5 %}
         <img src="{{ result['image'] }}" width="18.8%">
@@ -152,7 +152,7 @@
     <tr>
     <td>
     <span style="font-size:1.1rem">
-    <a href="https://open.spotify.com/artist/{{result['sp_id']}}" 
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
         target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
     <br/>
     <span style="color:#dedede; font-size:0.8rem">{{result['title']}}</span>
@@ -170,32 +170,65 @@
 
 <br>
 
-<!-- Data Table 
-<table class="table">
-
-<thead>
-<tr>
-{% for key in results_am[0].keys() %}
-{% if key != 'image' %}
-    <th> {{ key }} </th>
-{% endif %}
+<!---------------------------- BANDCAMP TORONTO ----------------------------->
+<h1 class="mt-5">Bandcamp Toronto Recommendations</h1>
+<div class="row ml-3 mr-3">
+<div class="col-lg-8 col-xl-8 mb-3">
+<div class="card bg-dark">
+<div class="card-body" style="font-size:0; text-align: center;">
+{% for result in results_bc[:25] %}
+    <a href="https://open.spotify.com/artist/{{result['sp_album_id']}}" 
+        target="_blank">
+    {% if loop.index <= 5 %}
+        <img src="{{ result['sp_img'] }}" width="18.8%">
+    {% elif loop.index <= 11 %}
+        <img src="{{ result['sp_img'] }}" width="15.5%">
+    {% else %}
+        <img src="{{ result['sp_img'] }}" width="13%">
+    {% endif %}
+    </a>
 {% endfor %}
-</tr>
-</thead>
-
-<tbody>
-{% for result in results_am %}
-<tr>
-{% for key, value in result.items() %}
-{% if key != 'image' %}
-    <td style ="word-break:break-all;"> {{ value }} </td>
-{% endif %}
-{% endfor %}
-</tr>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-xl-4">
+<div class="card bg-dark">
+<div class="card-body">
+<table class="table table-sm mb-0">
+    <thead>
+    <tr>
+        <th>Release</th>
+        <th data-toggle="tooltip" title="Spotify Popularity (/100)">
+            <object class="align-bottom" style="height:30px" 
+                type="image/svg+xml" data="static/icon_spotify.svg">
+        </th>
+        <th data-toggle="tooltip" title="Treble Chef's Score (/100)">
+            <!-- Retrieved from flaticon -->
+            <object class="align-bottom" style="height:30px" 
+                type="image/svg+xml" data="static/icon_chef.svg">
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+{% for result in results_bc[:5] %}
+    <tr>
+    <td>
+    <span style="font-size:1.1rem">
+    <a href="https://open.spotify.com/artist/{{result['sp_album_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
+    <br/>
+    <span style="color:#dedede; font-size:0.8rem">{{result['title']}}</span>
+    </td>
+    <td class="align-middle">{{result['sp_popularity']}}</td>
+    <td class="align-middle">{{result['score']|round|int}}</td>
+    </tr>
 {% endfor %}
 </tbody>
-
-</table>-->
+</table>
+</div>
+</div>
+</div>
+</div>
 
 </main>
 

@@ -7,20 +7,23 @@
         "image": "https://media.pitchfork.com/photos/5e98fd8b34830c0008097f47/1:1/w_320/FIONAAPPLECOVER.jpg",
         "date": "2020-04-17T05:00:00.000Z",
         "sp_artist": "Fiona Apple",
-        "sp_genres": [
-            "art pop",
-            "chamber pop",
-            "indie pop",
-            "lilith",
-            "permanent wave",
-            "piano rock",
-            "pop rock",
-            "singer-songwriter"
-        ],
-        "sp_popularity": 68,
-        "sp_followers": 609170,
-        "sp_id": "3g2kUQ6tHLLbmkV7T4GPtL",
-        "score": 92.0
+        "sp_popularity": 75,
+        "sp_followers": 625943,
+        "sp_artist_id": "3g2kUQ6tHLLbmkV7T4GPtL",
+        "score": 93.75
+    },
+    {
+        "artist": "Westside Gunn",
+        "title": "Pray For Paris",
+        "genre": "Rap",
+        "rating": 8.0,
+        "image": "https://media.pitchfork.com/photos/5e99dc30e21e4f0009eaf086/1:1/w_320/prayforparis.jpg",
+        "date": "2020-04-21T05:00:00.000Z",
+        "sp_artist": "Westside Gunn",
+        "sp_popularity": 67,
+        "sp_followers": 78610,
+        "sp_artist_id": "0ABk515kENDyATUdpCKVfW",
+        "score": 76.75
     },
     {
         "artist": "The Mountain Goats",
@@ -30,47 +33,36 @@
         "image": "https://media.pitchfork.com/photos/5e94971d1a3ea30008764f25/1:1/w_320/Songs%20for%20Pierre%20Chuvin_The%20Mountain%20Goats.jpg",
         "date": "2020-04-16T05:00:00.000Z",
         "sp_artist": "The Mountain Goats",
-        "sp_genres": [
-            "alternative rock",
-            "anti-folk",
-            "canadian indie",
-            "chamber pop",
-            "freak folk",
-            "indie folk",
-            "indie pop",
-            "indie rock",
-            "lo-fi",
-            "melancholia",
-            "new weird america",
-            "stomp and holler"
-        ],
-        "sp_popularity": 59,
-        "sp_followers": 219124,
-        "sp_id": "3hyGGjxu73JuzBa757H6R5",
-        "score": 75.5
+        "sp_popularity": 61,
+        "sp_followers": 219931,
+        "sp_artist_id": "3hyGGjxu73JuzBa757H6R5",
+        "score": 76.0
     },
     {
-        "artist": "Laura Marling",
-        "title": "Song for Our Daughter",
-        "genre": "Folk/Country",
-        "rating": 7.6,
-        "image": "https://media.pitchfork.com/photos/5e90912414d7100009d3fda2/1:1/w_320/Song%20for%20Our%20Daughter_Laura%20Marling.jpg",
-        "date": "2020-04-11T05:00:00.000Z",
-        "sp_artist": "Laura Marling",
-        "sp_genres": [
-            "art pop",
-            "british folk",
-            "british singer-songwriter",
-            "chamber pop",
-            "indie folk",
-            "indie pop",
-            "singer-songwriter",
-            "stomp and holler"
-        ],
-        "sp_popularity": 65,
-        "sp_followers": 354555,
-        "sp_id": "7B2edU3Q7btJoNsoHCNohM",
-        "score": 73.25
+        "artist": "Rina Sawayama",
+        "title": "SAWAYAMA",
+        "genre": "Pop/R&B",
+        "rating": 7.7,
+        "image": "https://media.pitchfork.com/photos/5e94b867b09a5100092ba764/1:1/w_320/SAWAYAMA_Rina%20Sawayama.jpg",
+        "date": "2020-04-20T05:00:00.000Z",
+        "sp_artist": "Rina Sawayama",
+        "sp_popularity": 68,
+        "sp_followers": 159084,
+        "sp_artist_id": "2KEqzdPS7M5YwGmiuPTdr5",
+        "score": 74.75
+    },
+    {
+        "artist": "DaBaby",
+        "title": "Blame It on Baby",
+        "genre": "Rap",
+        "rating": 6.8,
+        "image": "https://media.pitchfork.com/photos/5e9de95a2071a50008c2bd34/1:1/w_320/Blame%20It%20On%20Baby_DaBaby.jpg",
+        "date": "2020-04-21T05:00:00.000Z",
+        "sp_artist": "DaBaby",
+        "sp_popularity": 94,
+        "sp_followers": 2790637,
+        "sp_artist_id": "4r63FhuTkUYltbVAg5TQnk",
+        "score": 74.5
     },
     {
         "artist": "Lido Pimienta",
@@ -80,15 +72,10 @@
         "image": "https://media.pitchfork.com/photos/5e988b3b2eea7f00096658df/1:1/w_320/Miss%20Colombia_Lido%20Pimienta.jpg",
         "date": "2020-04-18T05:00:00.000Z",
         "sp_artist": "Lido Pimienta",
-        "sp_genres": [
-            "canadian latin",
-            "deep latin alternative",
-            "latintronica"
-        ],
-        "sp_popularity": 48,
-        "sp_followers": 18819,
-        "sp_id": "1IdkKQ9CM1i0wygfxYV4Z3",
-        "score": 72.0
+        "sp_popularity": 51,
+        "sp_followers": 19919,
+        "sp_artist_id": "1IdkKQ9CM1i0wygfxYV4Z3",
+        "score": 72.75
     },
     {
         "artist": "Pink Siifu",
@@ -98,33 +85,49 @@
         "image": "https://media.pitchfork.com/photos/5e90d39bac9e490008f40868/1:1/w_320/Negro_Pink%20Siifu.jpg",
         "date": "2020-04-15T05:00:00.000Z",
         "sp_artist": "Pink Siifu",
-        "sp_genres": [
-            "experimental hip hop"
-        ],
-        "sp_popularity": 53,
-        "sp_followers": 8562,
-        "sp_id": "40ZElxHldNyvn7x8WRC6fh",
-        "score": 71.75
+        "sp_popularity": 54,
+        "sp_followers": 8727,
+        "sp_artist_id": "40ZElxHldNyvn7x8WRC6fh",
+        "score": 72.0
     },
     {
-        "artist": "Hamilton Leithauser",
-        "title": "The Loves of Your Life",
-        "genre": "Rock",
-        "rating": 7.6,
-        "image": "https://media.pitchfork.com/photos/5e8df0c397ffd9000938e29d/1:1/w_320/The%20Loves%20of%20Your%20Life_Hamilton%20Leithauser.jpg",
-        "date": "2020-04-14T05:00:00.000Z",
-        "sp_artist": "Hamilton Leithauser",
-        "sp_genres": [
-            "art pop",
-            "chamber pop",
-            "freak folk",
-            "indie rock",
-            "stomp and holler"
-        ],
-        "sp_popularity": 56,
-        "sp_followers": 23874,
-        "sp_id": "3ZXXJ9nO1Dn9B0AJ25eAQY",
+        "artist": "The-Dream",
+        "title": "SXTP4",
+        "genre": "Pop/R&B",
+        "rating": 7.2,
+        "image": "https://media.pitchfork.com/photos/5e9f4e7c43b931000881ddae/1:1/w_320/Sextape%204_The%20Dream.jpg",
+        "date": "2020-04-25T05:00:00.000Z",
+        "sp_artist": "The-Dream",
+        "sp_popularity": 70,
+        "sp_followers": 763336,
+        "sp_artist_id": "1W3FSF1BLpY3hlVIgvenLz",
+        "score": 71.5
+    },
+    {
+        "artist": "dvsn",
+        "title": "A Muse in Her Feelings",
+        "genre": "Pop/R&B",
+        "rating": 7.0,
+        "image": "https://media.pitchfork.com/photos/5e9e0f9b7b32470008c19537/1:1/w_320/A%20Muse%20In%20Her%20Feelings_dvsn.jpg",
+        "date": "2020-04-22T05:00:00.000Z",
+        "sp_artist": "dvsn",
+        "sp_popularity": 74,
+        "sp_followers": 739147,
+        "sp_artist_id": "7e1ICztHM2Sc4JNLxeMXYl",
         "score": 71.0
+    },
+    {
+        "artist": "KeiyaA",
+        "title": "Forever, Ya Girl",
+        "genre": "Pop/R&B",
+        "rating": 8.2,
+        "image": "https://media.pitchfork.com/photos/5e94b3f1b2ee63000804337c/1:1/w_320/Forever,%20Ya%20Girl_KeiyaA.jpg",
+        "date": "2020-04-22T05:00:00.000Z",
+        "sp_artist": "keiyaA",
+        "sp_popularity": 37,
+        "sp_followers": 1157,
+        "sp_artist_id": "542BY6B2YGEdf2XWvBFUJV",
+        "score": 70.75
     },
     {
         "artist": "Bladee",
@@ -134,34 +137,23 @@
         "image": "https://media.pitchfork.com/photos/5e949f3eb09a5100092ba763/1:1/w_320/Exteter_Bladee.jpg",
         "date": "2020-04-16T05:00:00.000Z",
         "sp_artist": "Bladee",
-        "sp_genres": [
-            "emo rap",
-            "underground hip hop",
-            "vapor trap"
-        ],
         "sp_popularity": 65,
-        "sp_followers": 79345,
-        "sp_id": "2xvtxDNInKDV4AvGmjw6d1",
+        "sp_followers": 80181,
+        "sp_artist_id": "2xvtxDNInKDV4AvGmjw6d1",
         "score": 70.25
     },
     {
-        "artist": "Trace Mountains",
-        "title": "Lost in the Country",
-        "genre": "Rock",
+        "artist": "Serengeti",
+        "title": "Ajai",
+        "genre": "Rap",
         "rating": 8.0,
-        "image": "https://media.pitchfork.com/photos/5e8df38be21e4f0009eaf04b/1:1/w_320/Lost%20In%20The%20Country_Trace%20Mountains.jpg",
-        "date": "2020-04-14T05:00:00.000Z",
-        "sp_artist": "Trace Mountains",
-        "sp_genres": [
-            "freak folk",
-            "garage psych",
-            "indie rock",
-            "small room"
-        ],
-        "sp_popularity": 41,
-        "sp_followers": 5033,
-        "sp_id": "7sLtFQOS2kTEnMPTFLFU1t",
-        "score": 70.25
+        "image": "https://media.pitchfork.com/photos/5e94bb3583ce9a0008c4a90a/1:1/w_320/Ajai_Serengeti.jpg",
+        "date": "2020-04-22T05:00:00.000Z",
+        "sp_artist": "Serengeti",
+        "sp_popularity": 40,
+        "sp_followers": 15448,
+        "sp_artist_id": "5F3fDx84RYnmx0FGZeRtSF",
+        "score": 70.0
     },
     {
         "artist": "Ambar Lucid",
@@ -171,71 +163,62 @@
         "image": "https://media.pitchfork.com/photos/5e949b92936cf300086dad7c/1:1/w_320/Garden%20of%20Lucid_Ambar%20Lucid.jpg",
         "date": "2020-04-17T05:00:00.000Z",
         "sp_artist": "Ambar Lucid",
-        "sp_genres": [
-            "bedroom pop"
-        ],
-        "sp_popularity": 55,
-        "sp_followers": 33097,
-        "sp_id": "4nzV0hThyodYzrwksnS86G",
+        "sp_popularity": 56,
+        "sp_followers": 33653,
+        "sp_artist_id": "4nzV0hThyodYzrwksnS86G",
+        "score": 69.5
+    },
+    {
+        "artist": "GuiltyBeatz",
+        "title": "Different EP",
+        "genre": "Global",
+        "rating": 7.6,
+        "image": "https://media.pitchfork.com/photos/5e9debbfd836c60009bec961/1:1/w_320/Different%20EP_GuiltyBeatz.jpg",
+        "date": "2020-04-21T05:00:00.000Z",
+        "sp_artist": "GuiltyBeatz",
+        "sp_popularity": 49,
+        "sp_followers": 3415,
+        "sp_artist_id": "5DCdWXQ0QHQYlok4KK97em",
         "score": 69.25
     },
     {
-        "artist": "M. Ward",
-        "title": "Migration Stories",
-        "genre": "Rock",
-        "rating": 7.2,
-        "image": "https://media.pitchfork.com/photos/5e908221ac9e490008f40861/1:1/w_320/Migration%20Stories_M.%20Ward.jpg",
-        "date": "2020-04-13T05:00:00.000Z",
-        "sp_artist": "M. Ward",
-        "sp_genres": [
-            "alternative country",
-            "anti-folk",
-            "chamber pop",
-            "freak folk",
-            "indie folk",
-            "indie pop",
-            "new americana",
-            "portland indie",
-            "slow core",
-            "stomp and holler"
-        ],
-        "sp_popularity": 57,
-        "sp_followers": 163913,
-        "sp_id": "6nXSnNEdLuKTzAQozRtqiI",
-        "score": 68.25
+        "artist": "Shabazz Palaces",
+        "title": "The Don of Diamond Dreams",
+        "genre": "Rap",
+        "rating": 7.6,
+        "image": "https://media.pitchfork.com/photos/5e98ad3ce21e4f0009eaf07a/1:1/w_320/The%20Don%20of%20Diamond%20Dreams_Shabazz%20Palaces.jpg",
+        "date": "2020-04-20T05:00:00.000Z",
+        "sp_artist": "Shabazz Palaces",
+        "sp_popularity": 48,
+        "sp_followers": 90894,
+        "sp_artist_id": "6C403AR4y6PjN0xNNGh42m",
+        "score": 69.0
     },
     {
-        "artist": "Imaginary Softwoods",
-        "title": "Annual Flowers in Color",
-        "genre": null,
-        "rating": 7.9,
-        "image": "https://media.pitchfork.com/photos/5e909d15e21e4f0009eaf05b/1:1/w_320/annualflowers.jpg",
-        "date": "2020-04-13T05:00:00.000Z",
-        "sp_artist": "Imaginary Softwoods",
-        "sp_genres": [
-            "ambient",
-            "fourth world"
-        ],
-        "sp_popularity": 31,
-        "sp_followers": 1582,
-        "sp_id": "7KUvseAKmkJLnTRikLsaPG",
-        "score": 67.0
+        "artist": "Black Dresses",
+        "title": "Peaceful as Hell",
+        "genre": "Electronic",
+        "rating": 7.6,
+        "image": "https://media.pitchfork.com/photos/5e9f27306be2540008370e67/1:1/w_320/Peaceful%20as%20Hell_Black%20Dresses.jpg",
+        "date": "2020-04-24T05:00:00.000Z",
+        "sp_artist": "Black Dresses",
+        "sp_popularity": 44,
+        "sp_followers": 10907,
+        "sp_artist_id": "7FFwJQ58hAy7PMo4lUBW96",
+        "score": 68.0
     },
     {
-        "artist": "James Elkington",
-        "title": "Ever-Roving Eye",
-        "genre": "Folk/Country",
-        "rating": 7.7,
-        "image": "https://media.pitchfork.com/photos/5e94949a61bfa9000996ee88/1:1/w_320/Ever-Roving%20Eye_James%20Elkington.jpg",
-        "date": "2020-04-15T05:00:00.000Z",
-        "sp_artist": "James Elkington",
-        "sp_genres": [
-            "drone folk"
-        ],
-        "sp_popularity": 35,
-        "sp_followers": 1995,
-        "sp_id": "7COf7QkYuPrzl1lVrR1sIE",
-        "score": 66.5
+        "artist": "Quelle Chris",
+        "title": "Innocent Country 2",
+        "genre": "Rap",
+        "rating": 7.3,
+        "image": "https://media.pitchfork.com/photos/5e9f254b43b931000881dda8/1:1/w_320/Innocent%20Country%202_Quelle%20Chris.jpg",
+        "date": "2020-04-24T05:00:00.000Z",
+        "sp_artist": "Quelle Chris",
+        "sp_popularity": 46,
+        "sp_followers": 29898,
+        "sp_artist_id": "2SlUrJAcTYbWR8GcmB9IEi",
+        "score": 66.25
     },
     {
         "artist": "Whitmer Thomas",
@@ -245,70 +228,62 @@
         "image": "https://media.pitchfork.com/photos/5e909f1214d7100009d3fda5/1:1/w_320/whitmer.jpg",
         "date": "2020-04-16T05:00:00.000Z",
         "sp_artist": "Whitmer Thomas",
-        "sp_genres": [],
         "sp_popularity": 33,
-        "sp_followers": 938,
-        "sp_id": "6conzu32k403L1Zr3xWTr1",
+        "sp_followers": 984,
+        "sp_artist_id": "6conzu32k403L1Zr3xWTr1",
         "score": 66.0
     },
     {
-        "artist": "DJ Python",
-        "title": "Mas Amable",
-        "genre": "Electronic",
-        "rating": 7.4,
-        "image": "https://media.pitchfork.com/photos/5e90a0a220b67c0009b3b2ac/1:1/w_320/python.jpg",
-        "date": "2020-04-14T05:00:00.000Z",
-        "sp_artist": "DJ Python",
-        "sp_genres": [
-            "ambient house",
-            "art pop",
-            "bass music",
-            "float house",
-            "fluxwork",
-            "microhouse",
-            "minimal techno",
-            "outsider house"
-        ],
-        "sp_popularity": 40,
-        "sp_followers": 8213,
-        "sp_id": "1LoZxxInSyuVFKSMAB4BPl",
+        "artist": "Stay Inside",
+        "title": "Viewing",
+        "genre": "Rock",
+        "rating": 7.7,
+        "image": "https://media.pitchfork.com/photos/5e9891ad524f9300087cc965/1:1/w_320/Viewing_Stay%20Inside.jpg",
+        "date": "2020-04-20T05:00:00.000Z",
+        "sp_artist": "Stay Inside",
+        "sp_popularity": 32,
+        "sp_followers": 954,
+        "sp_artist_id": "59QLiM8EVDaCyuHV6ifMpv",
+        "score": 65.75
+    },
+    {
+        "artist": "David Bowie",
+        "title": "ChangesNowBowie",
+        "genre": "Rock",
+        "rating": 6.0,
+        "image": "https://media.pitchfork.com/photos/5e9f49eaf1e7bf00092972ae/1:1/w_320/CHANGESNOWBOWIE_David%20Bowie.jpg",
+        "date": "2020-04-25T05:00:00.000Z",
+        "sp_artist": "David Bowie",
+        "sp_popularity": 82,
+        "sp_followers": 5368015,
+        "sp_artist_id": "0oSGxfWSnnOXhD2fKuz2Gy",
         "score": 65.5
     },
     {
-        "artist": "Jackie Lynn",
-        "title": "Jacqueline",
-        "genre": "Experimental",
-        "rating": 7.5,
-        "image": "https://media.pitchfork.com/photos/5e8df5fdac9e490008f40854/1:1/w_320/Jacqueline_Jackie%20Lynn.jpg",
-        "date": "2020-04-13T05:00:00.000Z",
-        "sp_artist": "Jackie Lynn",
-        "sp_genres": [
-            "freak folk"
-        ],
-        "sp_popularity": 32,
-        "sp_followers": 1116,
-        "sp_id": "18txRfxTDTI9CZj7XgKLOV",
-        "score": 64.25
+        "artist": "Skylar Gudasz",
+        "title": "Cinema",
+        "genre": "Rock",
+        "rating": 7.4,
+        "image": "https://media.pitchfork.com/photos/5e9f29fe4e26030008ba4ef0/1:1/w_320/Cinema_Skylar%20Gudasz%20.jpg",
+        "date": "2020-04-24T05:00:00.000Z",
+        "sp_artist": "Skylar Gudasz",
+        "sp_popularity": 25,
+        "sp_followers": 1230,
+        "sp_artist_id": "0isq0T851tBgpJagOHHYHQ",
+        "score": 61.75
     },
     {
-        "artist": "ADULT.",
-        "title": "Perception is/as/of Deception",
-        "genre": "Electronic",
-        "rating": 7.2,
-        "image": "https://media.pitchfork.com/photos/5e90de3a20b67c0009b3b2ae/1:1/w_320/Perception%20is:as:of%20Deception_ADULT..jpg",
-        "date": "2020-04-15T05:00:00.000Z",
-        "sp_artist": "ADULT.",
-        "sp_genres": [
-            "alternative dance",
-            "dance-punk",
-            "detroit indie",
-            "electroclash",
-            "grave wave"
-        ],
-        "sp_popularity": 37,
-        "sp_followers": 21781,
-        "sp_id": "2jh27vMWRDaPgtwvluMomC",
-        "score": 63.25
+        "artist": "The Howling Hex",
+        "title": "Knuckleball Express",
+        "genre": "Rock",
+        "rating": 7.4,
+        "image": "https://media.pitchfork.com/photos/5e98b384e21e4f0009eaf07c/1:1/w_320/Knuckleball%20Express_The%20Howling%20Hex.jpg",
+        "date": "2020-04-20T05:00:00.000Z",
+        "sp_artist": "The Howling Hex",
+        "sp_popularity": 22,
+        "sp_followers": 319,
+        "sp_artist_id": "4bKYclYcmlfz3GaEXZYuQw",
+        "score": 61.0
     },
     {
         "artist": "Evan Caminiti",
@@ -318,14 +293,23 @@
         "image": "https://media.pitchfork.com/photos/5e94ccdcecfafc0008428b58/1:1/w_320/Varispeed%20Hydra_Evan%20Caminiti.jpg",
         "date": "2020-04-17T05:00:00.000Z",
         "sp_artist": "Evan Caminiti",
-        "sp_genres": [
-            "abstractro",
-            "warm drone"
-        ],
-        "sp_popularity": 22,
-        "sp_followers": 1954,
-        "sp_id": "6WdrFGN3q3sjFJqieOi8K6",
-        "score": 59.5
+        "sp_popularity": 25,
+        "sp_followers": 1973,
+        "sp_artist_id": "6WdrFGN3q3sjFJqieOi8K6",
+        "score": 60.25
+    },
+    {
+        "artist": "Sir Richard Bishop",
+        "title": "Oneiric Formulary",
+        "genre": "Rock",
+        "rating": 7.1,
+        "image": "https://media.pitchfork.com/photos/5e99e1c005b8ec0008212208/1:1/w_320/sirrichard.jpg",
+        "date": "2020-04-24T05:00:00.000Z",
+        "sp_artist": "Sir Richard Bishop",
+        "sp_popularity": 24,
+        "sp_followers": 4751,
+        "sp_artist_id": "36GbLKvZbVebDmu6hS6Zfa",
+        "score": 59.25
     },
     {
         "artist": "Active Child",
@@ -335,43 +319,10 @@
         "image": "https://media.pitchfork.com/photos/5e90d8a21a3ea30008764f17/1:1/w_320/In%20Another%20Life_Active%20Child.jpg",
         "date": "2020-04-17T05:00:00.000Z",
         "sp_artist": "Active Child",
-        "sp_genres": [
-            "chamber pop",
-            "chillwave",
-            "indietronica",
-            "metropopolis",
-            "vapor soul"
-        ],
-        "sp_popularity": 50,
-        "sp_followers": 91841,
-        "sp_id": "54KTsBl98buzGkELjGlnuU",
-        "score": 59.0
-    },
-    {
-        "artist": "22Gz",
-        "title": "Growth &amp; Development",
-        "genre": "Rap",
-        "rating": 5.8,
-        "image": "https://media.pitchfork.com/photos/5e95eb951a3ea30008764f2d/1:1/w_320/Growth%20and%20Development_22Gz.jpeg",
-        "date": "2020-04-15T05:00:00.000Z",
-        "sp_artist": "22Gz",
-        "sp_genres": [
-            "nyc rap"
-        ],
-        "sp_popularity": 62,
-        "sp_followers": 54022,
-        "sp_id": "4JhbRL6zaItAyzqx4gHTqz",
-        "score": 59.0
-    },
-    {
-        "artist": "Andrea",
-        "title": "Ritorno",
-        "genre": "Electronic",
-        "rating": 7.8,
-        "image": "https://media.pitchfork.com/photos/5e94928aecfafc0008428b4f/1:1/w_320/Ritorno_Andrea.jpg",
-        "date": "2020-04-14T05:00:00.000Z",
-        "sp_popularity": 0,
-        "score": 58.5
+        "sp_popularity": 51,
+        "sp_followers": 92028,
+        "sp_artist_id": "54KTsBl98buzGkELjGlnuU",
+        "score": 59.25
     },
     {
         "artist": "Bryce Hackford",
@@ -381,11 +332,23 @@
         "image": "https://media.pitchfork.com/photos/5e99d494b1cd0e00081a751b/1:1/w_320/bryce.jpg",
         "date": "2020-04-18T05:00:00.000Z",
         "sp_artist": "Bryce Hackford",
-        "sp_genres": [],
-        "sp_popularity": 8,
-        "sp_followers": 325,
-        "sp_id": "3Hi0jlPrKcpV6cmRRsFgPq",
-        "score": 56.75
+        "sp_popularity": 15,
+        "sp_followers": 346,
+        "sp_artist_id": "3Hi0jlPrKcpV6cmRRsFgPq",
+        "score": 58.5
+    },
+    {
+        "artist": "Duke Dumont",
+        "title": "Duality",
+        "genre": "Electronic",
+        "rating": 5.2,
+        "image": "https://media.pitchfork.com/photos/5e9e12506be2540008370e5c/1:1/w_320/Duality_Duke%20Dumont.jpg",
+        "date": "2020-04-22T05:00:00.000Z",
+        "sp_artist": "Duke Dumont",
+        "sp_popularity": 73,
+        "sp_followers": 542755,
+        "sp_artist_id": "61lyPtntblHJvA7FMMhi7E",
+        "score": 57.25
     },
     {
         "artist": "Ellis",
@@ -395,12 +358,35 @@
         "image": "https://media.pitchfork.com/photos/5e90e4e620b67c0009b3b2b0/1:1/w_320/Born%20Again_Ellis.jpg",
         "date": "2020-04-16T05:00:00.000Z",
         "sp_artist": "Ellis",
-        "sp_genres": [
-            "pop edm"
-        ],
-        "sp_popularity": 49,
-        "sp_followers": 19590,
-        "sp_id": "00CYRdkMnA0mwfy1VQPA7X",
-        "score": 56.5
+        "sp_popularity": 50,
+        "sp_followers": 19649,
+        "sp_artist_id": "00CYRdkMnA0mwfy1VQPA7X",
+        "score": 56.75
+    },
+    {
+        "artist": "EOB",
+        "title": "Earth",
+        "genre": null,
+        "rating": 5.7,
+        "image": "https://media.pitchfork.com/photos/5e99e01f1845400008028bbc/1:1/w_320/eartheob.jpg",
+        "date": "2020-04-21T05:00:00.000Z",
+        "sp_artist": "EOB",
+        "sp_popularity": 53,
+        "sp_followers": 21457,
+        "sp_artist_id": "4CX6yOoTFQeiwL5yxuFuIG",
+        "score": 56.0
+    },
+    {
+        "artist": "Flat Worms",
+        "title": "Antarctica",
+        "genre": "Rock",
+        "rating": 5.8,
+        "image": "https://media.pitchfork.com/photos/5e9f516c94034a00082e7a2f/1:1/w_320/Antarctica_Flat%20Worms.jpg",
+        "date": "2020-04-25T05:00:00.000Z",
+        "sp_artist": "Flat Worms",
+        "sp_popularity": 35,
+        "sp_followers": 8125,
+        "sp_artist_id": "5Ssue4NKgXFwte9xe6azsu",
+        "score": 52.25
     }
 ]

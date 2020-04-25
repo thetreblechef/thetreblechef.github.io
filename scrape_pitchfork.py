@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 def get_pitchfork_newreleases():
     results = list()
-    PAGES_TO_SEARCH = 2
+    PAGES_TO_SEARCH = 3
 
     # Search the pages and append to list of album dicts.
     for i in range(1, PAGES_TO_SEARCH + 1):
@@ -69,8 +69,8 @@ results = sorted(results, key=lambda k: k['score'], reverse=True)
 # Write results to csv and json files.
 with open('results/results_pf.csv', mode='w') as csv_file:
     fieldnames = ['artist', 'title', 'genre', 'rating', 'date',
-        'image', 'score', 'sp_artist', 'sp_genres', 'sp_popularity',
-        'sp_followers', 'sp_id']
+        'image', 'score', 'sp_artist', 'sp_popularity',
+        'sp_followers', 'sp_artist_id']
     csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
     csv_writer.writeheader()

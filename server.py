@@ -8,13 +8,15 @@ freezer = Freezer(app)
 
 @app.route('/')
 def index():
-    with open('results_am.json') as f:
+    with open('results/results_am.json') as f:
         results_am = json.load(f)
-    with open('results_pf.json') as f:
+    with open('results/results_pf.json') as f:
         results_pf = json.load(f)
+    with open('results/results_bc.json') as f:
+        results_bc = json.load(f)
     date_str = datetime.date.today().strftime('%m-%d-%Y')
     return render_template('template.html', date_str=date_str,
-        results_am=results_am, results_pf=results_pf)
+        results_am=results_am, results_pf=results_pf, results_bc=results_bc)
 
 
 if __name__ == "__main__":
