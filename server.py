@@ -19,11 +19,16 @@ def index():
 
 @app.route('/canada.html')
 def canada():
-    with open('scripts/results/results_bc.json') as f:
-        results_bc = json.load(f)
+    with open('scripts/results/toronto.json') as f:
+        results_tor = json.load(f)
+    with open('scripts/results/montreal.json') as f:
+        results_mon = json.load(f)
+    with open('scripts/results/vancouver.json') as f:
+        results_van = json.load(f)
     date_str = datetime.date.today().strftime('%m-%d-%Y')
-    return render_template('canada_t.html',
-        date_str=date_str, results_bc=results_bc)
+    return render_template('canada_t.html', date_str=date_str,
+        results_tor=results_tor, results_mon=results_mon,
+        results_van=results_van)
 
 
 if __name__ == "__main__":

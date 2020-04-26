@@ -69,8 +69,7 @@ results = sorted(results, key=lambda k: k['score'], reverse=True)
 # Write results to csv and json files.
 with open('results/results_pf.csv', mode='w') as csv_file:
     fieldnames = ['artist', 'title', 'genre', 'rating', 'date',
-        'image', 'score', 'sp_artist', 'sp_popularity',
-        'sp_followers', 'sp_artist_id']
+        'image', 'score', 'sp_artist', 'sp_popularity', 'sp_artist_id']
     csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
     csv_writer.writeheader()
