@@ -9,7 +9,7 @@ from datetime import datetime
 def get_bandcamp_releases():
     url = 'https://bandcamp.com/api/hub/2/dig_deeper'
     PAGES_TO_SEARCH = 10
-    GENRES_TO_IGNORE = ['metal', 'podcasts', 'classical']
+    GENRES_TO_IGNORE = ['metal', 'podcasts', 'classical', 'ambient']
 
     results = list()
     for i in range(1, PAGES_TO_SEARCH + 1):
@@ -60,8 +60,8 @@ for result in results:
     if not('sp_popularity' in result):
         result['sp_popularity'] = 0
     date_obj = datetime.strptime(result['sp_date'], "%Y-%m-%dT00:00.000Z")
-    time_score = 90 - (datetime.now() - date_obj).days
-    result['score'] = result['sp_popularity'] / 100 * 75 + time_score / 90 * 25
+    time_score = 60 - (datetime.now() - date_obj).days
+    result['score'] = result['sp_popularity'] / 100 * 75 + time_score / 60 * 25
     result['score'] = round(result['score'], 3)
 
 # Sort by treblechef recommendation score.

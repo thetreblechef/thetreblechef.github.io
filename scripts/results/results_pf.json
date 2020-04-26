@@ -10,6 +10,16 @@
         "sp_popularity": 75,
         "sp_followers": 625943,
         "sp_artist_id": "3g2kUQ6tHLLbmkV7T4GPtL",
+        "sp_genres": [
+            "art pop",
+            "chamber pop",
+            "indie pop",
+            "lilith",
+            "permanent wave",
+            "piano rock",
+            "pop rock",
+            "singer-songwriter"
+        ],
         "score": 93.75
     },
     {
@@ -23,6 +33,12 @@
         "sp_popularity": 67,
         "sp_followers": 78610,
         "sp_artist_id": "0ABk515kENDyATUdpCKVfW",
+        "sp_genres": [
+            "alternative hip hop",
+            "boom bap",
+            "hip hop",
+            "underground hip hop"
+        ],
         "score": 76.75
     },
     {
@@ -36,6 +52,20 @@
         "sp_popularity": 61,
         "sp_followers": 219931,
         "sp_artist_id": "3hyGGjxu73JuzBa757H6R5",
+        "sp_genres": [
+            "alternative rock",
+            "anti-folk",
+            "canadian indie",
+            "chamber pop",
+            "freak folk",
+            "indie folk",
+            "indie pop",
+            "indie rock",
+            "lo-fi",
+            "melancholia",
+            "new weird america",
+            "stomp and holler"
+        ],
         "score": 76.0
     },
     {
@@ -49,6 +79,13 @@
         "sp_popularity": 68,
         "sp_followers": 159084,
         "sp_artist_id": "2KEqzdPS7M5YwGmiuPTdr5",
+        "sp_genres": [
+            "art pop",
+            "dance pop",
+            "electropop",
+            "escape room",
+            "pop"
+        ],
         "score": 74.75
     },
     {
@@ -62,6 +99,9 @@
         "sp_popularity": 94,
         "sp_followers": 2790637,
         "sp_artist_id": "4r63FhuTkUYltbVAg5TQnk",
+        "sp_genres": [
+            "nc hip hop"
+        ],
         "score": 74.5
     },
     {
@@ -75,6 +115,11 @@
         "sp_popularity": 51,
         "sp_followers": 19919,
         "sp_artist_id": "1IdkKQ9CM1i0wygfxYV4Z3",
+        "sp_genres": [
+            "canadian latin",
+            "deep latin alternative",
+            "latintronica"
+        ],
         "score": 72.75
     },
     {
@@ -88,6 +133,10 @@
         "sp_popularity": 54,
         "sp_followers": 8727,
         "sp_artist_id": "40ZElxHldNyvn7x8WRC6fh",
+        "sp_genres": [
+            "experimental hip hop",
+            "underground hip hop"
+        ],
         "score": 72.0
     },
     {
@@ -101,6 +150,17 @@
         "sp_popularity": 70,
         "sp_followers": 763336,
         "sp_artist_id": "1W3FSF1BLpY3hlVIgvenLz",
+        "sp_genres": [
+            "dance pop",
+            "deep pop r&b",
+            "hip hop",
+            "hip pop",
+            "pop",
+            "r&b",
+            "southern hip hop",
+            "trap",
+            "urban contemporary"
+        ],
         "score": 71.5
     },
     {
@@ -114,6 +174,15 @@
         "sp_popularity": 74,
         "sp_followers": 739147,
         "sp_artist_id": "7e1ICztHM2Sc4JNLxeMXYl",
+        "sp_genres": [
+            "alternative r&b",
+            "canadian contemporary r&b",
+            "deep pop r&b",
+            "pop",
+            "r&b",
+            "trap soul",
+            "urban contemporary"
+        ],
         "score": 71.0
     },
     {
@@ -127,6 +196,7 @@
         "sp_popularity": 37,
         "sp_followers": 1157,
         "sp_artist_id": "542BY6B2YGEdf2XWvBFUJV",
+        "sp_genres": [],
         "score": 70.75
     },
     {
@@ -140,6 +210,11 @@
         "sp_popularity": 65,
         "sp_followers": 80181,
         "sp_artist_id": "2xvtxDNInKDV4AvGmjw6d1",
+        "sp_genres": [
+            "emo rap",
+            "underground hip hop",
+            "vapor trap"
+        ],
         "score": 70.25
     },
     {
@@ -153,6 +228,10 @@
         "sp_popularity": 40,
         "sp_followers": 15448,
         "sp_artist_id": "5F3fDx84RYnmx0FGZeRtSF",
+        "sp_genres": [
+            "abstract hip hop",
+            "chicago rap"
+        ],
         "score": 70.0
     },
     {
@@ -166,6 +245,9 @@
         "sp_popularity": 56,
         "sp_followers": 33653,
         "sp_artist_id": "4nzV0hThyodYzrwksnS86G",
+        "sp_genres": [
+            "bedroom pop"
+        ],
         "score": 69.5
     },
     {
@@ -179,6 +261,10 @@
         "sp_popularity": 49,
         "sp_followers": 3415,
         "sp_artist_id": "5DCdWXQ0QHQYlok4KK97em",
+        "sp_genres": [
+            "ghanaian pop",
+            "nigerian pop"
+        ],
         "score": 69.25
     },
     {
@@ -192,6 +278,16 @@
         "sp_popularity": 48,
         "sp_followers": 90894,
         "sp_artist_id": "6C403AR4y6PjN0xNNGh42m",
+        "sp_genres": [
+            "afrofuturism",
+            "alternative hip hop",
+            "art pop",
+            "escape room",
+            "experimental hip hop",
+            "experimental pop",
+            "freak folk",
+            "wonky"
+        ],
         "score": 69.0
     },
     {
@@ -205,6 +301,10 @@
         "sp_popularity": 44,
         "sp_followers": 10907,
         "sp_artist_id": "7FFwJQ58hAy7PMo4lUBW96",
+        "sp_genres": [
+            "escape room",
+            "hyperpop"
+        ],
         "score": 68.0
     },
     {
@@ -218,6 +318,11 @@
         "sp_popularity": 46,
         "sp_followers": 29898,
         "sp_artist_id": "2SlUrJAcTYbWR8GcmB9IEi",
+        "sp_genres": [
+            "alternative hip hop",
+            "escape room",
+            "underground hip hop"
+        ],
         "score": 66.25
     },
     {
@@ -229,8 +334,9 @@
         "date": "2020-04-16T05:00:00.000Z",
         "sp_artist": "Whitmer Thomas",
         "sp_popularity": 33,
-        "sp_followers": 984,
+        "sp_followers": 987,
         "sp_artist_id": "6conzu32k403L1Zr3xWTr1",
+        "sp_genres": [],
         "score": 66.0
     },
     {
@@ -242,8 +348,9 @@
         "date": "2020-04-20T05:00:00.000Z",
         "sp_artist": "Stay Inside",
         "sp_popularity": 32,
-        "sp_followers": 954,
+        "sp_followers": 955,
         "sp_artist_id": "59QLiM8EVDaCyuHV6ifMpv",
+        "sp_genres": [],
         "score": 65.75
     },
     {
@@ -257,6 +364,16 @@
         "sp_popularity": 82,
         "sp_followers": 5368015,
         "sp_artist_id": "0oSGxfWSnnOXhD2fKuz2Gy",
+        "sp_genres": [
+            "album rock",
+            "art rock",
+            "classic rock",
+            "dance rock",
+            "glam rock",
+            "permanent wave",
+            "protopunk",
+            "rock"
+        ],
         "score": 65.5
     },
     {
@@ -270,6 +387,7 @@
         "sp_popularity": 25,
         "sp_followers": 1230,
         "sp_artist_id": "0isq0T851tBgpJagOHHYHQ",
+        "sp_genres": [],
         "score": 61.75
     },
     {
@@ -281,8 +399,9 @@
         "date": "2020-04-20T05:00:00.000Z",
         "sp_artist": "The Howling Hex",
         "sp_popularity": 22,
-        "sp_followers": 319,
+        "sp_followers": 321,
         "sp_artist_id": "4bKYclYcmlfz3GaEXZYuQw",
+        "sp_genres": [],
         "score": 61.0
     },
     {
@@ -296,6 +415,10 @@
         "sp_popularity": 25,
         "sp_followers": 1973,
         "sp_artist_id": "6WdrFGN3q3sjFJqieOi8K6",
+        "sp_genres": [
+            "abstractro",
+            "warm drone"
+        ],
         "score": 60.25
     },
     {
@@ -309,6 +432,14 @@
         "sp_popularity": 24,
         "sp_followers": 4751,
         "sp_artist_id": "36GbLKvZbVebDmu6hS6Zfa",
+        "sp_genres": [
+            "american primitive",
+            "drone folk",
+            "experimental psych",
+            "freak folk",
+            "free folk",
+            "new weird america"
+        ],
         "score": 59.25
     },
     {
@@ -322,6 +453,14 @@
         "sp_popularity": 51,
         "sp_followers": 92028,
         "sp_artist_id": "54KTsBl98buzGkELjGlnuU",
+        "sp_genres": [
+            "art pop",
+            "chamber pop",
+            "chillwave",
+            "indietronica",
+            "metropopolis",
+            "vapor soul"
+        ],
         "score": 59.25
     },
     {
@@ -335,6 +474,7 @@
         "sp_popularity": 15,
         "sp_followers": 346,
         "sp_artist_id": "3Hi0jlPrKcpV6cmRRsFgPq",
+        "sp_genres": [],
         "score": 58.5
     },
     {
@@ -348,6 +488,17 @@
         "sp_popularity": 73,
         "sp_followers": 542755,
         "sp_artist_id": "61lyPtntblHJvA7FMMhi7E",
+        "sp_genres": [
+            "dance pop",
+            "destroy techno",
+            "disco house",
+            "edm",
+            "house",
+            "pop",
+            "progressive house",
+            "tropical house",
+            "uk dance"
+        ],
         "score": 57.25
     },
     {
@@ -361,6 +512,9 @@
         "sp_popularity": 50,
         "sp_followers": 19649,
         "sp_artist_id": "00CYRdkMnA0mwfy1VQPA7X",
+        "sp_genres": [
+            "pop edm"
+        ],
         "score": 56.75
     },
     {
@@ -374,6 +528,9 @@
         "sp_popularity": 53,
         "sp_followers": 21457,
         "sp_artist_id": "4CX6yOoTFQeiwL5yxuFuIG",
+        "sp_genres": [
+            "oxford indie"
+        ],
         "score": 56.0
     },
     {
@@ -387,6 +544,12 @@
         "sp_popularity": 35,
         "sp_followers": 8125,
         "sp_artist_id": "5Ssue4NKgXFwte9xe6azsu",
+        "sp_genres": [
+            "chamber psych",
+            "garage psych",
+            "indie garage rock",
+            "neo-psychedelic"
+        ],
         "score": 52.25
     }
 ]

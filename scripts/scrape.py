@@ -58,9 +58,9 @@ def get_spotify_albums(results):
             if img_obj['height'] == 300:
                 image_str = img_obj['url']
 
-        # Remove list elements outside of past three months.
+        # Remove list elements outside of past two months.
         date_obj = datetime.strptime(sp_result['release_date'], '%Y-%m-%d')
-        if (datetime.now() - date_obj).days > 90:
+        if (datetime.now() - date_obj).days > 60:
             continue
 
         result['sp_date'] = "%sT00:00.000Z" % sp_result['release_date']

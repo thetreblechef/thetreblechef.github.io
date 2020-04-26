@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>TrebleChef</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+    crossorigin="anonymous"></script>
+
+<!-- Google Fonts ~ Roboto Slab -->
+<link href="https://fonts.googleapis.com/css2?family=Karla@1&family=Roboto+Slab&display=swap" rel="stylesheet"> 
+
+<link rel="stylesheet" href="static/style.css">
+<script type="text/javascript" src="static/script.js"></script>
+</head>
+
+<body>
+
+{% include "navbar.html" %}
+
+<main class="container-fluid">
+
+<!---------------------------- BANDCAMP TORONTO ----------------------------->
+<h1 class="mt-5">Bandcamp Toronto Recommendations</h1>
+<div class="row ml-3 mr-3">
+<div class="col-lg-8 col-xl-8 mb-3">
+<div class="card bg-dark">
+<div class="card-body" style="font-size:0; text-align: center;">
+{% for result in results_bc[:25] %}
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
+        target="_blank">
+    {% if loop.index <= 5 %}
+        <img src="{{ result['sp_img'] }}" width="18.8%">
+    {% elif loop.index <= 11 %}
+        <img src="{{ result['sp_img'] }}" width="15.5%">
+    {% else %}
+        <img src="{{ result['sp_img'] }}" width="13%">
+    {% endif %}
+    </a>
+{% endfor %}
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-xl-4">
+<div class="card bg-dark">
+<div class="card-body">
+<table class="table table-sm mb-0">
+    <thead>
+    <tr>
+        <th>Release</th>
+        <th data-toggle="tooltip" title="Spotify Popularity (/100)">
+            <object class="align-bottom" style="height:30px" 
+                type="image/svg+xml" data="static/icon_spotify.svg">
+        </th>
+        <th data-toggle="tooltip" title="Treble Chef's Score (/100)">
+            <!-- Retrieved from flaticon -->
+            <object class="align-bottom" style="height:30px" 
+                type="image/svg+xml" data="static/icon_chef.svg">
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+{% for result in results_bc[:5] %}
+    <tr>
+    <td>
+    <span style="font-size:1.1rem">
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
+    <br/>
+    <span style="color:#dedede; font-size:0.8rem">
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
+    </td>
+    <td class="align-middle">{{result['sp_popularity']}}</td>
+    <td class="align-middle">{{result['score']|round|int}}</td>
+    </tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+</main>
+
+</body>
+
+</html>

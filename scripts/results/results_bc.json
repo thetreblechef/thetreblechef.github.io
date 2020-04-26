@@ -1,20 +1,5 @@
 [
     {
-        "artist": "dvsn",
-        "title": "A Muse In Her Feelings",
-        "genre": "r&b/soul",
-        "image": "https://f4.bcbits.com/img/a4204787150_2.jpg",
-        "url": "https://dvsnband.bandcamp.com/album/a-muse-in-her-feelings",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "153lLZKTVw25BTcLuXB8ME",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e023aba3bf1aad3ff1bb393e4b2",
-        "sp_artist": "dvsn",
-        "sp_popularity": 74,
-        "sp_followers": 739147,
-        "sp_artist_id": "7e1ICztHM2Sc4JNLxeMXYl",
-        "score": 78.278
-    },
-    {
         "artist": "Lido Pimienta",
         "title": "Miss Colombia",
         "genre": "alternative",
@@ -27,7 +12,7 @@
         "sp_popularity": 51,
         "sp_followers": 19919,
         "sp_artist_id": "1IdkKQ9CM1i0wygfxYV4Z3",
-        "score": 61.028
+        "score": 59.917
     },
     {
         "artist": "The Birthday Massacre",
@@ -42,22 +27,7 @@
         "sp_popularity": 55,
         "sp_followers": 125501,
         "sp_artist_id": "16AVsBqzmIZTNHd0eX8VbK",
-        "score": 58.194
-    },
-    {
-        "artist": "Alaskan Tapes",
-        "title": "Sleeping Since Last Year",
-        "genre": "ambient",
-        "image": "https://f4.bcbits.com/img/a2962421401_2.jpg",
-        "url": "https://alaskantapes.bandcamp.com/album/sleeping-since-last-year",
-        "sp_date": "2020-03-26T00:00.000Z",
-        "sp_album_id": "6JmGS3kkpR6ydDatPtuxPo",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02e417895b602f8f0dbfdbe214",
-        "sp_artist": "Alaskan Tapes",
-        "sp_popularity": 51,
-        "sp_followers": 11675,
-        "sp_artist_id": "5GHBk4xcO1UqlbyrUXv5dq",
-        "score": 54.917
+        "score": 54.167
     },
     {
         "artist": "Black Dresses",
@@ -72,7 +42,7 @@
         "sp_popularity": 44,
         "sp_followers": 10907,
         "sp_artist_id": "7FFwJQ58hAy7PMo4lUBW96",
-        "score": 54.667
+        "score": 53.0
     },
     {
         "artist": "Merival",
@@ -87,22 +57,7 @@
         "sp_popularity": 33,
         "sp_followers": 1557,
         "sp_artist_id": "1kCQYFPjvDy6ARPdGi3dby",
-        "score": 49.472
-    },
-    {
-        "artist": "Jaunt",
-        "title": "All In One",
-        "genre": "alternative",
-        "image": "https://f4.bcbits.com/img/a2392777796_2.jpg",
-        "url": "https://jauntband.bandcamp.com/album/all-in-one",
-        "sp_date": "2020-04-16T00:00.000Z",
-        "sp_album_id": "0g8fBdNLiOk05wKkDRktd8",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e027215d78382a2739501f1f936",
-        "sp_artist": "Jaunt",
-        "sp_popularity": 35,
-        "sp_followers": 3860,
-        "sp_artist_id": "0RjyW369Wyqush2rz41dkA",
-        "score": 48.75
+        "score": 49.333
     },
     {
         "artist": "adaline",
@@ -117,37 +72,22 @@
         "sp_popularity": 32,
         "sp_followers": 3830,
         "sp_artist_id": "1REDrBXbbc8ZeQOzdoZ8HB",
-        "score": 48.722
+        "score": 48.583
     },
     {
-        "artist": "Andrew Huang",
-        "title": "Ganglia",
-        "genre": "experimental",
-        "image": "https://f4.bcbits.com/img/a2016927779_2.jpg",
-        "url": "https://andrewhuang.bandcamp.com/album/ganglia",
-        "sp_date": "2020-03-22T00:00.000Z",
-        "sp_album_id": "6bSMsFtOa45NOKFsqupiwt",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0281dc09d9a3b0a58c553508f2",
-        "sp_artist": "Andrew Huang",
-        "sp_popularity": 44,
-        "sp_followers": 100571,
-        "sp_artist_id": "7HifubxN0gO1nHbRIqWhrY",
-        "score": 48.556
-    },
-    {
-        "artist": "Daniel Romano",
-        "title": "\"Okay Wow\"",
+        "artist": "Jaunt",
+        "title": "All In One",
         "genre": "alternative",
-        "image": "https://f4.bcbits.com/img/a2294425505_2.jpg",
-        "url": "https://youvechangedrecords.bandcamp.com/album/okay-wow",
-        "sp_date": "2020-03-27T00:00.000Z",
-        "sp_album_id": "3M8t4pnAxzffVhugkF0kcG",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e027482ce893030b4f745def234",
-        "sp_artist": "Daniel Romano",
-        "sp_popularity": 42,
-        "sp_followers": 18774,
-        "sp_artist_id": "2kTXvMOmrHVjVewErG5kHD",
-        "score": 48.444
+        "image": "https://f4.bcbits.com/img/a2392777796_2.jpg",
+        "url": "https://jauntband.bandcamp.com/album/all-in-one",
+        "sp_date": "2020-04-16T00:00.000Z",
+        "sp_album_id": "0g8fBdNLiOk05wKkDRktd8",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e027215d78382a2739501f1f936",
+        "sp_artist": "Jaunt",
+        "sp_popularity": 35,
+        "sp_followers": 3860,
+        "sp_artist_id": "0RjyW369Wyqush2rz41dkA",
+        "score": 47.5
     },
     {
         "artist": "Bruce Peninsula",
@@ -162,7 +102,22 @@
         "sp_popularity": 33,
         "sp_followers": 3033,
         "sp_artist_id": "2Iua0nuwiUuEpXR4qOS4xe",
-        "score": 47.528
+        "score": 46.417
+    },
+    {
+        "artist": "Daniel Romano",
+        "title": "\"Okay Wow\"",
+        "genre": "alternative",
+        "image": "https://f4.bcbits.com/img/a2294425505_2.jpg",
+        "url": "https://youvechangedrecords.bandcamp.com/album/okay-wow",
+        "sp_date": "2020-03-27T00:00.000Z",
+        "sp_album_id": "3M8t4pnAxzffVhugkF0kcG",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e027482ce893030b4f745def234",
+        "sp_artist": "Daniel Romano",
+        "sp_popularity": 42,
+        "sp_followers": 18774,
+        "sp_artist_id": "2kTXvMOmrHVjVewErG5kHD",
+        "score": 44.417
     },
     {
         "artist": "Lord Phobos",
@@ -177,7 +132,22 @@
         "sp_popularity": 26,
         "sp_followers": 2399,
         "sp_artist_id": "7sfqlIbynVxN4Xwxr8ZkAW",
-        "score": 44.222
+        "score": 44.083
+    },
+    {
+        "artist": "Andrew Huang",
+        "title": "Ganglia",
+        "genre": "experimental",
+        "image": "https://f4.bcbits.com/img/a2016927779_2.jpg",
+        "url": "https://andrewhuang.bandcamp.com/album/ganglia",
+        "sp_date": "2020-03-22T00:00.000Z",
+        "sp_album_id": "6bSMsFtOa45NOKFsqupiwt",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e0281dc09d9a3b0a58c553508f2",
+        "sp_artist": "Andrew Huang",
+        "sp_popularity": 44,
+        "sp_followers": 100571,
+        "sp_artist_id": "7HifubxN0gO1nHbRIqWhrY",
+        "score": 43.833
     },
     {
         "artist": "Dana Gavanski",
@@ -192,22 +162,52 @@
         "sp_popularity": 34,
         "sp_followers": 2409,
         "sp_artist_id": "1GSLjV7vq6pSsNAEFwWSbn",
-        "score": 42.444
+        "score": 38.417
     },
     {
-        "artist": "zak\u00e8",
-        "title": "Carolina",
-        "genre": "ambient",
-        "image": "https://f4.bcbits.com/img/a2075857170_2.jpg",
-        "url": "https://polarseasrecordings.bandcamp.com/album/carolina",
-        "sp_date": "2020-03-13T00:00.000Z",
-        "sp_album_id": "5aW1GRYwOAstAw09eKHtC5",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0269e317997ad228ff68d1f30c",
-        "sp_artist": "zak\u00e8",
-        "sp_popularity": 32,
-        "sp_followers": 334,
-        "sp_artist_id": "22becwc1PhY3lSxHM3YThr",
-        "score": 37.056
+        "artist": "Luge",
+        "title": "Luge",
+        "genre": "experimental",
+        "image": "https://f4.bcbits.com/img/a439944892_2.jpg",
+        "url": "https://hugeluge.bandcamp.com/album/luge",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "3BmO20hvs6qutveSf4I6sE",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e025ce99a81738947fde57563f4",
+        "sp_artist": "Luge",
+        "sp_popularity": 13,
+        "sp_followers": 584,
+        "sp_artist_id": "7daFRHQonSQK9Mu3op88n7",
+        "score": 34.333
+    },
+    {
+        "artist": "Jon Mckiel",
+        "title": "Bobby Joe Hope",
+        "genre": "alternative",
+        "image": "https://f4.bcbits.com/img/a1343187982_2.jpg",
+        "url": "https://youvechangedrecords.bandcamp.com/album/bobby-joe-hope",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "5mvIH4FABTL38eZF0CaRUX",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02a8a1fb0c3e7759571c15a682",
+        "sp_artist": "Jon McKiel",
+        "sp_popularity": 13,
+        "sp_followers": 982,
+        "sp_artist_id": "42tgL54E6Mh70eIaikDven",
+        "score": 34.333
+    },
+    {
+        "artist": "LUKA KUPLOWSKY",
+        "title": "Judee Justin Arthur Mary",
+        "genre": "folk",
+        "image": "https://f4.bcbits.com/img/a1084377840_2.jpg",
+        "url": "https://tunes.mamabirdrecordingco.com/album/judee-justin-arthur-mary",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "0wCSdWmd16IEyBE7pqgKMD",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02b91b42125a4e62be440b6473",
+        "sp_artist": "Luka Kuplowsky",
+        "sp_popularity": 10,
+        "sp_followers": 273,
+        "sp_artist_id": "3WoJfG2qjHZ9Q96yFMQ8FE",
+        "score": 32.083
     },
     {
         "artist": "Fiver",
@@ -222,37 +222,7 @@
         "sp_popularity": 21,
         "sp_followers": 1087,
         "sp_artist_id": "1nvq3vakg2j1A0wTpV0AkO",
-        "score": 34.639
-    },
-    {
-        "artist": "Luge",
-        "title": "Luge",
-        "genre": "experimental",
-        "image": "https://f4.bcbits.com/img/a439944892_2.jpg",
-        "url": "https://hugeluge.bandcamp.com/album/luge",
-        "sp_date": "2020-04-24T00:00.000Z",
-        "sp_album_id": "3BmO20hvs6qutveSf4I6sE",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e025ce99a81738947fde57563f4",
-        "sp_artist": "Luge",
-        "sp_popularity": 13,
-        "sp_followers": 583,
-        "sp_artist_id": "7daFRHQonSQK9Mu3op88n7",
-        "score": 34.472
-    },
-    {
-        "artist": "Jon Mckiel",
-        "title": "Bobby Joe Hope",
-        "genre": "alternative",
-        "image": "https://f4.bcbits.com/img/a1343187982_2.jpg",
-        "url": "https://youvechangedrecords.bandcamp.com/album/bobby-joe-hope",
-        "sp_date": "2020-04-24T00:00.000Z",
-        "sp_album_id": "5mvIH4FABTL38eZF0CaRUX",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02a8a1fb0c3e7759571c15a682",
-        "sp_artist": "Jon McKiel",
-        "sp_popularity": 13,
-        "sp_followers": 979,
-        "sp_artist_id": "42tgL54E6Mh70eIaikDven",
-        "score": 34.472
+        "score": 31.583
     },
     {
         "artist": "Eliza Niemi",
@@ -267,37 +237,7 @@
         "sp_popularity": 13,
         "sp_followers": 171,
         "sp_artist_id": "6UntKZ32JDgJV35Nmk5gDi",
-        "score": 32.528
-    },
-    {
-        "artist": "Cindy Lee",
-        "title": "What's Tonight To Eternity",
-        "genre": "rock",
-        "image": "https://f4.bcbits.com/img/a3690679937_2.jpg",
-        "url": "https://cindylee.bandcamp.com/album/whats-tonight-to-eternity",
-        "sp_date": "2020-02-14T00:00.000Z",
-        "sp_album_id": "5BEV4gGnAkRsLuoW3FQeqN",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e028cc1e0b31aade5ecbad2af4a",
-        "sp_artist": "Cindy Lee",
-        "sp_popularity": 36,
-        "sp_followers": 5398,
-        "sp_artist_id": "0TZExq5Dma8hecEIAKwQYA",
-        "score": 32.278
-    },
-    {
-        "artist": "LUKA KUPLOWSKY",
-        "title": "Judee Justin Arthur Mary",
-        "genre": "folk",
-        "image": "https://f4.bcbits.com/img/a1084377840_2.jpg",
-        "url": "https://tunes.mamabirdrecordingco.com/album/judee-justin-arthur-mary",
-        "sp_date": "2020-04-24T00:00.000Z",
-        "sp_album_id": "0wCSdWmd16IEyBE7pqgKMD",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02b91b42125a4e62be440b6473",
-        "sp_artist": "Luka Kuplowsky",
-        "sp_popularity": 10,
-        "sp_followers": 272,
-        "sp_artist_id": "3WoJfG2qjHZ9Q96yFMQ8FE",
-        "score": 32.222
+        "score": 31.417
     },
     {
         "artist": "Hesitate",
@@ -312,22 +252,7 @@
         "sp_popularity": 8,
         "sp_followers": 69,
         "sp_artist_id": "7anvaEfTi01Ax9OVGjpDA4",
-        "score": 30.722
-    },
-    {
-        "artist": "Familiars",
-        "title": "All In Good Time",
-        "genre": "rock",
-        "image": "https://f4.bcbits.com/img/a3372680928_2.jpg",
-        "url": "https://familiarsmusic.bandcamp.com/album/all-in-good-time",
-        "sp_date": "2020-04-10T00:00.000Z",
-        "sp_album_id": "3Bp4s7WUB2z6vPUGnYkIf2",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e020e5585befa409ae40ba60acc",
-        "sp_artist": "Familiars",
-        "sp_popularity": 9,
-        "sp_followers": 136,
-        "sp_artist_id": "4uprpW6W5uJorD6aIzFNH2",
-        "score": 27.583
+        "score": 30.583
     },
     {
         "artist": "Hot Garbage",
@@ -342,52 +267,22 @@
         "sp_popularity": 6,
         "sp_followers": 433,
         "sp_artist_id": "3mkQAzyS7Xr6AF9JLvXnrc",
-        "score": 27.278
+        "score": 26.167
     },
     {
-        "artist": "Costanza",
-        "title": "George",
-        "genre": "electronic",
-        "image": "https://f4.bcbits.com/img/a89505777_2.jpg",
-        "url": "https://tigerbloodtapes.bandcamp.com/album/george",
-        "sp_date": "2020-03-10T00:00.000Z",
-        "sp_album_id": "1UacddqftTJp3F8AZ29MPm",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e020b3f7df282de2a4735a8e155",
-        "sp_artist": "Costanza",
-        "sp_popularity": 19,
-        "sp_followers": 1944,
-        "sp_artist_id": "1qvYgywpWubEqaAKoKnaEg",
-        "score": 26.472
-    },
-    {
-        "artist": "Nick Storring",
-        "title": "My Magic Dreams Have Lost Their Spell",
-        "genre": "experimental",
-        "image": "https://f4.bcbits.com/img/a3887648179_2.jpg",
-        "url": "https://nickstorring.bandcamp.com/album/my-magic-dreams-have-lost-their-spell",
-        "sp_date": "2020-03-27T00:00.000Z",
-        "sp_album_id": "0UiUFt9f3FCSk0paxhkUXa",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02b8523f44fd03247af799c648",
-        "sp_artist": "Nick Storring",
-        "sp_popularity": 12,
-        "sp_followers": 137,
-        "sp_artist_id": "3eLda5nrhivbKY1bNJgICp",
-        "score": 25.944
-    },
-    {
-        "artist": "The Sun Harmonic",
-        "title": "It's All Okay, Thanks To You",
-        "genre": "alternative",
-        "image": "https://f4.bcbits.com/img/a2575701615_2.jpg",
-        "url": "https://thesunharmonic.bandcamp.com/album/its-all-okay-thanks-to-you",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "034IVZbzxjZhvLlA4eaTat",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02f1fce132806ce36762e5c479",
-        "sp_artist": "The Sun Harmonic",
-        "sp_popularity": 4,
-        "sp_followers": 95,
-        "sp_artist_id": "4y7VIhtqatehI7dxEZPhla",
-        "score": 25.778
+        "artist": "Familiars",
+        "title": "All In Good Time",
+        "genre": "rock",
+        "image": "https://f4.bcbits.com/img/a3372680928_2.jpg",
+        "url": "https://familiarsmusic.bandcamp.com/album/all-in-good-time",
+        "sp_date": "2020-04-10T00:00.000Z",
+        "sp_album_id": "3Bp4s7WUB2z6vPUGnYkIf2",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e020e5585befa409ae40ba60acc",
+        "sp_artist": "Familiars",
+        "sp_popularity": 9,
+        "sp_followers": 136,
+        "sp_artist_id": "4uprpW6W5uJorD6aIzFNH2",
+        "score": 25.5
     },
     {
         "artist": "Andy Wiseman",
@@ -402,7 +297,22 @@
         "sp_popularity": 1,
         "sp_followers": 59,
         "sp_artist_id": "58GNY7ndOWCz0I7aaRSt4R",
-        "score": 25.472
+        "score": 25.333
+    },
+    {
+        "artist": "The Sun Harmonic",
+        "title": "It's All Okay, Thanks To You",
+        "genre": "alternative",
+        "image": "https://f4.bcbits.com/img/a2575701615_2.jpg",
+        "url": "https://thesunharmonic.bandcamp.com/album/its-all-okay-thanks-to-you",
+        "sp_date": "2020-04-17T00:00.000Z",
+        "sp_album_id": "034IVZbzxjZhvLlA4eaTat",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02f1fce132806ce36762e5c479",
+        "sp_artist": "The Sun Harmonic",
+        "sp_popularity": 4,
+        "sp_followers": 95,
+        "sp_artist_id": "4y7VIhtqatehI7dxEZPhla",
+        "score": 24.667
     },
     {
         "artist": "Jordan Little",
@@ -417,7 +327,34 @@
         "sp_popularity": 0,
         "sp_followers": 0,
         "sp_artist_id": "3Ndf8jT8QL2WvW9BA9CRVW",
-        "score": 24.722
+        "score": 24.583
+    },
+    {
+        "artist": "Nick Storring",
+        "title": "My Magic Dreams Have Lost Their Spell",
+        "genre": "experimental",
+        "image": "https://f4.bcbits.com/img/a3887648179_2.jpg",
+        "url": "https://nickstorring.bandcamp.com/album/my-magic-dreams-have-lost-their-spell",
+        "sp_date": "2020-03-27T00:00.000Z",
+        "sp_album_id": "0UiUFt9f3FCSk0paxhkUXa",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02b8523f44fd03247af799c648",
+        "sp_artist": "Nick Storring",
+        "sp_popularity": 12,
+        "sp_followers": 138,
+        "sp_artist_id": "3eLda5nrhivbKY1bNJgICp",
+        "score": 21.917
+    },
+    {
+        "artist": "ROY",
+        "title": "PEACE LOVE AND OUTER SPACE",
+        "genre": "rock",
+        "image": "https://f4.bcbits.com/img/a3910398708_2.jpg",
+        "url": "https://thesoundofroy.bandcamp.com/album/peace-love-and-outer-space",
+        "sp_date": "2020-04-17T00:00.000Z",
+        "sp_album_id": "1ZmTh5dVlwJ31tcqcTuK3O",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02ffcf96853202b4f950886013",
+        "sp_popularity": 0,
+        "score": 21.667
     },
     {
         "artist": "Anastasia Minster",
@@ -432,19 +369,7 @@
         "sp_popularity": 8,
         "sp_followers": 374,
         "sp_artist_id": "2q3ClJmvQ8JmaKOCcgv5Gs",
-        "score": 24.611
-    },
-    {
-        "artist": "ROY",
-        "title": "PEACE LOVE AND OUTER SPACE",
-        "genre": "rock",
-        "image": "https://f4.bcbits.com/img/a3910398708_2.jpg",
-        "url": "https://thesoundofroy.bandcamp.com/album/peace-love-and-outer-space",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "1ZmTh5dVlwJ31tcqcTuK3O",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02ffcf96853202b4f950886013",
-        "sp_popularity": 0,
-        "score": 22.778
+        "score": 21.417
     },
     {
         "artist": "Various Artists",
@@ -456,7 +381,22 @@
         "sp_album_id": "4pROuPouIn8I7vzODCWlcl",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02797bcf82e5f0e8f5df9cced0",
         "sp_popularity": 0,
-        "score": 21.944
+        "score": 20.417
+    },
+    {
+        "artist": "Costanza",
+        "title": "George",
+        "genre": "electronic",
+        "image": "https://f4.bcbits.com/img/a89505777_2.jpg",
+        "url": "https://tigerbloodtapes.bandcamp.com/album/george",
+        "sp_date": "2020-03-10T00:00.000Z",
+        "sp_album_id": "1UacddqftTJp3F8AZ29MPm",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e020b3f7df282de2a4735a8e155",
+        "sp_artist": "Costanza",
+        "sp_popularity": 19,
+        "sp_followers": 1944,
+        "sp_artist_id": "1qvYgywpWubEqaAKoKnaEg",
+        "score": 20.083
     },
     {
         "artist": "theNEWDEAL",
@@ -468,7 +408,7 @@
         "sp_album_id": "65PtCbgWRWu69yyokP5jdq",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0217dcdc70af0991d6ea8799ea",
         "sp_popularity": 0,
-        "score": 18.889
+        "score": 15.833
     },
     {
         "artist": "Groves, Stranjah",
@@ -480,7 +420,7 @@
         "sp_album_id": "7i0NP3nNOp6qBFtd1vIZCJ",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02a4862c2d5347ccf2b5ada768",
         "sp_popularity": 0,
-        "score": 15.833
+        "score": 11.25
     },
     {
         "artist": "SADIE & THE WIVES",
@@ -495,6 +435,6 @@
         "sp_popularity": 2,
         "sp_followers": 14,
         "sp_artist_id": "1soFJFHUnzrcT5IMYgiL0D",
-        "score": 11.222
+        "score": 3.583
     }
 ]

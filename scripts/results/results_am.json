@@ -10,6 +10,16 @@
         "sp_popularity": 75,
         "sp_followers": 625943,
         "sp_artist_id": "3g2kUQ6tHLLbmkV7T4GPtL",
+        "sp_genres": [
+            "art pop",
+            "chamber pop",
+            "indie pop",
+            "lilith",
+            "permanent wave",
+            "piano rock",
+            "pop rock",
+            "singer-songwriter"
+        ],
         "score": 86.25
     },
     {
@@ -23,6 +33,11 @@
         "sp_popularity": 51,
         "sp_followers": 19919,
         "sp_artist_id": "1IdkKQ9CM1i0wygfxYV4Z3",
+        "sp_genres": [
+            "canadian latin",
+            "deep latin alternative",
+            "latintronica"
+        ],
         "score": 80.25
     },
     {
@@ -36,6 +51,15 @@
         "sp_popularity": 70,
         "sp_followers": 972937,
         "sp_artist_id": "278ZYwGhdK6QTzE3MFePnP",
+        "sp_genres": [
+            "alternative metal",
+            "groove metal",
+            "melodic metalcore",
+            "melodic thrash",
+            "metal",
+            "metalcore",
+            "nu metal"
+        ],
         "score": 77.5
     },
     {
@@ -49,6 +73,13 @@
         "sp_popularity": 68,
         "sp_followers": 299868,
         "sp_artist_id": "31jvzuB4ikftPQZJwrYfCF",
+        "sp_genres": [
+            "modern rock",
+            "nintendocore",
+            "trancecore",
+            "uk metalcore",
+            "uk post-hardcore"
+        ],
         "score": 77.0
     },
     {
@@ -62,6 +93,13 @@
         "sp_popularity": 37,
         "sp_followers": 9533,
         "sp_artist_id": "3cePP77CX6XY9b0aigzrqh",
+        "sp_genres": [
+            "chamber psych",
+            "deep acoustic pop",
+            "new jersey indie",
+            "one-person band",
+            "psychedelic pop"
+        ],
         "score": 76.75
     },
     {
@@ -75,6 +113,10 @@
         "sp_popularity": 58,
         "sp_followers": 103289,
         "sp_artist_id": "1uR7zoLrSRI8bSL43OZ0GY",
+        "sp_genres": [
+            "alternative pop",
+            "transpop"
+        ],
         "score": 74.5
     },
     {
@@ -88,6 +130,14 @@
         "sp_popularity": 58,
         "sp_followers": 288999,
         "sp_artist_id": "1O3ZOjqFLEnbpZexcRjocn",
+        "sp_genres": [
+            "big beat",
+            "electronica",
+            "hip hop",
+            "jazztronica",
+            "nu jazz",
+            "turntablism"
+        ],
         "score": 74.5
     },
     {
@@ -101,6 +151,14 @@
         "sp_popularity": 58,
         "sp_followers": 197169,
         "sp_artist_id": "4xTDPgk4jHCF0qui3dH6BS",
+        "sp_genres": [
+            "death metal",
+            "deathcore",
+            "groove metal",
+            "melodic deathcore",
+            "melodic metalcore",
+            "metalcore"
+        ],
         "score": 74.5
     },
     {
@@ -114,6 +172,17 @@
         "sp_popularity": 56,
         "sp_followers": 203774,
         "sp_artist_id": "2CWWgbxApjbyByxBBCvGTm",
+        "sp_genres": [
+            "alternative metal",
+            "doom metal",
+            "gothic metal",
+            "melodic death metal",
+            "metal",
+            "pagan black metal",
+            "progressive metal",
+            "swedish doom metal",
+            "swedish metal"
+        ],
         "score": 74.0
     },
     {
@@ -127,6 +196,14 @@
         "sp_popularity": 51,
         "sp_followers": 92028,
         "sp_artist_id": "54KTsBl98buzGkELjGlnuU",
+        "sp_genres": [
+            "art pop",
+            "chamber pop",
+            "chillwave",
+            "indietronica",
+            "metropopolis",
+            "vapor soul"
+        ],
         "score": 72.75
     },
     {
@@ -140,6 +217,18 @@
         "sp_popularity": 48,
         "sp_followers": 26552,
         "sp_artist_id": "2wXBWJhbm1gfEVjyEEuhDH",
+        "sp_genres": [
+            "alternative country",
+            "canadian folk",
+            "canadian indie",
+            "canadian singer-songwriter",
+            "chamber pop",
+            "folk",
+            "melancholia",
+            "ontario indie",
+            "power pop",
+            "singer-songwriter"
+        ],
         "score": 72.0
     },
     {
@@ -153,6 +242,11 @@
         "sp_popularity": 47,
         "sp_followers": 72436,
         "sp_artist_id": "3bw0A7x5AgdJsK20ai5iS6",
+        "sp_genres": [
+            "chamber pop",
+            "ok indie",
+            "stomp and holler"
+        ],
         "score": 71.75
     },
     {
@@ -166,6 +260,7 @@
         "sp_popularity": 16,
         "sp_followers": 408,
         "sp_artist_id": "6BXA5FDonefcAe2hg4T7K5",
+        "sp_genres": [],
         "score": 71.5
     },
     {
@@ -179,6 +274,16 @@
         "sp_popularity": 45,
         "sp_followers": 30380,
         "sp_artist_id": "3xx17YXYvPl9PBx6Jzalk4",
+        "sp_genres": [
+            "alternative country",
+            "country rock",
+            "folk",
+            "lilith",
+            "new americana",
+            "new wave pop",
+            "roots rock",
+            "traditional folk"
+        ],
         "score": 71.25
     },
     {
@@ -192,6 +297,11 @@
         "sp_popularity": 75,
         "sp_followers": 1583812,
         "sp_artist_id": "6UBA15slIuadJ8h2lPRPos",
+        "sp_genres": [
+            "hip hop",
+            "pop rap",
+            "southern hip hop"
+        ],
         "score": 71.25
     },
     {
@@ -205,6 +315,14 @@
         "sp_popularity": 43,
         "sp_followers": 27381,
         "sp_artist_id": "2gbOUPIhea9nrCmAeZBgpo",
+        "sp_genres": [
+            "canadian garage rock",
+            "garage rock",
+            "modern alternative rock",
+            "modern blues rock",
+            "punk blues",
+            "vancouver indie"
+        ],
         "score": 70.75
     },
     {
@@ -218,6 +336,7 @@
         "sp_popularity": 43,
         "sp_followers": 3889,
         "sp_artist_id": "3F4I37yqRPW4B95eRCHsyA",
+        "sp_genres": [],
         "score": 70.75
     },
     {
@@ -231,6 +350,7 @@
         "sp_popularity": 41,
         "sp_followers": 871,
         "sp_artist_id": "3TLGhZ93eWc4caAzMiMWJV",
+        "sp_genres": [],
         "score": 70.25
     },
     {
@@ -244,6 +364,11 @@
         "sp_popularity": 67,
         "sp_followers": 481595,
         "sp_artist_id": "6XYvaoDGE0VmRt83Jss9Sn",
+        "sp_genres": [
+            "australian indie",
+            "australian psych",
+            "neo-psychedelic"
+        ],
         "score": 69.25
     },
     {
@@ -257,6 +382,12 @@
         "sp_popularity": 37,
         "sp_followers": 11730,
         "sp_artist_id": "0OqqomaR6NwSNKDpqnHlBo",
+        "sp_genres": [
+            "garage psych",
+            "indie garage rock",
+            "neo-psychedelic",
+            "noise pop"
+        ],
         "score": 69.25
     },
     {
@@ -270,6 +401,12 @@
         "sp_popularity": 35,
         "sp_followers": 10702,
         "sp_artist_id": "7mKwhB3UiepqzM946jBOyi",
+        "sp_genres": [
+            "bass music",
+            "fluxwork",
+            "hyperpop",
+            "italian experimental"
+        ],
         "score": 68.75
     },
     {
@@ -283,6 +420,10 @@
         "sp_popularity": 33,
         "sp_followers": 5252,
         "sp_artist_id": "4a2c6VZMfp0CdNg1JgSPR9",
+        "sp_genres": [
+            "australian garage punk",
+            "melbourne indie"
+        ],
         "score": 68.25
     },
     {
@@ -296,6 +437,14 @@
         "sp_popularity": 59,
         "sp_followers": 339827,
         "sp_artist_id": "02da1vDJ2hWqfK7aJL6SJm",
+        "sp_genres": [
+            "alternative rock",
+            "grunge",
+            "permanent wave",
+            "pop rock",
+            "post-grunge",
+            "rock"
+        ],
         "score": 67.25
     },
     {
@@ -309,6 +458,10 @@
         "sp_popularity": 54,
         "sp_followers": 50632,
         "sp_artist_id": "5fmvGUlMVgmnCn45f1he7d",
+        "sp_genres": [
+            "soft rock",
+            "underground power pop"
+        ],
         "score": 66.0
     },
     {
@@ -322,6 +475,7 @@
         "sp_popularity": 23,
         "sp_followers": 1296,
         "sp_artist_id": "3mA3sO1zseVtFQ56oqlJYk",
+        "sp_genres": [],
         "score": 65.75
     },
     {
@@ -335,6 +489,10 @@
         "sp_popularity": 52,
         "sp_followers": 46448,
         "sp_artist_id": "1nEGjL7aMVdNQzsfQPKdGr",
+        "sp_genres": [
+            "indie rock",
+            "oakland indie"
+        ],
         "score": 65.5
     },
     {
@@ -348,6 +506,9 @@
         "sp_popularity": 22,
         "sp_followers": 1597,
         "sp_artist_id": "3ng4JmUTAES0oTSlDkF3if",
+        "sp_genres": [
+            "chamber psych"
+        ],
         "score": 65.5
     },
     {
@@ -361,6 +522,16 @@
         "sp_popularity": 48,
         "sp_followers": 90894,
         "sp_artist_id": "6C403AR4y6PjN0xNNGh42m",
+        "sp_genres": [
+            "afrofuturism",
+            "alternative hip hop",
+            "art pop",
+            "escape room",
+            "experimental hip hop",
+            "experimental pop",
+            "freak folk",
+            "wonky"
+        ],
         "score": 64.5
     },
     {
@@ -374,6 +545,9 @@
         "sp_popularity": 17,
         "sp_followers": 3075,
         "sp_artist_id": "0LK0Nj6UFKDtcCju1cD1sm",
+        "sp_genres": [
+            "chicano punk"
+        ],
         "score": 64.25
     },
     {
@@ -387,6 +561,9 @@
         "sp_popularity": 15,
         "sp_followers": 2056,
         "sp_artist_id": "65BcicEkX7VQAJ1Cl9fgxM",
+        "sp_genres": [
+            "vancouver indie"
+        ],
         "score": 63.75
     },
     {
@@ -400,6 +577,13 @@
         "sp_popularity": 43,
         "sp_followers": 44406,
         "sp_artist_id": "0qt6QSruHshcWT9QOzyfZp",
+        "sp_genres": [
+            "chamber pop",
+            "freak folk",
+            "indie folk",
+            "melancholia",
+            "slow core"
+        ],
         "score": 63.25
     },
     {
@@ -413,6 +597,15 @@
         "sp_popularity": 41,
         "sp_followers": 27912,
         "sp_artist_id": "3p0vuGnsU3JN0ZVBLiJwmp",
+        "sp_genres": [
+            "canadian garage rock",
+            "canadian psychedelic rock",
+            "garage pop",
+            "garage rock",
+            "indie garage rock",
+            "neo-psychedelic",
+            "vancouver punk"
+        ],
         "score": 62.75
     },
     {
@@ -426,6 +619,11 @@
         "sp_popularity": 40,
         "sp_followers": 21212,
         "sp_artist_id": "2Ij97fuR3unjlboQfIYs31",
+        "sp_genres": [
+            "garage rock",
+            "jangle pop",
+            "power pop"
+        ],
         "score": 62.5
     },
     {
@@ -439,6 +637,18 @@
         "sp_popularity": 70,
         "sp_followers": 870215,
         "sp_artist_id": "35U9lQaRWSQISxQAB94Meo",
+        "sp_genres": [
+            "album rock",
+            "art rock",
+            "classic rock",
+            "country rock",
+            "folk",
+            "folk rock",
+            "mellow gold",
+            "rock",
+            "roots rock",
+            "soft rock"
+        ],
         "score": 62.5
     },
     {
@@ -450,8 +660,11 @@
         "date": "2020-04-24T00:00.000Z",
         "sp_artist": "Wares",
         "sp_popularity": 9,
-        "sp_followers": 345,
+        "sp_followers": 350,
         "sp_artist_id": "4IJfEp4CKdYvIGGm6Y8xf6",
+        "sp_genres": [
+            "edmonton indie"
+        ],
         "score": 62.25
     },
     {
@@ -465,6 +678,7 @@
         "sp_popularity": 32,
         "sp_followers": 1272,
         "sp_artist_id": "28UHHsOtyPTT2OOIMA48Ps",
+        "sp_genres": [],
         "score": 60.5
     },
     {
@@ -476,8 +690,9 @@
         "date": "2020-04-24T00:00.000Z",
         "sp_artist": "Sophie Tassignon",
         "sp_popularity": 0,
-        "sp_followers": 19,
+        "sp_followers": 20,
         "sp_artist_id": "2DUrF7J2tf7do5V6qwe2pp",
+        "sp_genres": [],
         "score": 60.0
     },
     {
@@ -501,6 +716,9 @@
         "sp_popularity": 29,
         "sp_followers": 833,
         "sp_artist_id": "34O5j4kXzwzwpusQApiRLA",
+        "sp_genres": [
+            "popwave"
+        ],
         "score": 59.75
     },
     {
@@ -514,6 +732,23 @@
         "sp_popularity": 58,
         "sp_followers": 140220,
         "sp_artist_id": "60ht0hWRy1yjUDfNsLuHuP",
+        "sp_genres": [
+            "alternative country",
+            "anti-folk",
+            "country rock",
+            "folk",
+            "folk rock",
+            "heartland rock",
+            "indie folk",
+            "lilith",
+            "mellow gold",
+            "new americana",
+            "outlaw country",
+            "pop rock",
+            "roots rock",
+            "singer-songwriter",
+            "traditional folk"
+        ],
         "score": 59.5
     },
     {
@@ -527,6 +762,7 @@
         "sp_popularity": 27,
         "sp_followers": 1586,
         "sp_artist_id": "5Nfp6FbYdlF3KQ2wojhW0l",
+        "sp_genres": [],
         "score": 59.25
     },
     {
@@ -540,6 +776,9 @@
         "sp_popularity": 53,
         "sp_followers": 21457,
         "sp_artist_id": "4CX6yOoTFQeiwL5yxuFuIG",
+        "sp_genres": [
+            "oxford indie"
+        ],
         "score": 58.25
     },
     {
@@ -551,8 +790,9 @@
         "date": "2020-04-17T00:00.000Z",
         "sp_artist": "The Howling Hex",
         "sp_popularity": 22,
-        "sp_followers": 319,
+        "sp_followers": 321,
         "sp_artist_id": "4bKYclYcmlfz3GaEXZYuQw",
+        "sp_genres": [],
         "score": 58.0
     },
     {
@@ -564,8 +804,12 @@
         "date": "2020-04-24T00:00.000Z",
         "sp_artist": "Macula Dog",
         "sp_popularity": 12,
-        "sp_followers": 883,
+        "sp_followers": 885,
         "sp_artist_id": "3UnInNZgdl0q6Wd24imO3T",
+        "sp_genres": [
+            "experimental indie",
+            "experimental pop"
+        ],
         "score": 55.5
     },
     {
@@ -579,6 +823,16 @@
         "sp_popularity": 60,
         "sp_followers": 450744,
         "sp_artist_id": "34c4iQ5tkaZKu6Sv28BTde",
+        "sp_genres": [
+            "alternative metal",
+            "groove metal",
+            "hard rock",
+            "metal",
+            "rock",
+            "speed metal",
+            "stoner rock",
+            "thrash metal"
+        ],
         "score": 52.5
     }
 ]
