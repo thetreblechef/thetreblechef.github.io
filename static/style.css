@@ -4,3 +4,31 @@ body {
     font-family: 'Karla', sans-serif;
     /*background-color: #002B36;*/
 }
+
+.dropdown-item:hover {
+    background-color: #485059;
+}
+
+@media screen and (max-width: 600px) {
+    .genre-tor {
+        font-size:0.4rem;
+    }
+    .genre-mon {
+        font-size:0.4rem;
+    }
+    .genre-van {
+        font-size:0.4rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .genre-tor {
+        font-size:0.6rem;
+    }
+    .genre-mon {
+        font-size:0.6rem;
+    }
+    .genre-van {
+        font-size:0.6rem;
+    }
+}
