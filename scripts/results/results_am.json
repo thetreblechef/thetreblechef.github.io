@@ -1,44 +1,14 @@
 [
     {
-        "artist": "Fiona Apple",
-        "title": "Fetch the Bolt Cutters",
+        "artist": "BC Camplight",
+        "title": "Shortly After Takeoff",
         "genre": "Pop/Rock",
         "rating": 4.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Q09ZNWphOVFIo3kexBJk09_M69_UI9rrJSVvWL2-yAg=&f=3",
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Inu05zuXJxm0luxcBmWmaphUoDg0hsvx4F4sL4oO-nA=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Fiona Apple",
-        "sp_popularity": 75,
-        "sp_followers": 625943,
-        "sp_artist_id": "3g2kUQ6tHLLbmkV7T4GPtL",
-        "sp_genres": [
-            "art pop",
-            "chamber pop",
-            "indie pop",
-            "lilith",
-            "permanent wave",
-            "piano rock",
-            "pop rock",
-            "singer-songwriter"
-        ],
-        "score": 86.25
-    },
-    {
-        "artist": "Lido Pimienta",
-        "title": "Miss Colombia",
-        "genre": "Electronic, Latin, Pop/Rock",
-        "rating": 4.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Inu05zuXJxm0luxcBmWmahyhM-OFI8zG4l-qVpXXB1I=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Lido Pimienta",
-        "sp_popularity": 51,
-        "sp_followers": 19919,
-        "sp_artist_id": "1IdkKQ9CM1i0wygfxYV4Z3",
-        "sp_genres": [
-            "canadian latin",
-            "deep latin alternative",
-            "latintronica"
-        ],
-        "score": 80.25
+        "sp_popularity": 43,
+        "sp_artist_id": "3cePP77CX6XY9b0aigzrqh",
+        "score": 78.25
     },
     {
         "artist": "Trivium",
@@ -47,60 +17,31 @@
         "rating": 4.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=epuqKkLi6xOdbhM9Yh9QRj6KsMttLlyBmmVTZ6_CLs0=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Trivium",
-        "sp_popularity": 70,
-        "sp_followers": 972937,
+        "sp_popularity": 72,
         "sp_artist_id": "278ZYwGhdK6QTzE3MFePnP",
-        "sp_genres": [
-            "alternative metal",
-            "groove metal",
-            "melodic metalcore",
-            "melodic thrash",
-            "metal",
-            "metalcore",
-            "nu metal"
-        ],
-        "score": 77.5
+        "score": 78.0
     },
     {
-        "artist": "Enter Shikari",
-        "title": "Nothing Is True & Everything Is Possible",
+        "artist": "Car Seat Headrest",
+        "title": "Making a Door Less Open",
         "genre": "Pop/Rock",
         "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=0C9Zdo4HJEhLqLwqBzQxuw4Q1ghY8VaPylnm7PwcKNY=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Enter Shikari",
-        "sp_popularity": 68,
-        "sp_followers": 299868,
-        "sp_artist_id": "31jvzuB4ikftPQZJwrYfCF",
-        "sp_genres": [
-            "modern rock",
-            "nintendocore",
-            "trancecore",
-            "uk metalcore",
-            "uk post-hardcore"
-        ],
-        "score": 77.0
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=wG3Qmf3zyzUCmlRT4MumNJhUoDg0hsvx4F4sL4oO-nA=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 64,
+        "sp_artist_id": "5PbpKlxQE0Ktl5lcNABoFf",
+        "score": 76.0
     },
     {
-        "artist": "BC Camplight",
-        "title": "Shortly After Takeoff",
+        "artist": "Katatonia",
+        "title": "City Burials",
         "genre": "Pop/Rock",
-        "rating": 4.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Inu05zuXJxm0luxcBmWmaphUoDg0hsvx4F4sL4oO-nA=&f=3",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=_YWT1X9uDIO8v6xn5fX7OT6KsMttLlyBmmVTZ6_CLs0=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "BC Camplight",
-        "sp_popularity": 37,
-        "sp_followers": 9533,
-        "sp_artist_id": "3cePP77CX6XY9b0aigzrqh",
-        "sp_genres": [
-            "chamber psych",
-            "deep acoustic pop",
-            "new jersey indie",
-            "one-person band",
-            "psychedelic pop"
-        ],
-        "score": 76.75
+        "sp_popularity": 60,
+        "sp_artist_id": "2CWWgbxApjbyByxBBCvGTm",
+        "score": 75.0
     },
     {
         "artist": "Ezra Furman",
@@ -109,127 +50,9 @@
         "rating": 4.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=cSAGhH0s4ZKOicR-TGUiEx_TZlp6n_cq-Emr2zx15tU=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Ezra Furman",
         "sp_popularity": 58,
-        "sp_followers": 103289,
         "sp_artist_id": "1uR7zoLrSRI8bSL43OZ0GY",
-        "sp_genres": [
-            "alternative pop",
-            "transpop"
-        ],
         "score": 74.5
-    },
-    {
-        "artist": "RJD2",
-        "title": "The Fun Ones",
-        "genre": "Pop/Rock, Rap, R&B;",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=CtXFHF1DkMAd-ca8AVr3mFWnbEN5fCjifro6xhIBuB4=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "RJD2",
-        "sp_popularity": 58,
-        "sp_followers": 288999,
-        "sp_artist_id": "1O3ZOjqFLEnbpZexcRjocn",
-        "sp_genres": [
-            "big beat",
-            "electronica",
-            "hip hop",
-            "jazztronica",
-            "nu jazz",
-            "turntablism"
-        ],
-        "score": 74.5
-    },
-    {
-        "artist": "The Black Dahlia Murder",
-        "title": "Verminous",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=XoMnT0Kj002uPqKNR4t3jB_TZlp6n_cq-Emr2zx15tU=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "The Black Dahlia Murder",
-        "sp_popularity": 58,
-        "sp_followers": 197169,
-        "sp_artist_id": "4xTDPgk4jHCF0qui3dH6BS",
-        "sp_genres": [
-            "death metal",
-            "deathcore",
-            "groove metal",
-            "melodic deathcore",
-            "melodic metalcore",
-            "metalcore"
-        ],
-        "score": 74.5
-    },
-    {
-        "artist": "Katatonia",
-        "title": "City Burials [Deluxe Edition]",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Rsglqwuc-4nDLgO7-Yvx6d_M69_UI9rrJSVvWL2-yAg=&f=3",
-        "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Katatonia",
-        "sp_popularity": 56,
-        "sp_followers": 203774,
-        "sp_artist_id": "2CWWgbxApjbyByxBBCvGTm",
-        "sp_genres": [
-            "alternative metal",
-            "doom metal",
-            "gothic metal",
-            "melodic death metal",
-            "metal",
-            "pagan black metal",
-            "progressive metal",
-            "swedish doom metal",
-            "swedish metal"
-        ],
-        "score": 74.0
-    },
-    {
-        "artist": "Active Child",
-        "title": "In Another Life",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://cdn-s3.allmusic.com/release-covers/250/0005/187/0005187354.jpg",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Active Child",
-        "sp_popularity": 51,
-        "sp_followers": 92028,
-        "sp_artist_id": "54KTsBl98buzGkELjGlnuU",
-        "sp_genres": [
-            "art pop",
-            "chamber pop",
-            "chillwave",
-            "indietronica",
-            "metropopolis",
-            "vapor soul"
-        ],
-        "score": 72.75
-    },
-    {
-        "artist": "Ron Sexsmith",
-        "title": "Hermitage",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=hAz9pcV3j1f_2NuOsLoLCt_M69_UI9rrJSVvWL2-yAg=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Ron Sexsmith",
-        "sp_popularity": 48,
-        "sp_followers": 26552,
-        "sp_artist_id": "2wXBWJhbm1gfEVjyEEuhDH",
-        "sp_genres": [
-            "alternative country",
-            "canadian folk",
-            "canadian indie",
-            "canadian singer-songwriter",
-            "chamber pop",
-            "folk",
-            "melancholia",
-            "ontario indie",
-            "power pop",
-            "singer-songwriter"
-        ],
-        "score": 72.0
     },
     {
         "artist": "Other Lives",
@@ -238,16 +61,20 @@
         "rating": 4.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=BiVpgXi5Vu7yaSLdswqUOhyhM-OFI8zG4l-qVpXXB1I=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Other Lives",
-        "sp_popularity": 47,
-        "sp_followers": 72436,
+        "sp_popularity": 51,
         "sp_artist_id": "3bw0A7x5AgdJsK20ai5iS6",
-        "sp_genres": [
-            "chamber pop",
-            "ok indie",
-            "stomp and holler"
-        ],
-        "score": 71.75
+        "score": 72.75
+    },
+    {
+        "artist": "Austra",
+        "title": "Hirudin",
+        "genre": "Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=0Sry0uAhajiO7SjotEYJDFWnbEN5fCjifro6xhIBuB4=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 49,
+        "sp_artist_id": "1o43SzzuLoyOxqThmp7s0g",
+        "score": 72.25
     },
     {
         "artist": "Joel Harrison",
@@ -256,52 +83,19 @@
         "rating": 4.5,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=BuPBSH2tK4Vh9GeiRXiAGASijaXJlYnq0St31qpAJWo=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Joel Harrison",
-        "sp_popularity": 16,
-        "sp_followers": 408,
+        "sp_popularity": 18,
         "sp_artist_id": "6BXA5FDonefcAe2hg4T7K5",
-        "sp_genres": [],
-        "score": 71.5
+        "score": 72.0
     },
     {
-        "artist": "Shelby Lynne",
-        "title": "Shelby Lynne",
+        "artist": "Diet Cig",
+        "title": "Do You Wonder About Me?",
         "genre": "Pop/Rock",
         "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Gjp-bjglii3NTP-HhLn1yJhUoDg0hsvx4F4sL4oO-nA=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Shelby Lynne",
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=icO8a0FfsBy-Zuo2lsWh2d_M69_UI9rrJSVvWL2-yAg=&f=3",
+        "date": "2020-05-01T00:00.000Z",
         "sp_popularity": 45,
-        "sp_followers": 30380,
-        "sp_artist_id": "3xx17YXYvPl9PBx6Jzalk4",
-        "sp_genres": [
-            "alternative country",
-            "country rock",
-            "folk",
-            "lilith",
-            "new americana",
-            "new wave pop",
-            "roots rock",
-            "traditional folk"
-        ],
-        "score": 71.25
-    },
-    {
-        "artist": "Tech N9ne",
-        "title": "Enterfear",
-        "genre": "Rap",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=jJypcpDBwTaZbA5iqfyS5QSijaXJlYnq0St31qpAJWo=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Tech N9ne",
-        "sp_popularity": 75,
-        "sp_followers": 1583812,
-        "sp_artist_id": "6UBA15slIuadJ8h2lPRPos",
-        "sp_genres": [
-            "hip hop",
-            "pop rap",
-            "southern hip hop"
-        ],
+        "sp_artist_id": "6ommlbuccgdiKSgjvVlQ4W",
         "score": 71.25
     },
     {
@@ -311,19 +105,9 @@
         "rating": 4.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=UWYjn5GimM6IEHl3nFWJ7g4Q1ghY8VaPylnm7PwcKNY=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "The Pack a.d.",
-        "sp_popularity": 43,
-        "sp_followers": 27381,
+        "sp_popularity": 44,
         "sp_artist_id": "2gbOUPIhea9nrCmAeZBgpo",
-        "sp_genres": [
-            "canadian garage rock",
-            "garage rock",
-            "modern alternative rock",
-            "modern blues rock",
-            "punk blues",
-            "vancouver indie"
-        ],
-        "score": 70.75
+        "score": 71.0
     },
     {
         "artist": "Peter Oren",
@@ -332,11 +116,8 @@
         "rating": 4.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=qG9DOUkx8bspSvKS3pitGwSijaXJlYnq0St31qpAJWo=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Peter Oren",
         "sp_popularity": 43,
-        "sp_followers": 3889,
         "sp_artist_id": "3F4I37yqRPW4B95eRCHsyA",
-        "sp_genres": [],
         "score": 70.75
     },
     {
@@ -346,49 +127,9 @@
         "rating": 4.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=PLPRAYTnLoLzklcRfciOHCpQg_7iAU1wjqLgK_xGXts=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Romain Collin",
-        "sp_popularity": 41,
-        "sp_followers": 871,
+        "sp_popularity": 43,
         "sp_artist_id": "3TLGhZ93eWc4caAzMiMWJV",
-        "sp_genres": [],
-        "score": 70.25
-    },
-    {
-        "artist": "King Gizzard & the Lizard Wizard",
-        "title": "Chunky Shrapnel",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=QZcr3tp5jcGfjLpL1arfZoAf7E_1E-2MlBBPmPAXRBU=&f=3",
-        "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "King Gizzard & The Lizard Wizard",
-        "sp_popularity": 67,
-        "sp_followers": 481595,
-        "sp_artist_id": "6XYvaoDGE0VmRt83Jss9Sn",
-        "sp_genres": [
-            "australian indie",
-            "australian psych",
-            "neo-psychedelic"
-        ],
-        "score": 69.25
-    },
-    {
-        "artist": "Damaged Bug",
-        "title": "Bug on Yonkers",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=3laSzQBrEmU_eg6LH7EnMVWnbEN5fCjifro6xhIBuB4=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Damaged Bug",
-        "sp_popularity": 37,
-        "sp_followers": 11730,
-        "sp_artist_id": "0OqqomaR6NwSNKDpqnHlBo",
-        "sp_genres": [
-            "garage psych",
-            "indie garage rock",
-            "neo-psychedelic",
-            "noise pop"
-        ],
-        "score": 69.25
+        "score": 70.75
     },
     {
         "artist": "Lorenzo Senni",
@@ -397,17 +138,42 @@
         "rating": 4.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=cSAGhH0s4ZKOicR-TGUiEwSijaXJlYnq0St31qpAJWo=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Lorenzo Senni",
-        "sp_popularity": 35,
-        "sp_followers": 10702,
+        "sp_popularity": 41,
         "sp_artist_id": "7mKwhB3UiepqzM946jBOyi",
-        "sp_genres": [
-            "bass music",
-            "fluxwork",
-            "hyperpop",
-            "italian experimental"
-        ],
-        "score": 68.75
+        "score": 70.25
+    },
+    {
+        "artist": "John Carroll Kirby",
+        "title": "My Garden",
+        "genre": "Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=JZuz2zwB2QRdQT_eENYRdt_M69_UI9rrJSVvWL2-yAg=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 39,
+        "sp_artist_id": "7FQiZr787umw7P5dO3zqld",
+        "score": 69.75
+    },
+    {
+        "artist": "John Carroll Kirby",
+        "title": "My Garden",
+        "genre": "Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=aCR-hyMxIJzgJDFv28-IlFWnbEN5fCjifro6xhIBuB4=&f=3",
+        "date": "2020-04-24T00:00.000Z",
+        "sp_popularity": 39,
+        "sp_artist_id": "7FQiZr787umw7P5dO3zqld",
+        "score": 69.75
+    },
+    {
+        "artist": "King Gizzard & the Lizard Wizard",
+        "title": "Chunky Shrapnel",
+        "genre": "Pop/Rock",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=QZcr3tp5jcGfjLpL1arfZoAf7E_1E-2MlBBPmPAXRBU=&f=3",
+        "date": "2020-04-24T00:00.000Z",
+        "sp_popularity": 68,
+        "sp_artist_id": "6XYvaoDGE0VmRt83Jss9Sn",
+        "score": 69.5
     },
     {
         "artist": "RVG",
@@ -416,84 +182,53 @@
         "rating": 4.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=qG9DOUkx8bspSvKS3pitG4Af7E_1E-2MlBBPmPAXRBU=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "RVG",
-        "sp_popularity": 33,
-        "sp_followers": 5252,
+        "sp_popularity": 38,
         "sp_artist_id": "4a2c6VZMfp0CdNg1JgSPR9",
-        "sp_genres": [
-            "australian garage punk",
-            "melbourne indie"
-        ],
-        "score": 68.25
+        "score": 69.5
     },
     {
-        "artist": "Soul Asylum",
-        "title": "Hurry Up and Wait",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Rsglqwuc-4nDLgO7-Yvx6RyhM-OFI8zG4l-qVpXXB1I=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Soul Asylum",
-        "sp_popularity": 59,
-        "sp_followers": 339827,
-        "sp_artist_id": "02da1vDJ2hWqfK7aJL6SJm",
-        "sp_genres": [
-            "alternative rock",
-            "grunge",
-            "permanent wave",
-            "pop rock",
-            "post-grunge",
-            "rock"
-        ],
-        "score": 67.25
-    },
-    {
-        "artist": "Andrew Gold",
-        "title": "Something New: Unreleased Gold",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=O277-PmEQNM7jHACKnBsbg4Q1ghY8VaPylnm7PwcKNY=&f=3",
-        "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Andrew Gold",
-        "sp_popularity": 54,
-        "sp_followers": 50632,
-        "sp_artist_id": "5fmvGUlMVgmnCn45f1he7d",
-        "sp_genres": [
-            "soft rock",
-            "underground power pop"
-        ],
-        "score": 66.0
-    },
-    {
-        "artist": "Datura4",
-        "title": "West Coast Highway Cosmic",
-        "genre": "Pop/Rock",
+        "artist": "Dave Douglas",
+        "title": "Dizzy Atmosphere: Dizzy Gillespie at Zero Gravity",
+        "genre": "Jazz",
         "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Inu05zuXJxm0luxcBmWmat_M69_UI9rrJSVvWL2-yAg=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Datura4",
-        "sp_popularity": 23,
-        "sp_followers": 1296,
-        "sp_artist_id": "3mA3sO1zseVtFQ56oqlJYk",
-        "sp_genres": [],
-        "score": 65.75
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=x0YPru9BfKgiR9UrFCW7cx_TZlp6n_cq-Emr2zx15tU=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 35,
+        "sp_artist_id": "3SQrLX0O6RbBjmSIkwCgJb",
+        "score": 68.75
+    },
+    {
+        "artist": "Field Works",
+        "title": "Ultrasonic",
+        "genre": "Electronic, Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=PUr3lVk-J4bLoZtT_ZL0ixyhM-OFI8zG4l-qVpXXB1I=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 32,
+        "sp_artist_id": "2AMZYRU9gyPG7OEfSYA8Dr",
+        "score": 68.0
+    },
+    {
+        "artist": "Damien Jurado",
+        "title": "What's New, Tomboy?",
+        "genre": "Pop/Rock",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=RV3qP-nlMVk9SIPOmehJDj6KsMttLlyBmmVTZ6_CLs0=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 57,
+        "sp_artist_id": "79JJCxCCfJ8HufX6w8q2k4",
+        "score": 66.75
     },
     {
         "artist": "Hazel English",
-        "title": "Wake UP!",
+        "title": "Wake Up!",
         "genre": "Pop/Rock",
         "rating": 3.5,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=hmQj-By3GD_B9f5HQMLdbz6KsMttLlyBmmVTZ6_CLs0=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Hazel English",
-        "sp_popularity": 52,
-        "sp_followers": 46448,
+        "sp_popularity": 55,
         "sp_artist_id": "1nEGjL7aMVdNQzsfQPKdGr",
-        "sp_genres": [
-            "indie rock",
-            "oakland indie"
-        ],
-        "score": 65.5
+        "score": 66.25
     },
     {
         "artist": "Marker Starling",
@@ -502,53 +237,20 @@
         "rating": 4.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=uwp0JZ3k7oX8Zzq1lTIeCVWnbEN5fCjifro6xhIBuB4=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Marker Starling",
-        "sp_popularity": 22,
-        "sp_followers": 1597,
+        "sp_popularity": 25,
         "sp_artist_id": "3ng4JmUTAES0oTSlDkF3if",
-        "sp_genres": [
-            "chamber psych"
-        ],
-        "score": 65.5
+        "score": 66.25
     },
     {
-        "artist": "Shabazz Palaces",
-        "title": "The Don of Diamond Dreams",
-        "genre": "Rap",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=RV3qP-nlMVk9SIPOmehJDipQg_7iAU1wjqLgK_xGXts=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Shabazz Palaces",
-        "sp_popularity": 48,
-        "sp_followers": 90894,
-        "sp_artist_id": "6C403AR4y6PjN0xNNGh42m",
-        "sp_genres": [
-            "afrofuturism",
-            "alternative hip hop",
-            "art pop",
-            "escape room",
-            "experimental hip hop",
-            "experimental pop",
-            "freak folk",
-            "wonky"
-        ],
-        "score": 64.5
-    },
-    {
-        "artist": "Alice Bag",
-        "title": "Sister Dynamite",
+        "artist": "Andrew Gold",
+        "title": "Something New: Unreleased Gold",
         "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=UWYjn5GimM6IEHl3nFWJ7h_TZlp6n_cq-Emr2zx15tU=&f=3",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=O277-PmEQNM7jHACKnBsbg4Q1ghY8VaPylnm7PwcKNY=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Alice Bag",
-        "sp_popularity": 17,
-        "sp_followers": 3075,
-        "sp_artist_id": "0LK0Nj6UFKDtcCju1cD1sm",
-        "sp_genres": [
-            "chicano punk"
-        ],
-        "score": 64.25
+        "sp_popularity": 54,
+        "sp_artist_id": "5fmvGUlMVgmnCn45f1he7d",
+        "score": 66.0
     },
     {
         "artist": "White Poppy",
@@ -557,14 +259,86 @@
         "rating": 4.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=OkEfzUWFZEo0fDA6l-uYig4Q1ghY8VaPylnm7PwcKNY=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "White Poppy",
-        "sp_popularity": 15,
-        "sp_followers": 2056,
+        "sp_popularity": 23,
         "sp_artist_id": "65BcicEkX7VQAJ1Cl9fgxM",
-        "sp_genres": [
-            "vancouver indie"
-        ],
-        "score": 63.75
+        "score": 65.75
+    },
+    {
+        "artist": "Alice Bag",
+        "title": "Sister Dynamite",
+        "genre": "Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=UWYjn5GimM6IEHl3nFWJ7h_TZlp6n_cq-Emr2zx15tU=&f=3",
+        "date": "2020-04-24T00:00.000Z",
+        "sp_popularity": 22,
+        "sp_artist_id": "0LK0Nj6UFKDtcCju1cD1sm",
+        "score": 65.5
+    },
+    {
+        "artist": "Hala",
+        "title": "Red Herring",
+        "genre": "Pop/Rock",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=y9E687r-nX7MZXWjnZSf0QSijaXJlYnq0St31qpAJWo=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 49,
+        "sp_artist_id": "1dTBAtLZBUB8Ir4PmJYw9t",
+        "score": 64.75
+    },
+    {
+        "artist": "Joan as Police Woman",
+        "title": "Cover Two",
+        "genre": "Pop/Rock",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=8OqENTx_Im66UYeAGn8itQSijaXJlYnq0St31qpAJWo=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 48,
+        "sp_artist_id": "6PBv8t9YTLggA9ZMwpeoqj",
+        "score": 64.5
+    },
+    {
+        "artist": "Wares",
+        "title": "Survival",
+        "genre": "Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=m9Bs3uJuyN-SzX58rGVE9ZhUoDg0hsvx4F4sL4oO-nA=&f=3",
+        "date": "2020-04-24T00:00.000Z",
+        "sp_popularity": 18,
+        "sp_artist_id": "4IJfEp4CKdYvIGGm6Y8xf6",
+        "score": 64.5
+    },
+    {
+        "artist": "Chris Keys",
+        "title": "Innocent Country 2",
+        "genre": "Rap",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=mZAg-OQs9MpzygKo2tpAvphUoDg0hsvx4F4sL4oO-nA=&f=3",
+        "date": "2020-04-24T00:00.000Z",
+        "sp_popularity": 47,
+        "sp_artist_id": "4Reen2gOVFXG3PIVMiq9ur",
+        "score": 64.25
+    },
+    {
+        "artist": "Brendan Benson",
+        "title": "Dear Life",
+        "genre": "Pop/Rock",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=2Sxqjr7nk0vO-gu_-xSQah_TZlp6n_cq-Emr2zx15tU=&f=3",
+        "date": "2020-04-24T00:00.000Z",
+        "sp_popularity": 44,
+        "sp_artist_id": "2Ij97fuR3unjlboQfIYs31",
+        "score": 63.5
+    },
+    {
+        "artist": "Klara Lewis",
+        "title": "Ingrid",
+        "genre": "Avant-Garde, Electronic",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=MMQDFiOLLHdtFtGcpQiyiVWnbEN5fCjifro6xhIBuB4=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 13,
+        "sp_artist_id": "0kyeczWICSebymos0FqJvt",
+        "score": 63.25
     },
     {
         "artist": "Mark Kozelek",
@@ -573,17 +347,8 @@
         "rating": 3.5,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=BuPBSH2tK4Vh9GeiRXiAGByhM-OFI8zG4l-qVpXXB1I=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Mark Kozelek",
         "sp_popularity": 43,
-        "sp_followers": 44406,
         "sp_artist_id": "0qt6QSruHshcWT9QOzyfZp",
-        "sp_genres": [
-            "chamber pop",
-            "freak folk",
-            "indie folk",
-            "melancholia",
-            "slow core"
-        ],
         "score": 63.25
     },
     {
@@ -593,37 +358,41 @@
         "rating": 3.5,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=QeXeB9TKje5xoG9iV2xUsFWnbEN5fCjifro6xhIBuB4=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Dead Ghosts",
-        "sp_popularity": 41,
-        "sp_followers": 27912,
+        "sp_popularity": 43,
         "sp_artist_id": "3p0vuGnsU3JN0ZVBLiJwmp",
-        "sp_genres": [
-            "canadian garage rock",
-            "canadian psychedelic rock",
-            "garage pop",
-            "garage rock",
-            "indie garage rock",
-            "neo-psychedelic",
-            "vancouver punk"
-        ],
+        "score": 63.25
+    },
+    {
+        "artist": "Devon Williams",
+        "title": "Tear In the Fabric",
+        "genre": "Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=ClbYOZCKOIxyCXU3bRsTsRyhM-OFI8zG4l-qVpXXB1I=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 12,
+        "sp_artist_id": "6HARLjOsKxuYvgJjy2sMKO",
+        "score": 63.0
+    },
+    {
+        "artist": "Happyness",
+        "title": "Floatr",
+        "genre": "Pop/Rock",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=BuPBSH2tK4Vh9GeiRXiAGFWnbEN5fCjifro6xhIBuB4=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 41,
+        "sp_artist_id": "4nddgNqdf0SFeeqhbDN6rN",
         "score": 62.75
     },
     {
-        "artist": "Brendan Benson",
-        "title": "Dear Life",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=2Sxqjr7nk0vO-gu_-xSQah_TZlp6n_cq-Emr2zx15tU=&f=3",
+        "artist": "Sophie Tassignon",
+        "title": "Mysteries Unfold",
+        "genre": "Avant-Garde",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=LipWCItvIWDkDo-TeIKIO1WnbEN5fCjifro6xhIBuB4=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Brendan Benson",
-        "sp_popularity": 40,
-        "sp_followers": 21212,
-        "sp_artist_id": "2Ij97fuR3unjlboQfIYs31",
-        "sp_genres": [
-            "garage rock",
-            "jangle pop",
-            "power pop"
-        ],
+        "sp_popularity": 10,
+        "sp_artist_id": "2DUrF7J2tf7do5V6qwe2pp",
         "score": 62.5
     },
     {
@@ -633,93 +402,40 @@
         "rating": 3.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=O277-PmEQNM7jHACKnBsbh_TZlp6n_cq-Emr2zx15tU=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "America",
         "sp_popularity": 70,
-        "sp_followers": 870215,
         "sp_artist_id": "35U9lQaRWSQISxQAB94Meo",
-        "sp_genres": [
-            "album rock",
-            "art rock",
-            "classic rock",
-            "country rock",
-            "folk",
-            "folk rock",
-            "mellow gold",
-            "rock",
-            "roots rock",
-            "soft rock"
-        ],
         "score": 62.5
     },
     {
-        "artist": "Wares",
-        "title": "Survival",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=m9Bs3uJuyN-SzX58rGVE9ZhUoDg0hsvx4F4sL4oO-nA=&f=3",
-        "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Wares",
-        "sp_popularity": 9,
-        "sp_followers": 350,
-        "sp_artist_id": "4IJfEp4CKdYvIGGm6Y8xf6",
-        "sp_genres": [
-            "edmonton indie"
-        ],
-        "score": 62.25
-    },
-    {
-        "artist": "Louis Prince",
-        "title": "Thirteen",
-        "genre": "Pop/Rock",
+        "artist": "Ital Tek",
+        "title": "Outland",
+        "genre": "Electronic",
         "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Jlba4ldQwTVl1EvE8yaBJlWnbEN5fCjifro6xhIBuB4=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Louis Prince",
-        "sp_popularity": 32,
-        "sp_followers": 1272,
-        "sp_artist_id": "28UHHsOtyPTT2OOIMA48Ps",
-        "sp_genres": [],
-        "score": 60.5
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=ClbYOZCKOIxyCXU3bRsTsQ4Q1ghY8VaPylnm7PwcKNY=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 38,
+        "sp_artist_id": "6Auo6gEPwhb9aZindgVpZJ",
+        "score": 62.0
     },
     {
-        "artist": "Sophie Tassignon",
-        "title": "Mysteries Unfold",
-        "genre": "Avant-Garde",
+        "artist": "Stroppies",
+        "title": "Look Alive",
+        "genre": "Pop/Rock",
         "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=LipWCItvIWDkDo-TeIKIO1WnbEN5fCjifro6xhIBuB4=&f=3",
-        "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Sophie Tassignon",
-        "sp_popularity": 0,
-        "sp_followers": 20,
-        "sp_artist_id": "2DUrF7J2tf7do5V6qwe2pp",
-        "sp_genres": [],
-        "score": 60.0
-    },
-    {
-        "artist": "Richard Bishop",
-        "title": "Oneiric Formulary",
-        "genre": "Pop/Rock, Jazz, International, Folk, New Age",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Y9Yv67U_815luprU6uTDDASijaXJlYnq0St31qpAJWo=&f=3",
-        "date": "2020-04-17T00:00.000Z",
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=XLIAtY_Hs0LKRp28gkLM1ypQg_7iAU1wjqLgK_xGXts=&f=3",
+        "date": "2020-05-01T00:00.000Z",
         "sp_popularity": 0,
         "score": 60.0
     },
     {
-        "artist": "Primo",
-        "title": "Sogni",
+        "artist": "BOAT",
+        "title": "Tread Lightly",
         "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=_YWT1X9uDIO8v6xn5fX7OQSijaXJlYnq0St31qpAJWo=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Primo",
-        "sp_popularity": 29,
-        "sp_followers": 833,
-        "sp_artist_id": "34O5j4kXzwzwpusQApiRLA",
-        "sp_genres": [
-            "popwave"
-        ],
-        "score": 59.75
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=rYkP4zCjOb2yuv-9xuydYIAf7E_1E-2MlBBPmPAXRBU=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 0,
+        "score": 60.0
     },
     {
         "artist": "Lucinda Williams",
@@ -728,72 +444,20 @@
         "rating": 3.0,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=T8HGHNi5b_lwiXbJc4xxZSpQg_7iAU1wjqLgK_xGXts=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Lucinda Williams",
-        "sp_popularity": 58,
-        "sp_followers": 140220,
+        "sp_popularity": 60,
         "sp_artist_id": "60ht0hWRy1yjUDfNsLuHuP",
-        "sp_genres": [
-            "alternative country",
-            "anti-folk",
-            "country rock",
-            "folk",
-            "folk rock",
-            "heartland rock",
-            "indie folk",
-            "lilith",
-            "mellow gold",
-            "new americana",
-            "outlaw country",
-            "pop rock",
-            "roots rock",
-            "singer-songwriter",
-            "traditional folk"
-        ],
-        "score": 59.5
+        "score": 60.0
     },
     {
-        "artist": "Leslie Mendelson",
-        "title": "If You Can't Say Anything Nice",
+        "artist": "Houses of Heaven",
+        "title": "Silent Places",
         "genre": "Pop/Rock",
         "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=epuqKkLi6xOdbhM9Yh9QRipQg_7iAU1wjqLgK_xGXts=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "Leslie Mendelson",
-        "sp_popularity": 27,
-        "sp_followers": 1586,
-        "sp_artist_id": "5Nfp6FbYdlF3KQ2wojhW0l",
-        "sp_genres": [],
-        "score": 59.25
-    },
-    {
-        "artist": "EOB",
-        "title": "Earth",
-        "genre": "Pop/Rock, Electronic",
-        "rating": 3.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Gjp-bjglii3NTP-HhLn1yIAf7E_1E-2MlBBPmPAXRBU=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "EOB",
-        "sp_popularity": 53,
-        "sp_followers": 21457,
-        "sp_artist_id": "4CX6yOoTFQeiwL5yxuFuIG",
-        "sp_genres": [
-            "oxford indie"
-        ],
-        "score": 58.25
-    },
-    {
-        "artist": "The Howling Hex",
-        "title": "Knuckleball Express",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=9ETCyfRVFEaoY5c6mxWdnT6KsMttLlyBmmVTZ6_CLs0=&f=3",
-        "date": "2020-04-17T00:00.000Z",
-        "sp_artist": "The Howling Hex",
-        "sp_popularity": 22,
-        "sp_followers": 321,
-        "sp_artist_id": "4bKYclYcmlfz3GaEXZYuQw",
-        "sp_genres": [],
-        "score": 58.0
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=epuqKkLi6xOdbhM9Yh9QRlWnbEN5fCjifro6xhIBuB4=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 17,
+        "sp_artist_id": "0IR8xlqcSRQShBhCebrdiv",
+        "score": 56.75
     },
     {
         "artist": "Macula Dog",
@@ -802,15 +466,9 @@
         "rating": 3.5,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=jLwoeEVzV6kiRKLrsrpL_YAf7E_1E-2MlBBPmPAXRBU=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Macula Dog",
-        "sp_popularity": 12,
-        "sp_followers": 885,
+        "sp_popularity": 15,
         "sp_artist_id": "3UnInNZgdl0q6Wd24imO3T",
-        "sp_genres": [
-            "experimental indie",
-            "experimental pop"
-        ],
-        "score": 55.5
+        "score": 56.25
     },
     {
         "artist": "Danzig",
@@ -819,20 +477,30 @@
         "rating": 2.5,
         "image": "https://rovimusic.rovicorp.com/image.jpg?c=YtybjwesZHHcrU29B3nPMASijaXJlYnq0St31qpAJWo=&f=3",
         "date": "2020-04-24T00:00.000Z",
-        "sp_artist": "Danzig",
-        "sp_popularity": 60,
-        "sp_followers": 450744,
+        "sp_popularity": 61,
         "sp_artist_id": "34c4iQ5tkaZKu6Sv28BTde",
-        "sp_genres": [
-            "alternative metal",
-            "groove metal",
-            "hard rock",
-            "metal",
-            "rock",
-            "speed metal",
-            "stoner rock",
-            "thrash metal"
-        ],
-        "score": 52.5
+        "score": 52.75
+    },
+    {
+        "artist": "Caleb Landry Jones",
+        "title": "The Mother Stone",
+        "genre": "Pop/Rock",
+        "rating": 3.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=TN2NTrm7XpYaiBSqiNKMDCpQg_7iAU1wjqLgK_xGXts=&f=3",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 24,
+        "sp_artist_id": "736HHrEfkWjQB7zYV2aeXV",
+        "score": 51.0
+    },
+    {
+        "artist": "Marcos Valle",
+        "title": "Cinzento",
+        "genre": "Latin, Pop/Rock, International",
+        "rating": 0.0,
+        "image": "https://cdn-s3.allmusic.com/release-covers/250/0005/187/0005187388.jpg",
+        "date": "2020-05-01T00:00.000Z",
+        "sp_popularity": 54,
+        "sp_artist_id": "5I0EPnV9gwrZYTbScjnaOk",
+        "score": 13.5
     }
 ]

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <title>TrebleChef</title>
+<link rel="icon" href="static/icon_chef.png">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
     crossorigin="anonymous">
@@ -45,13 +46,19 @@
 
 <main class="container-fluid pl-0 pr-0">
 
-<!---------------------------- BANDCAMP TORONTO ----------------------------->
 <div class="row ml-3 mr-3 mt-3">
 <div class="col-lg-8 col-xl-8 mb-3">
 <div class="card bg-dark">
-<div class="card-header" style="font-size:1.2em">
-    Bandcamp Toronto
-    <div class="dropdown float-right dropleft">
+<div class="card-header pl-1 mt-1" style="padding: 0; font-size: 0">
+    <!-- <button type="button" class="region-button rb-active">Overall</button> -->
+    <button type="button " class="region-button rb-tor rb-active">Toronto</button>
+    <button type="button" class="region-button rb-mon">Montreal</button>
+    <button type="button" class="region-button rb-wes">British Columbia</button>
+    <button type="button" class="region-button rb-pra">Praries</button>
+    <button type="button" class="region-button rb-ont">Ontario</button>
+    <button type="button" class="region-button rb-que">Quebec</button>
+    <button type="button" class="region-button rb-atl">Atlantic</button>
+    <div class="dropdown float-right dropleft mt-1 mr-1" style="font-size: 1rem;">
         <a data-toggle="dropdown">
         <svg class="bi bi-three-dots-vertical" width="1em" height="1em" 
             viewBox="0 0 16 16" fill="currentColor" 
@@ -59,182 +66,199 @@
             <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm0-5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm0-5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" clip-rule="evenodd"/>
         </svg></a>
         <div class="dropdown-menu" style="background-color:#3e454d; color:#fff;">
-            <a class="dropdown-item toggle-genre-tor" style="cursor: pointer">Show Genres</a>
+            <a class="dropdown-item toggle-genre" style="cursor: pointer">Show Genres</a>
         </div>
     </div>
 </div>
 <div class="card-body" style="font-size:0; text-align: center;">
+
+<!---------------------------- BANDCAMP TORONTO ----------------------------->
+<div class="card-region card-tor">
 {% for result in results_tor[:25] %}
-    {% if loop.index <= 5 %}
-    <div class="container pl-0 pr-0" style="display: inline-block; width:18.8%; position:relative">
-    {% elif loop.index <= 11 %}
-    <div class="container pl-0 pr-0" style="display: inline-block; width:15.65%; position:relative">
-    {% else %}
-    <div class="container pl-0 pr-0" style="display: inline-block; width:13.4%; position:relative">
-    {% endif %}
-    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" target="_blank">
-        <img src="{{ result['sp_img'] }}" width="100%">
-    </a>
-    <div class="genre-tor" style="position:absolute; top:1px; right:1px; display:none;">
-        {% if result['genre'] == 'pop' %}
-        <span class="badge badge-pill" style="background-color:#87CEEB; color:white">
-            {{result['genre']}}</span>
-        {% elif result['genre'] == 'folk' %}
-        <span class="badge badge-pill" style="background-color:#DAA520; color:black">
-            {{result['genre']}}</span>
-        {% elif result['genre'] == 'electronic' %}
-        <span class="badge badge-pill" style="background-color:#C0C0C0; color:black">
-            {{result['genre']}}</span>
-        {% elif result['genre'] == 'rock' %}
-        <span class="badge badge-pill" style="background-color:#DC143C; color:white">
-            {{result['genre']}}</span>
-        {% elif result['genre'] == 'jazz' %}
-        <span class="badge badge-pill" style="background-color:#FFC0CB; color:black">
-            {{result['genre']}}</span>
-        {% elif result['genre'] == 'alternative' %}
-        <span class="badge badge-pill" style="background-color:#D2691E; color:black">
-            {{result['genre']}}</span>
-        {% elif result['genre'] == 'experimental' %}
-        <span class="badge badge-pill" style="background-color:#008000; color:white">
-            {{result['genre']}}</span>
-        {% elif result['genre'] == 'punk' %}
-        <span class="badge badge-pill" style="background-color:#FF0080; color:white">
-            {{result['genre']}}</span>
-        {% else %}
-        <span class="badge badge-pill badge-primary">{{result['genre']}}</span>
-        {% endif %}
-    </div>
-    </div>
+{% if loop.index <= 5 %}
+<div class="container album-display pl-0 pr-0" style="width:18.8%">
+{% elif loop.index <= 11 %}
+<div class="container album-display pl-0 pr-0" style="width:15.66%">
+{% else %}
+<div class="container album-display pl-0 pr-0" style="width:13.43%">
+{% endif %}
+<a href="{{ result['url'] }}" target="_blank">
+    <img src="{{ result['sp_img'] }}" width="100%">
+</a>
+<div class="genre-badge">
+    <span class="badge badge-pill genre-{{result['genre'] | 
+        replace ('hip-hop/rap','hiphop') | replace ('r&b/soul','rbsoul')}} ">
+        {{result['genre']}}</span>
+</div>
+</div>
 {% endfor %}
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-xl-4">
-<div class="card bg-dark">
-<div class="card-body">
-<table class="table table-sm mb-0">
-    <thead>
-    <tr>
-        <th>Release</th>
-        <th data-toggle="tooltip" title="Spotify Popularity (/100)">
-            <object class="align-bottom" style="height:30px" 
-                type="image/svg+xml" data="static/icon_spotify.svg">
-        </th>
-        <th data-toggle="tooltip" title="Treble Chef's Score (/100)">
-            <!-- Retrieved from flaticon -->
-            <object class="align-bottom" style="height:30px" 
-                type="image/svg+xml" data="static/icon_chef.svg">
-        </th>
-    </tr>
-    </thead>
-    <tbody>
-{% for result in results_tor[:5] %}
-    <tr>
-    <td>
-    <span style="font-size:1.1rem">
-    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
-        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
-    <br/>
-    <span style="color:#dedede; font-size:0.8rem">
-    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
-        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
-    </td>
-    <td class="align-middle">{{result['sp_popularity']}}</td>
-    <td class="align-middle">{{result['score']|round|int}}</td>
-    </tr>
-{% endfor %}
-</tbody>
-</table>
-</div>
-</div>
-</div>
 </div>
 
 <!---------------------------- BANDCAMP MONTREAL ----------------------------->
-<div class="row ml-3 mr-3 mt-3">
-<div class="col-lg-8 col-xl-8 mb-3">
-<div class="card bg-dark">
-<div class="card-header" style="font-size:1.2em">
-    Bandcamp Montreal
-    <div class="dropdown float-right dropleft">
-        <a data-toggle="dropdown">
-        <svg class="bi bi-three-dots-vertical" width="1em" height="1em" 
-            viewBox="0 0 16 16" fill="currentColor" 
-            xmlns="http://www.w3.org/2000/svg" style="cursor: pointer">
-            <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm0-5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm0-5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" clip-rule="evenodd"/>
-        </svg></a>
-        <div class="dropdown-menu" style="background-color:#3e454d; color:#fff;">
-            <a class="dropdown-item toggle-genre-mon" style="cursor: pointer">Show Genres</a>
-        </div>
-    </div>
-</div>
-<div class="card-body" style="font-size:0; text-align: center;">
+<div class="card-region card-mon" style="display:none">
 {% for result in results_mon[:25] %}
 {% if loop.index <= 5 %}
-<div class="container pl-0 pr-0" style="display: inline-block; width:18.8%; position:relative">
+<div class="container album-display pl-0 pr-0" style="width:18.8%">
 {% elif loop.index <= 11 %}
-<div class="container pl-0 pr-0" style="display: inline-block; width:15.65%; position:relative">
+<div class="container album-display pl-0 pr-0" style="width:15.66%">
 {% else %}
-<div class="container pl-0 pr-0" style="display: inline-block; width:13.4%; position:relative">
+<div class="container album-display pl-0 pr-0" style="width:13.43%">
 {% endif %}
-<a href="https://open.spotify.com/album/{{result['sp_album_id']}}" target="_blank">
+<a href="{{ result['url'] }}" target="_blank">
     <img src="{{ result['sp_img'] }}" width="100%">
 </a>
-<div class="genre-mon" style="position:absolute; top:1px; right:1px; display:none;">
-    {% if result['genre'] == 'pop' %}
-    <span class="badge badge-pill" style="background-color:#87CEEB; color:white">
+<div class="genre-badge">
+    <span class="badge badge-pill genre-{{result['genre'] | 
+        replace ('hip-hop/rap','hiphop') | replace ('r&b/soul','rbsoul')}} ">
         {{result['genre']}}</span>
-    {% elif result['genre'] == 'folk' %}
-    <span class="badge badge-pill" style="background-color:#DAA520; color:black">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'electronic' %}
-    <span class="badge badge-pill" style="background-color:#C0C0C0; color:black">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'rock' %}
-    <span class="badge badge-pill" style="background-color:#DC143C; color:white">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'jazz' %}
-    <span class="badge badge-pill" style="background-color:#FFC0CB; color:black">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'alternative' %}
-    <span class="badge badge-pill" style="background-color:#D2691E; color:black">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'experimental' %}
-    <span class="badge badge-pill" style="background-color:#008000; color:white">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'punk' %}
-    <span class="badge badge-pill" style="background-color:#FF0080; color:white">
-        {{result['genre']}}</span>
-    {% else %}
-    <span class="badge badge-pill badge-primary">{{result['genre']}}</span>
-    {% endif %}
 </div>
 </div>
 {% endfor %}
 </div>
+
+<!------------------------ BANDCAMP BRITISH COLUMBIA ------------------------->
+<div class="card-region card-wes" style="display:none">
+{% for result in results_wes[:25] %}
+{% if loop.index <= 5 %}
+<div class="container album-display pl-0 pr-0" style="width:18.8%">
+{% elif loop.index <= 11 %}
+<div class="container album-display pl-0 pr-0" style="width:15.66%">
+{% else %}
+<div class="container album-display pl-0 pr-0" style="width:13.43%">
+{% endif %}
+<a href="{{ result['url'] }}" target="_blank">
+    <img src="{{ result['sp_img'] }}" width="100%">
+</a>
+<div class="genre-badge">
+    <span class="badge badge-pill genre-{{result['genre'] | 
+        replace ('hip-hop/rap','hiphop') | replace ('r&b/soul','rbsoul')}} ">
+        {{result['genre']}}</span>
 </div>
 </div>
+{% endfor %}
+</div>
+
+<!---------------------------- BANDCAMP PRARIES ----------------------------->
+<div class="card-region card-pra" style="display:none">
+{% for result in results_pra[:25] %}
+{% if loop.index <= 5 %}
+<div class="container album-display pl-0 pr-0" style="width:18.8%;">
+{% elif loop.index <= 11 %}
+<div class="container album-display pl-0 pr-0" style="width:15.66%;">
+{% else %}
+<div class="container album-display pl-0 pr-0" style="width:13.43%;">
+{% endif %}
+<a href="{{ result['url'] }}" target="_blank">
+    <img src="{{ result['sp_img'] }}" width="100%">
+</a>
+<div class="genre-badge">
+    <span class="badge badge-pill genre-{{result['genre'] | 
+        replace ('hip-hop/rap','hiphop') | replace ('r&b/soul','rbsoul')}} ">
+        {{result['genre']}}</span>
+</div>
+</div>
+{% endfor %}
+</div>
+
+<!---------------------------- BANDCAMP ONTARIO ----------------------------->
+<div class="card-region card-ont" style="display:none">
+{% for result in results_ont[:25] %}
+{% if loop.index <= 5 %}
+<div class="container album-display pl-0 pr-0" style="width:18.8%;">
+{% elif loop.index <= 11 %}
+<div class="container album-display pl-0 pr-0" style="width:15.66%;">
+{% else %}
+<div class="container album-display pl-0 pr-0" style="width:13.43%;">
+{% endif %}
+<a href="{{ result['url'] }}" target="_blank">
+    <img src="{{ result['sp_img'] }}" width="100%">
+</a>
+<div class="genre-badge">
+    <span class="badge badge-pill genre-{{result['genre'] | 
+        replace ('hip-hop/rap','hiphop') | replace ('r&b/soul','rbsoul')}} ">
+        {{result['genre']}}</span>
+</div>
+</div>
+{% endfor %}
+</div>
+
+<!---------------------------- BANDCAMP QUEBEC ----------------------------->
+<div class="card-region card-que" style="display:none">
+{% for result in results_que[:25] %}
+{% if loop.index <= 5 %}
+<div class="container album-display pl-0 pr-0" style="width:18.8%;">
+{% elif loop.index <= 11 %}
+<div class="container album-display pl-0 pr-0" style="width:15.66%;">
+{% else %}
+<div class="container album-display pl-0 pr-0" style="width:13.43%;">
+{% endif %}
+<a href="{{ result['url'] }}" target="_blank">
+    <img src="{{ result['sp_img'] }}" width="100%">
+</a>
+<div class="genre-badge">
+    <span class="badge badge-pill genre-{{result['genre'] | 
+        replace ('hip-hop/rap','hiphop') | replace ('r&b/soul','rbsoul')}} ">
+        {{result['genre']}}</span>
+</div>
+</div>
+{% endfor %}
+</div>
+
+<!---------------------------- BANDCAMP ATLANTIC ----------------------------->
+<div class="card-region card-atl" style="display:none">
+{% for result in results_atl[:25] %}
+{% if loop.index <= 5 %}
+<div class="container album-display pl-0 pr-0" style="width:18.8%;">
+{% elif loop.index <= 11 %}
+<div class="container album-display pl-0 pr-0" style="width:15.66%;">
+{% else %}
+<div class="container album-display pl-0 pr-0" style="width:13.43%;">
+{% endif %}
+<a href="{{ result['url'] }}" target="_blank">
+    <img src="{{ result['sp_img'] }}" width="100%">
+</a>
+<div class="genre-badge">
+    <span class="badge badge-pill genre-{{result['genre'] | 
+        replace ('hip-hop/rap','hiphop') | replace ('r&b/soul','rbsoul')}} ">
+        {{result['genre']}}</span>
+</div>
+</div>
+{% endfor %}
+</div>
+
+</div>
+</div>
+</div>
+
+<!----------------------------------------------------------------------->
+<!----------------------------------------------------------------------->
+<!---------------------------- TOP RELEASES ----------------------------->
+<!----------------------------------------------------------------------->
+<!----------------------------------------------------------------------->
+
 <div class="col-lg-4 col-xl-4">
 <div class="card bg-dark">
 <div class="card-body">
 <table class="table table-sm mb-0">
-    <thead>
-    <tr>
-        <th>Release</th>
-        <th data-toggle="tooltip" title="Spotify Popularity (/100)">
-            <object class="align-bottom" style="height:30px" 
-                type="image/svg+xml" data="static/icon_spotify.svg">
-        </th>
-        <th data-toggle="tooltip" title="Treble Chef's Score (/100)">
-            <!-- Retrieved from flaticon -->
-            <object class="align-bottom" style="height:30px" 
-                type="image/svg+xml" data="static/icon_chef.svg">
-        </th>
-    </tr>
-    </thead>
-    <tbody>
-{% for result in results_mon[:5] %}
-    <tr>
+<thead>
+<tr>
+    <th>Release</th>
+    <th data-toggle="tooltip" title="Spotify Popularity (/100)">
+        <object class="align-bottom" style="height:30px" 
+            type="image/svg+xml" data="static/icon_spotify.svg">
+    </th>
+    <th data-toggle="tooltip" title="Treble Chef's Score (/100)">
+        <!-- Retrieved from flaticon -->
+        <object class="align-bottom" style="height:30px" 
+            type="image/svg+xml" data="static/icon_chef.svg">
+    </th>
+</tr>
+</thead>
+
+<!---------------------------- BANDCAMP TORONTO ----------------------------->
+<tbody class="card-top-release card-tor">
+{% for result in results_tor[:5] %}
+<tr>
     <td>
     <span style="font-size:1.1rem">
     <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
@@ -246,119 +270,130 @@
     </td>
     <td class="align-middle">{{result['sp_popularity']}}</td>
     <td class="align-middle">{{result['score']|round|int}}</td>
-    </tr>
+</tr>
+{% endfor %}
+</tbody>
+
+<!---------------------------- BANDCAMP MONTREAL ----------------------------->
+<tbody class="card-top-release card-mon" style="display:none">
+{% for result in results_mon[:5] %}
+<tr>
+    <td>
+    <span style="font-size:1.1rem">
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
+    <br/>
+    <span style="color:#dedede; font-size:0.8rem">
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
+    </td>
+    <td class="align-middle">{{result['sp_popularity']}}</td>
+    <td class="align-middle">{{result['score']|round|int}}</td>
+</tr>
+{% endfor %}
+</tbody>
+
+<!------------------------ BANDCAMP BRITISH COLUMBIA ------------------------->
+<tbody class="card-top-release card-wes" style="display:none">
+{% for result in results_wes[:5] %}
+<tr>
+    <td>
+    <span style="font-size:1.1rem">
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
+    <br/>
+    <span style="color:#dedede; font-size:0.8rem">
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
+    </td>
+    <td class="align-middle">{{result['sp_popularity']}}</td>
+    <td class="align-middle">{{result['score']|round|int}}</td>
+</tr>
+{% endfor %}
+</tbody>
+
+<!---------------------------- BANDCAMP PRARIES  ----------------------------->
+<tbody class="card-top-release card-pra" style="display:none">
+{% for result in results_pra[:5] %}
+<tr>
+    <td>
+    <span style="font-size:1.1rem">
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
+    <br/>
+    <span style="color:#dedede; font-size:0.8rem">
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
+    </td>
+    <td class="align-middle">{{result['sp_popularity']}}</td>
+    <td class="align-middle">{{result['score']|round|int}}</td>
+</tr>
+{% endfor %}
+</tbody>
+
+<!---------------------------- BANDCAMP ONTARIO  ----------------------------->
+<tbody class="card-top-release card-ont" style="display:none">
+{% for result in results_ont[:5] %}
+<tr>
+    <td>
+    <span style="font-size:1.1rem">
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
+    <br/>
+    <span style="color:#dedede; font-size:0.8rem">
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
+    </td>
+    <td class="align-middle">{{result['sp_popularity']}}</td>
+    <td class="align-middle">{{result['score']|round|int}}</td>
+</tr>
+{% endfor %}
+</tbody>
+
+<!---------------------------- BANDCAMP QUEBEC  ----------------------------->
+<tbody class="card-top-release card-que" style="display:none">
+{% for result in results_que[:5] %}
+<tr>
+    <td>
+    <span style="font-size:1.1rem">
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
+    <br/>
+    <span style="color:#dedede; font-size:0.8rem">
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
+    </td>
+    <td class="align-middle">{{result['sp_popularity']}}</td>
+    <td class="align-middle">{{result['score']|round|int}}</td>
+</tr>
+{% endfor %}
+</tbody>
+
+<!---------------------------- BANDCAMP ATLANTIC  ----------------------------->
+<tbody class="card-top-release card-atl" style="display:none">
+{% for result in results_atl[:5] %}
+<tr>
+    <td>
+    <span style="font-size:1.1rem">
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
+    <br/>
+    <span style="color:#dedede; font-size:0.8rem">
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
+    </td>
+    <td class="align-middle">{{result['sp_popularity']}}</td>
+    <td class="align-middle">{{result['score']|round|int}}</td>
+</tr>
 {% endfor %}
 </tbody>
 </table>
+
 </div>
 </div>
 </div>
 </div>
 
-<!---------------------------- BANDCAMP VANCOUVER ----------------------------->
-<div class="row ml-3 mr-3 mt-3">
-<div class="col-lg-8 col-xl-8 mb-3">
-<div class="card bg-dark">
-<div class="card-header" style="font-size:1.2em">
-    Bandcamp Vancouver
-    <div class="dropdown float-right dropleft">
-        <a data-toggle="dropdown">
-        <svg class="bi bi-three-dots-vertical" width="1em" height="1em" 
-            viewBox="0 0 16 16" fill="currentColor" 
-            xmlns="http://www.w3.org/2000/svg" style="cursor: pointer">
-            <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm0-5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm0-5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" clip-rule="evenodd"/>
-        </svg></a>
-        <div class="dropdown-menu" style="background-color:#3e454d; color:#fff;">
-            <a class="dropdown-item toggle-genre-van" style="cursor: pointer">Show Genres</a>
-        </div>
-    </div>
-</div>
-<div class="card-body" style="font-size:0; text-align: center;">
-{% for result in results_van[:25] %}
-{% if loop.index <= 5 %}
-<div class="container pl-0 pr-0" style="display: inline-block; width:18.8%; position:relative">
-{% elif loop.index <= 11 %}
-<div class="container pl-0 pr-0" style="display: inline-block; width:15.65%; position:relative">
-{% else %}
-<div class="container pl-0 pr-0" style="display: inline-block; width:13.4%; position:relative">
-{% endif %}
-<a href="https://open.spotify.com/album/{{result['sp_album_id']}}" target="_blank">
-    <img src="{{ result['sp_img'] }}" width="100%">
-</a>
-<div class="genre-van" style="position:absolute; top:1px; right:1px; display:none;">
-    {% if result['genre'] == 'pop' %}
-    <span class="badge badge-pill" style="background-color:#87CEEB; color:white">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'folk' %}
-    <span class="badge badge-pill" style="background-color:#DAA520; color:black">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'electronic' %}
-    <span class="badge badge-pill" style="background-color:#C0C0C0; color:black">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'rock' %}
-    <span class="badge badge-pill" style="background-color:#DC143C; color:white">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'jazz' %}
-    <span class="badge badge-pill" style="background-color:#FFC0CB; color:black">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'alternative' %}
-    <span class="badge badge-pill" style="background-color:#D2691E; color:black">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'experimental' %}
-    <span class="badge badge-pill" style="background-color:#008000; color:white">
-        {{result['genre']}}</span>
-    {% elif result['genre'] == 'punk' %}
-    <span class="badge badge-pill" style="background-color:#FF0080; color:white">
-        {{result['genre']}}</span>
-    {% else %}
-    <span class="badge badge-pill badge-primary">{{result['genre']}}</span>
-    {% endif %}
-</div>
-</div>
-{% endfor %}
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-xl-4">
-<div class="card bg-dark">
-<div class="card-body">
-<table class="table table-sm mb-0">
-    <thead>
-    <tr>
-        <th>Release</th>
-        <th data-toggle="tooltip" title="Spotify Popularity (/100)">
-            <object class="align-bottom" style="height:30px" 
-                type="image/svg+xml" data="static/icon_spotify.svg">
-        </th>
-        <th data-toggle="tooltip" title="Treble Chef's Score (/100)">
-            <!-- Retrieved from flaticon -->
-            <object class="align-bottom" style="height:30px" 
-                type="image/svg+xml" data="static/icon_chef.svg">
-        </th>
-    </tr>
-    </thead>
-    <tbody>
-{% for result in results_van[:5] %}
-    <tr>
-    <td>
-    <span style="font-size:1.1rem">
-    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
-        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
-    <br/>
-    <span style="color:#dedede; font-size:0.8rem">
-    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
-        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
-    </td>
-    <td class="align-middle">{{result['sp_popularity']}}</td>
-    <td class="align-middle">{{result['score']|round|int}}</td>
-    </tr>
-{% endfor %}
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
 
 </main>
 

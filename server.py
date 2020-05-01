@@ -5,6 +5,12 @@ from flask_frozen import Freezer
 app = Flask(__name__)
 freezer = Freezer(app)
 
+BC_TAGS = ['britishcolumbia', 'vancouver', 'victoria']
+PRARIE_TAGS = ['alberta', 'edmonton', 'calgary', 'saskatchewan', 'manitoba']
+ONTARIO_TAGS = ['toronto', 'ottawa', 'ontario']
+QUEBEC_TAGS = ['montreal', 'quebec']
+ATLANTIC_TAGS = ['newfoundland', 'novascotia', 'newbrunswick', 'pei']
+
 
 @app.route('/')
 def index():
@@ -19,16 +25,22 @@ def index():
 
 @app.route('/canada.html')
 def canada():
-    with open('scripts/results/toronto.json') as f:
-        results_tor = json.load(f)
-    with open('scripts/results/montreal.json') as f:
-        results_mon = json.load(f)
-    with open('scripts/results/vancouver.json') as f:
-        results_van = json.load(f)
+    with open('scripts/results/canada.json') as f:
+        rs = json.load(f)
+        results_tor = [d for d in rs if d.get('region') == 'toronto']
+        results_mon = [d for d in rs if d.get('region') == 'montreal']
+        results_wes = [d for d in rs if d.get('region') in BC_TAGS]
+        results_pra = [d for d in rs if d.get('region') in PRARIE_TAGS]
+        results_ont = [d for d in rs if d.get('region') in ONTARIO_TAGS]
+        results_que = [d for d in rs if d.get('region') in QUEBEC_TAGS]
+        results_atl = [d for d in rs if d.get('region') in ATLANTIC_TAGS]
     date_str = datetime.date.today().strftime('%m-%d-%Y')
+
     return render_template('canada_t.html', date_str=date_str,
         results_tor=results_tor, results_mon=results_mon,
-        results_van=results_van)
+        results_wes=results_wes, results_atl=results_atl,
+        results_pra=results_pra, results_ont=results_ont,
+        results_que=results_que)
 
 
 if __name__ == "__main__":

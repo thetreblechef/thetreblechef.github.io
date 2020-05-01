@@ -9,7 +9,7 @@ sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 
 
 # Given a list of album dicts, search details about the primary artist.
-def get_spotify_results(results):
+def get_spotify_artist(results):
     for result in results:
         # Spotify results.
         sp_results = sp.search(result['artist'],
@@ -27,11 +27,8 @@ def get_spotify_results(results):
         if not(sp_result):
             continue
 
-        result['sp_artist'] = sp_result['name']
         result['sp_popularity'] = sp_result['popularity']
         result['sp_artist_id'] = sp_result['id']
-        # result['sp_followers'] = sp_result['followers']['total']
-        # result['sp_genres'] = sp_result['genres']
 
     return results
 

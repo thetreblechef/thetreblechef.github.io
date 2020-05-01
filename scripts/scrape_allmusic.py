@@ -43,10 +43,6 @@ def get_allmusic_newreleases():
             stars = len(meta.find_all('img', class_='blue star')) + \
                 0.5 * len(meta.find_all('img', class_='blue half'))
 
-            # choice_flag = False
-            # if "Editors' Choice" in img.get_text():
-            #     choice_flag = True
-
             # Skip albums that meet certain criteria.
             if any(gen in genre_str for gen in GENRE_IGNORE_LIST):
                 continue
@@ -69,7 +65,7 @@ def get_allmusic_newreleases():
 
 
 results = get_allmusic_newreleases()
-results = scrape.get_spotify_results(results)
+results = scrape.get_spotify_artist(results)
 
 # Create treblechef recommendation score.
 for result in results:
@@ -85,7 +81,7 @@ results = sorted(results, key=lambda k: k['score'], reverse=True)
 # Write results to csv and json files.
 with open('results/results_am.csv', mode='w') as csv_file:
     fieldnames = ['artist', 'title', 'genre', 'rating', 'date',
-        'image', 'score', 'sp_artist', 'sp_popularity', 'sp_artist_id']
+        'image', 'score', 'sp_popularity', 'sp_artist_id']
     csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
     csv_writer.writeheader()

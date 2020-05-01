@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <title>TrebleChef</title>
+<link rel="icon" href="static/icon_chef.png">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
     crossorigin="anonymous">
@@ -43,131 +44,124 @@
     </div>
 </nav>
 
-<main class="container-fluid">
+<main class="container-fluid pl-0 pr-0">
 
-<!---------------------------- ALL MUSIC ----------------------------->
 <div class="row ml-3 mr-3 mt-3">
 <div class="col-lg-8 col-xl-8 mb-3">
 <div class="card bg-dark">
-<div class="card-header" style="font-size:1.2em">
-    AllMusic Recommendations
+<div class="card-header pl-1 mt-1" style="padding: 0; font-size: 0">
+    <button type="button " class="region-button rb-pf rb-active">Pitchfork</button>
+    <button type="button" class="region-button rb-am">AllMusic</button>
 </div>
 <div class="card-body" style="font-size:0; text-align: center;">
-{% for result in results_am[:25] %}
-    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
-        target="_blank">
-    {% if loop.index <= 5 %}
-        <img src="{{ result['image'] }}" width="18.8%">
-    {% elif loop.index <= 11 %}
-        <img src="{{ result['image'] }}" width="15.5%">
-    {% else %}
-        <img src="{{ result['image'] }}" width="13%">
-    {% endif %}
-    </a>
-{% endfor %}
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-xl-4">
-<div class="card bg-dark">
-<div class="card-body">
-<table class="table table-sm mb-0">
-    <thead>
-    <tr>
-        <th>Release</th>
-        <th data-toggle="tooltip" title="Spotify Popularity (/100)">
-            <object class="align-bottom" style="height:30px" 
-                type="image/svg+xml" data="static/icon_spotify.svg">
-        </th>
-        <th data-toggle="tooltip" title="Treble Chef's Score (/100)">
-            <!-- Retrieved from flaticon -->
-            <object class="align-bottom" style="height:30px" 
-                type="image/svg+xml" data="static/icon_chef.svg">
-        </th>
-    </tr>
-    </thead>
-    <tbody>
-{% for result in results_am[:5] %}
-    <tr>
-    <td>
-    <span style="font-size:1.1rem">
-    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
-        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
-    <br/>
-    <span style="color:#dedede; font-size:0.8rem">{{result['title']}}</span>
-    </td>
-    <td class="align-middle">{{result['sp_popularity']}}</td>
-    <td class="align-middle">{{result['score']|round|int}}</td>
-    </tr>
-{% endfor %}
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
 
-<!---------------------------- Pitchfork ----------------------------->
-<div class="row ml-3 mr-3 mt-3">
-<div class="col-lg-8 col-xl-8 mb-3">
-<div class="card bg-dark">
-<div class="card-header" style="font-size:1.2em">
-    Pitchfork Recommendations
-</div>
-<div class="card-body" style="font-size:0; text-align: center;">
+<!---------------------------- PITCHFORK -------------------------------->
+<div class="card-region card-pf">
 {% for result in results_pf[:25] %}
-    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
-        target="_blank">
-    {% if loop.index <= 5 %}
-        <img src="{{ result['image'] }}" width="18.8%">
-    {% elif loop.index <= 11 %}
-        <img src="{{ result['image'] }}" width="15.5%">
-    {% else %}
-        <img src="{{ result['image'] }}" width="13%">
-    {% endif %}
-    </a>
+{% if loop.index <= 5 %}
+<div class="container album-display pl-0 pr-0" style="width:18.8%">
+{% elif loop.index <= 11 %}
+<div class="container album-display pl-0 pr-0" style="width:15.66%">
+{% else %}
+<div class="container album-display pl-0 pr-0" style="width:13.43%">
+{% endif %}
+<a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" target="_blank">
+    <img src="{{ result['image'] }}" width="100%">
+</a>
+</div>
 {% endfor %}
 </div>
+
+<!---------------------------- ALLMUSIC -------------------------------->
+<div class="card-region card-am" style="display:none">
+{% for result in results_am[:25] %}
+{% if loop.index <= 5 %}
+<div class="container album-display pl-0 pr-0" style="width:18.8%;">
+{% elif loop.index <= 11 %}
+<div class="container album-display pl-0 pr-0" style="width:15.66%;">
+{% else %}
+<div class="container album-display pl-0 pr-0" style="width:13.43%;">
+{% endif %}
+<a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" target="_blank">
+    <img src="{{ result['image'] }}" width="100%">
+</a>
+</div>
+{% endfor %}
+</div>
+
 </div>
 </div>
+</div>
+
+<!----------------------------------------------------------------------->
+<!----------------------------------------------------------------------->
+<!---------------------------- TOP RELEASES ----------------------------->
+<!----------------------------------------------------------------------->
+<!----------------------------------------------------------------------->
+
 <div class="col-lg-4 col-xl-4">
 <div class="card bg-dark">
 <div class="card-body">
 <table class="table table-sm mb-0">
-    <thead>
-    <tr>
-        <th>Release</th>
-        <th data-toggle="tooltip" title="Spotify Popularity (/100)">
-            <object class="align-bottom" style="height:30px" 
-                type="image/svg+xml" data="static/icon_spotify.svg">
-        </th>
-        <th data-toggle="tooltip" title="Treble Chef's Score (/100)">
-            <!-- Retrieved from flaticon -->
-            <object class="align-bottom" style="height:30px" 
-                type="image/svg+xml" data="static/icon_chef.svg">
-        </th>
-    </tr>
-    </thead>
-    <tbody>
+<thead>
+<tr>
+    <th>Release</th>
+    <th data-toggle="tooltip" title="Spotify Popularity (/100)">
+        <object class="align-bottom" style="height:30px" 
+            type="image/svg+xml" data="static/icon_spotify.svg">
+    </th>
+    <th data-toggle="tooltip" title="Treble Chef's Score (/100)">
+        <!-- Retrieved from flaticon -->
+        <object class="align-bottom" style="height:30px" 
+            type="image/svg+xml" data="static/icon_chef.svg">
+    </th>
+</tr>
+</thead>
+
+<!---------------------------- PITCHFORK ----------------------------->
+<tbody class="card-top-release card-pf">
 {% for result in results_pf[:5] %}
-    <tr>
+<tr>
     <td>
     <span style="font-size:1.1rem">
     <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
         target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
     <br/>
-    <span style="color:#dedede; font-size:0.8rem">{{result['title']}}</span>
+    <span style="color:#dedede; font-size:0.8rem">
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
     </td>
     <td class="align-middle">{{result['sp_popularity']}}</td>
     <td class="align-middle">{{result['score']|round|int}}</td>
-    </tr>
+</tr>
+{% endfor %}
+</tbody>
+
+<!---------------------------- ALLMUSIC  ----------------------------->
+<tbody class="card-top-release card-am" style="display:none">
+{% for result in results_am[:5] %}
+<tr>
+    <td>
+    <span style="font-size:1.1rem">
+    <a href="https://open.spotify.com/artist/{{result['sp_artist_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['artist']}}</a></span>
+    <br/>
+    <span style="color:#dedede; font-size:0.8rem">
+    <a href="https://open.spotify.com/album/{{result['sp_album_id']}}" 
+        target="_blank" style="color: #ffffff;">{{result['title']}}</a></span>
+    </td>
+    <td class="align-middle">{{result['sp_popularity']}}</td>
+    <td class="align-middle">{{result['score']|round|int}}</td>
+</tr>
 {% endfor %}
 </tbody>
 </table>
+
 </div>
 </div>
 </div>
 </div>
+
 
 </main>
 

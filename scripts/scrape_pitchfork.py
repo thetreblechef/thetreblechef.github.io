@@ -53,7 +53,7 @@ def get_pitchfork_newreleases():
 
 
 results = get_pitchfork_newreleases()
-results = scrape.get_spotify_results(results)
+results = scrape.get_spotify_artist(results)
 
 # Create treblechef recommendation score
 for result in results:
@@ -69,7 +69,7 @@ results = sorted(results, key=lambda k: k['score'], reverse=True)
 # Write results to csv and json files.
 with open('results/results_pf.csv', mode='w') as csv_file:
     fieldnames = ['artist', 'title', 'genre', 'rating', 'date',
-        'image', 'score', 'sp_artist', 'sp_popularity', 'sp_artist_id']
+        'image', 'score', 'sp_popularity', 'sp_artist_id']
     csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
     csv_writer.writeheader()
