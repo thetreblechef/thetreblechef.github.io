@@ -2,13 +2,14 @@ import requests
 import json
 import csv
 import scrape
-import datetime
+from datetime import datetime
 from bs4 import BeautifulSoup
 
 
+# Scrape the pitchfork reviews page. Search 5 pages ~ 50 results.
 def get_pitchfork_newreleases():
     results = list()
-    PAGES_TO_SEARCH = 3
+    PAGES_TO_SEARCH = 5
 
     # Search the pages and append to list of album dicts.
     for i in range(1, PAGES_TO_SEARCH + 1):
@@ -30,7 +31,7 @@ def get_pitchfork_newreleases():
             # Check if result is a reissue. Can be -1 year for Dec -> Jan.
             album_year = (result['tombstone']['albums']
                 [0]['album']['release_year'])
-            current_year = datetime.datetime.today().year
+            current_year = datetime.today().year
             if current_year - album_year > 1 or result['tombstone']['bnr']:
                 continue
 
@@ -39,41 +40,55 @@ def get_pitchfork_newreleases():
             image_str = result['tombstone']['albums'][0]['album']
             image_str = image_str['photos']['tout']['sizes']['homepageLarge']
             rating_str = result['tombstone']['albums'][0]['rating']['rating']
-            date_str = result['pubDate']
 
             genre_str = None
             if result['genres']:
                 genre_str = result['genres'][0]['display_name']
 
+            # Title Fix. Remove " EP" from end of string. Helps Spotipy.
+            if title_str[-3:] == ' EP':
+                title_str = title_str[:-3]
+
             results.append({'artist': artist_str, 'title': title_str,
                 'genre': genre_str, 'rating': float(rating_str),
-                'image': image_str, 'date': date_str})
+                'image': image_str})
 
     return results
 
 
-results = get_pitchfork_newreleases()
-results = scrape.get_spotify_artist(results)
+# Generate and sort by treblechef recommendation score.
+def get_pitchfork_scores(album_list):
+    for album in album_list:
+        if not('sp_popularity' in album):
+            album['sp_popularity'] = 0
+        date_obj = datetime.strptime(album['sp_date'], "%Y-%m-%dT00:00.000Z")
+        time_score = 60 - (datetime.now() - date_obj).days
+        album['score'] = (album['rating'] / 10) * 60 + \
+            album['sp_popularity'] / 100 * 20 + \
+            time_score / 60 * 20
+        album['score'] = round(album['score'], 3)
 
-# Create treblechef recommendation score
-for result in results:
-    if not('sp_popularity' in result):
-        result['sp_popularity'] = 0
-    result['score'] = (result['rating'] / 10) * 75 + \
-        (result['sp_popularity'] / 100) * 25
-    result['score'] = round(result['score'], 3)
+    album_list = sorted(album_list, key=lambda k: k['score'], reverse=True)
+    return album_list
+
+
+# WHERE THE SEARCHING TAKES PLACE ######################################
+
+releases = get_pitchfork_newreleases()
+releases = scrape.get_spotify_albums(releases)
+releases = scrape.get_spotify_artist(releases)
+releases = get_pitchfork_scores(releases)
 
 # Sort by treblechef recommendation score.
-results = sorted(results, key=lambda k: k['score'], reverse=True)
+releases = sorted(releases, key=lambda k: k['score'], reverse=True)
 
 # Write results to csv and json files.
 with open('results/results_pf.csv', mode='w') as csv_file:
-    fieldnames = ['artist', 'title', 'genre', 'rating', 'date',
-        'image', 'score', 'sp_popularity', 'sp_artist_id']
+    fieldnames = ['artist', 'title', 'genre', 'rating', 'image', 'score',
+        'sp_popularity', 'sp_date', 'sp_img', 'sp_album_id', 'sp_artist_id']
     csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-
     csv_writer.writeheader()
-    csv_writer.writerows(results)
+    csv_writer.writerows(releases)
 
 with open('results/results_pf.json', 'w') as json_file:
-    json.dump(results, json_file, indent=4)
+    json.dump(releases, json_file, indent=4)

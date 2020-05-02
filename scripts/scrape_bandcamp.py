@@ -15,8 +15,8 @@ LOCATION_CODES = {'novascotia': 6091530, 'ottawa': 6094817, 'pei': 6113358,
 def get_bandcamp_releases(tag_str, page_count=10,
         location_id=0, region_str=None, sort_str='pop'):
     url = 'https://bandcamp.com/api/hub/2/dig_deeper'
-    GENRES_TO_IGNORE = ['metal', 'podcasts', 'classical',
-        'spoken word', 'comedy', 'kids', 'ambient']
+    GENRES_TO_IGNORE = ['metal', 'podcasts', 'classical', 'latin'
+        'spoken word', 'comedy', 'kids', 'ambient', 'audiobooks']
 
     # If no region input, assume it is the same as the input tag.
     if not(region_str):

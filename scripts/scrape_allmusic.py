@@ -2,13 +2,15 @@ import requests
 import json
 import csv
 import scrape
+from datetime import datetime
 from bs4 import BeautifulSoup
 
 
+# Scrape the pitchfork reviews page. Search 3 pages ~ 50 results.
 def get_allmusic_newreleases():
     search_url = "https://www.allmusic.com/newreleases"
     GENRE_IGNORE_LIST = ['Country', 'Classical']
-    PAGES_TO_SEARCH = 2
+    PAGES_TO_SEARCH = 3
 
     # Get the pages to search through.
     page = requests.get(search_url, headers={'User-agent': 'Mozilla/5.0'})
@@ -38,10 +40,15 @@ def get_allmusic_newreleases():
 
             artist_str = artist.get_text().replace('\n', '')[:-1]
             title_str = title.get_text().replace('\n', '')[:-1]
-            genre_str = genre.get_text().replace('\n', '')[:-1]
             image_str = img.find('img', class_='lazy')['data-original']
             stars = len(meta.find_all('img', class_='blue star')) + \
                 0.5 * len(meta.find_all('img', class_='blue half'))
+
+            # Get primary genre, removing all text after comma.
+            if genre:
+                genre_str = genre.get_text().replace('\n', '')[:-1]
+            if ',' in genre_str:
+                genre_str = genre_str[:genre_str.find(',')]
 
             # Skip albums that meet certain criteria.
             if any(gen in genre_str for gen in GENRE_IGNORE_LIST):
@@ -53,39 +60,42 @@ def get_allmusic_newreleases():
             if ' / ' in artist_str:
                 artist_str = artist_str[:artist_str.find(' / ')]
 
-            # Find the date that the review was submitted.
-            tmp = search_id
-            date_str = "%s-%s-%sT00:00.000Z" % (tmp[:4], tmp[4:6], tmp[6:8])
-
             results.append({'artist': artist_str, 'title': title_str,
-                'genre': genre_str, 'rating': stars, 'image': image_str,
-                'date': date_str})
+                'genre': genre_str, 'rating': stars, 'image': image_str})
 
     return results
 
 
-results = get_allmusic_newreleases()
-results = scrape.get_spotify_artist(results)
+# Generate and sort by treblechef recommendation score.
+def get_allmusic_scores(album_list):
+    for album in album_list:
+        if not('sp_popularity' in album):
+            album['sp_popularity'] = 0
+        date_obj = datetime.strptime(album['sp_date'], "%Y-%m-%dT00:00.000Z")
+        time_score = 60 - (datetime.now() - date_obj).days
+        album['score'] = (album['rating'] / 5) * 60 + \
+            album['sp_popularity'] / 100 * 20 + \
+            time_score / 60 * 20
+        album['score'] = round(album['score'], 3)
 
-# Create treblechef recommendation score.
-for result in results:
-    if not('sp_popularity' in result):
-        result['sp_popularity'] = 0
-    result['score'] = (result['rating'] / 5) * 75 + \
-        (result['sp_popularity'] / 100) * 25
-    result['score'] = round(result['score'], 3)
+    album_list = sorted(album_list, key=lambda k: k['score'], reverse=True)
+    return album_list
 
-# Sort by treblechef recommendation score.
-results = sorted(results, key=lambda k: k['score'], reverse=True)
+
+# WHERE THE SEARCHING TAKES PLACE ######################################
+
+releases = get_allmusic_newreleases()
+releases = scrape.get_spotify_albums(releases)
+releases = scrape.get_spotify_artist(releases)
+releases = get_allmusic_scores(releases)
 
 # Write results to csv and json files.
 with open('results/results_am.csv', mode='w') as csv_file:
-    fieldnames = ['artist', 'title', 'genre', 'rating', 'date',
-        'image', 'score', 'sp_popularity', 'sp_artist_id']
+    fieldnames = ['artist', 'title', 'genre', 'rating', 'image', 'score',
+        'sp_popularity', 'sp_date', 'sp_img', 'sp_album_id', 'sp_artist_id']
     csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-
     csv_writer.writeheader()
-    csv_writer.writerows(results)
+    csv_writer.writerows(releases)
 
 with open('results/results_am.json', 'w') as json_file:
-    json.dump(results, json_file, indent=4)
+    json.dump(releases, json_file, indent=4)

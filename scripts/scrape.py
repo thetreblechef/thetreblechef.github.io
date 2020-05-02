@@ -8,38 +8,22 @@ from spotipy.oauth2 import SpotifyClientCredentials
 sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 
 
-# Given a list of album dicts, search details about the primary artist.
-def get_spotify_artist(results):
-    for result in results:
-        # Spotify results.
-        sp_results = sp.search(result['artist'],
-            type='artist', limit=5, market='CA')
-        sp_results = sp_results['artists']['items']
-        if not(sp_results):
-            continue
-
-        # Ensure the Spotify result matches artist name.
-        sp_result = None
-        for s in sp_results:
-            if s['name'].lower() == result['artist'].lower():
-                sp_result = s
-                break
-        if not(sp_result):
-            continue
-
-        result['sp_popularity'] = sp_result['popularity']
-        result['sp_artist_id'] = sp_result['id']
-
-    return results
+# Given a list of album dicts, search popularity of the artist.
+def get_spotify_artist(album_list):
+    for album in album_list:
+        sp_result = sp.artist(album['sp_artist_id'])
+        album['sp_popularity'] = sp_result['popularity']
+        # result['sp_genres'] = sp_result['genres']
+    return album_list
 
 
 # Given a list of album dicts, search details about the album on spotify.
 # Remove elements from the list that cannot be found on spotify.
-def get_spotify_albums(results):
+def get_spotify_albums(album_list_in):
     album_list = list()
-    for result in results:
+    for album in album_list_in:
         # Spotify results.
-        q = "%s %s" % (result['artist'], result['title'])
+        q = "%s %s" % (album['artist'], album['title'])
         sp_results = sp.search(q, type='album', limit=5)
         sp_results = sp_results['albums']['items']
 
@@ -62,10 +46,10 @@ def get_spotify_albums(results):
         if (datetime.now() - date_obj).days > 60:
             continue
 
-        result['sp_date'] = "%sT00:00.000Z" % sp_result['release_date']
-        result['sp_album_id'] = sp_result['id']
-        result['sp_img'] = image_str
-        # result['sp_artist_id'] = sp_result['artists'][0]['id']
-        album_list.append(result)
+        album['sp_date'] = "%sT00:00.000Z" % sp_result['release_date']
+        album['sp_album_id'] = sp_result['id']
+        album['sp_img'] = image_str
+        album['sp_artist_id'] = sp_result['artists'][0]['id']
+        album_list.append(album)
 
     return album_list
