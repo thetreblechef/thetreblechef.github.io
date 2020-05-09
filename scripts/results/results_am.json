@@ -1,16 +1,29 @@
 [
     {
-        "artist": "Fiona Apple",
-        "title": "Fetch the Bolt Cutters",
+        "artist": "Natalia Lafourcade",
+        "title": "Un Canto Por Mexico, Vol. 1",
+        "genre": "Latin",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=C-KM-PRv4QttyoTUvlGANZhUoDg0hsvx4F4sL4oO-nA=&f=3",
+        "sp_date": "2020-05-08T00:00.000Z",
+        "sp_album_id": "6yDcHjoEqNkkl9UC6KSlFE",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02e1a85022ed435fa9afb79640",
+        "sp_artist_id": "1hcdI2N1023RvSwLzTtdsp",
+        "sp_popularity": 75,
+        "score": 82.667
+    },
+    {
+        "artist": "I Break Horses",
+        "title": "Warnings",
         "genre": "Pop/Rock",
         "rating": 4.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Q09ZNWphOVFIo3kexBJk09_M69_UI9rrJSVvWL2-yAg=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "0fO1KemWL2uCCQmM22iKlj",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02841292c1316c4bf85447bcd9",
-        "sp_artist_id": "3g2kUQ6tHLLbmkV7T4GPtL",
-        "sp_popularity": 76,
-        "score": 84.2
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=PW9k5awB5-HDI8COl3JeSw4Q1ghY8VaPylnm7PwcKNY=&f=3",
+        "sp_date": "2020-05-08T00:00.000Z",
+        "sp_album_id": "4X4NJOq0LEWGImFNCnczaS",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02bfe799809a2576aa4b322a09",
+        "sp_artist_id": "1H58rS29XotmFJWT3KCnl0",
+        "sp_popularity": 34,
+        "score": 80.467
     },
     {
         "artist": "Car Seat Headrest",
@@ -22,8 +35,8 @@
         "sp_album_id": "1tuoWW0TpoI5oacIjwYBdL",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02962ca53ba96df449c656bf38",
         "sp_artist_id": "5PbpKlxQE0Ktl5lcNABoFf",
-        "sp_popularity": 65,
-        "score": 80.667
+        "sp_popularity": 66,
+        "score": 78.533
     },
     {
         "artist": "BC Camplight",
@@ -36,7 +49,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02cd4dbbad9109c0091c9badc1",
         "sp_artist_id": "3cePP77CX6XY9b0aigzrqh",
         "sp_popularity": 44,
-        "score": 80.133
+        "score": 77.8
     },
     {
         "artist": "Trivium",
@@ -49,20 +62,20 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02f11a218563f0edfa7940fc94",
         "sp_artist_id": "278ZYwGhdK6QTzE3MFePnP",
         "sp_popularity": 72,
-        "score": 79.733
+        "score": 77.4
     },
     {
-        "artist": "Lido Pimienta",
-        "title": "Miss Colombia",
-        "genre": "Electronic",
-        "rating": 4.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Inu05zuXJxm0luxcBmWmahyhM-OFI8zG4l-qVpXXB1I=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "6H6MZ54B5FLBLXXxWGEl7y",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02802fedd4354077a836e6a3e2",
-        "sp_artist_id": "1IdkKQ9CM1i0wygfxYV4Z3",
-        "sp_popularity": 52,
-        "score": 79.4
+        "artist": "AWOLNATION",
+        "title": "Angel Miners & The Lightning Riders",
+        "genre": "Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=dG9nTYy9GS1RBmR8-ADg3FWnbEN5fCjifro6xhIBuB4=&f=3",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "4lO7GONtjBvEqVDc5UQurZ",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e0251cbdc2b8a04d0195dd4ab37",
+        "sp_artist_id": "4njdEjTnLfcGImKZu1iSrz",
+        "sp_popularity": 70,
+        "score": 77.0
     },
     {
         "artist": "Austra",
@@ -74,21 +87,47 @@
         "sp_album_id": "70dAWY6KDpSriewnxFngXt",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02cfc2352d0739633c24dd3cf8",
         "sp_artist_id": "1o43SzzuLoyOxqThmp7s0g",
-        "sp_popularity": 50,
-        "score": 77.667
+        "sp_popularity": 52,
+        "score": 75.733
     },
     {
-        "artist": "Duke Dumont",
-        "title": "Duality",
-        "genre": "Electronic",
+        "artist": "Aaron Parks",
+        "title": "Little Big II: Dreams of a Mechanical Man",
+        "genre": "Jazz",
         "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=YjcIJdpK1hiLMrnhMuta1Q4Q1ghY8VaPylnm7PwcKNY=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "6AlOjPdNpM41lMVSjjsrUM",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e023ce84b2c05a3bac3d48c8217",
-        "sp_artist_id": "61lyPtntblHJvA7FMMhi7E",
-        "sp_popularity": 73,
-        "score": 77.6
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=bT4CYB73SNRT9pUb_zgxwQSijaXJlYnq0St31qpAJWo=&f=3",
+        "sp_date": "2020-05-08T00:00.000Z",
+        "sp_album_id": "3wUYJLGghdbVdqiBZvgl6J",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e020a0d6baee8c35b4182d5bdca",
+        "sp_artist_id": "22KzEvCtrTGf9l6k7zFcdv",
+        "sp_popularity": 39,
+        "score": 75.467
+    },
+    {
+        "artist": "Ghostpoet",
+        "title": "I Grow Tired But Dare Not Fall Asleep",
+        "genre": "Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=xhi-HSUl_6GmEB3UlA6j25hUoDg0hsvx4F4sL4oO-nA=&f=3",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "64tlHrwYQoCnCyG46SVQk7",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02ee3e4c7b84c3b89e3858f760",
+        "sp_artist_id": "69lEbRQRe29JdyLrewNAvD",
+        "sp_popularity": 50,
+        "score": 75.333
+    },
+    {
+        "artist": "John Stewart",
+        "title": "Old Forgotten Altars: The 1960s Demos",
+        "genre": "Folk",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=_GNr5kAG3xsPccotZhgpfD6KsMttLlyBmmVTZ6_CLs0=&f=3",
+        "sp_date": "2020-05-08T00:00.000Z",
+        "sp_album_id": "0hDdB2PqCYw1QuIDpVXVng",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e022a2adeb4295147513ad28b0a",
+        "sp_artist_id": "1IEICAjQ2utMbLHi7zoc5f",
+        "sp_popularity": 37,
+        "score": 75.067
     },
     {
         "artist": "Katatonia",
@@ -101,7 +140,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02d439163a7c22fd050a215290",
         "sp_artist_id": "2CWWgbxApjbyByxBBCvGTm",
         "sp_popularity": 60,
-        "score": 77.333
+        "score": 75.0
     },
     {
         "artist": "Diet Cig",
@@ -113,21 +152,8 @@
         "sp_album_id": "1LfkcrlTnQqx2AhHtuhJhB",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02e9574bc62163cdceae31534c",
         "sp_artist_id": "6ommlbuccgdiKSgjvVlQ4W",
-        "sp_popularity": 45,
-        "score": 76.667
-    },
-    {
-        "artist": "Enter Shikari",
-        "title": "Nothing Is True & Everything Is Possible",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=0C9Zdo4HJEhLqLwqBzQxuw4Q1ghY8VaPylnm7PwcKNY=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "4VBnxLnSqWSodiwHIZGdIH",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02762655ef39363f8947c89c2e",
-        "sp_artist_id": "31jvzuB4ikftPQZJwrYfCF",
-        "sp_popularity": 68,
-        "score": 76.6
+        "sp_popularity": 48,
+        "score": 74.933
     },
     {
         "artist": "Other Lives",
@@ -140,33 +166,46 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02f6fa5848ec37c6c1b84a68a7",
         "sp_artist_id": "3bw0A7x5AgdJsK20ai5iS6",
         "sp_popularity": 52,
-        "score": 75.733
+        "score": 73.4
     },
     {
-        "artist": "RJD2",
-        "title": "The Fun Ones",
-        "genre": "Pop/Rock",
+        "artist": "Chip Wickham",
+        "title": "Blue to Red",
+        "genre": "Jazz",
         "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=CtXFHF1DkMAd-ca8AVr3mFWnbEN5fCjifro6xhIBuB4=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "4xTGDldacEINrMyVRXUfVH",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e024c2a80b88f4dbb7ad7ae0f95",
-        "sp_artist_id": "1O3ZOjqFLEnbpZexcRjocn",
-        "sp_popularity": 59,
-        "score": 74.8
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=YXWY5-z21PGeVCAxFGWWlZhUoDg0hsvx4F4sL4oO-nA=&f=3",
+        "sp_date": "2020-05-08T00:00.000Z",
+        "sp_album_id": "5Cd7BhlVvsUr8dFPkLQ1JC",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02e9b5fd512a2583e029af4cb1",
+        "sp_artist_id": "62MkXCxcZ345tVUHsD9NK0",
+        "sp_popularity": 26,
+        "score": 72.867
     },
     {
-        "artist": "The Black Dahlia Murder",
-        "title": "Verminous",
+        "artist": "Beauty Pill",
+        "title": "Please Advise",
         "genre": "Pop/Rock",
         "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=XoMnT0Kj002uPqKNR4t3jB_TZlp6n_cq-Emr2zx15tU=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "3lGUiDSMpXjccoYh2B6i71",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e028d0ed0c4517c60b9927937fd",
-        "sp_artist_id": "4xTDPgk4jHCF0qui3dH6BS",
-        "sp_popularity": 59,
-        "score": 74.8
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=ClbYOZCKOIxyCXU3bRsTsSpQg_7iAU1wjqLgK_xGXts=&f=3",
+        "sp_date": "2020-05-08T00:00.000Z",
+        "sp_album_id": "0C0TxcA44W8qBl6bAE69Us",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02ebfa68e4dce781ab107b33e0",
+        "sp_artist_id": "1S6tHqeTm8aqnjL4rGqAhm",
+        "sp_popularity": 25,
+        "score": 72.667
+    },
+    {
+        "artist": "Stroppies",
+        "title": "Look Alive",
+        "genre": "Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=XLIAtY_Hs0LKRp28gkLM1ypQg_7iAU1wjqLgK_xGXts=&f=3",
+        "sp_date": "2020-05-06T00:00.000Z",
+        "sp_album_id": "48f2uB2lKCml63RJXa79ad",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02586d12e1328a17d6c8bd1b2e",
+        "sp_artist_id": "6r5Oeuk1Jrn6TxkwcZVXYY",
+        "sp_popularity": 28,
+        "score": 72.6
     },
     {
         "artist": "Romain Collin",
@@ -179,7 +218,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02a386bc3e27706a9577cb6ac8",
         "sp_artist_id": "24jNRyMv4IEPuL1qwmZuNW",
         "sp_popularity": 44,
-        "score": 74.133
+        "score": 71.8
     },
     {
         "artist": "Peter Oren",
@@ -192,7 +231,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e029a04faa46254b6c9f4e07262",
         "sp_artist_id": "3F4I37yqRPW4B95eRCHsyA",
         "sp_popularity": 43,
-        "score": 73.933
+        "score": 71.6
     },
     {
         "artist": "Lorenzo Senni",
@@ -205,7 +244,20 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02d4dcfe76f3a83328bcbc776d",
         "sp_artist_id": "7mKwhB3UiepqzM946jBOyi",
         "sp_popularity": 41,
-        "score": 73.533
+        "score": 71.2
+    },
+    {
+        "artist": "Chicano Batman",
+        "title": "Invisible People",
+        "genre": "Pop/Rock",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=9m3d5aMPJuhNpiDBb0SKHypQg_7iAU1wjqLgK_xGXts=&f=3",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "2sS14o33EFyvcUPu2dfPOT",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02943d9325c71f05330ac89ce2",
+        "sp_artist_id": "0LklyUMMUhpIjMgYHlV0hN",
+        "sp_popularity": 59,
+        "score": 71.133
     },
     {
         "artist": "Damien Jurado",
@@ -218,7 +270,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e023b46173af687b01d50802d64",
         "sp_artist_id": "79JJCxCCfJ8HufX6w8q2k4",
         "sp_popularity": 58,
-        "score": 73.267
+        "score": 70.933
     },
     {
         "artist": "John Carroll Kirby",
@@ -231,7 +283,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02a32610bc3dc8bdcd5c576b4e",
         "sp_artist_id": "7FQiZr787umw7P5dO3zqld",
         "sp_popularity": 39,
-        "score": 73.133
+        "score": 70.8
     },
     {
         "artist": "RVG",
@@ -244,7 +296,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02825d0f3a1b713fc17452a259",
         "sp_artist_id": "4a2c6VZMfp0CdNg1JgSPR9",
         "sp_popularity": 39,
-        "score": 73.133
+        "score": 70.8
     },
     {
         "artist": "John Carroll Kirby",
@@ -257,20 +309,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02a32610bc3dc8bdcd5c576b4e",
         "sp_artist_id": "7FQiZr787umw7P5dO3zqld",
         "sp_popularity": 39,
-        "score": 73.133
-    },
-    {
-        "artist": "Chicano Batman",
-        "title": "Invisible People",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=9m3d5aMPJuhNpiDBb0SKHypQg_7iAU1wjqLgK_xGXts=&f=3",
-        "sp_date": "2020-05-01T00:00.000Z",
-        "sp_album_id": "2sS14o33EFyvcUPu2dfPOT",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02943d9325c71f05330ac89ce2",
-        "sp_artist_id": "0LklyUMMUhpIjMgYHlV0hN",
-        "sp_popularity": 57,
-        "score": 73.067
+        "score": 70.8
     },
     {
         "artist": "King Gizzard & the Lizard Wizard",
@@ -283,20 +322,20 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e026cf37990705c54ffd493dfbf",
         "sp_artist_id": "6XYvaoDGE0VmRt83Jss9Sn",
         "sp_popularity": 68,
-        "score": 72.933
+        "score": 70.6
     },
     {
-        "artist": "Ron Sexsmith",
-        "title": "Hermitage",
+        "artist": "Butch Walker",
+        "title": "American Love Story",
         "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=hAz9pcV3j1f_2NuOsLoLCt_M69_UI9rrJSVvWL2-yAg=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "3omcRW1eCmxhiGvFuJVXnA",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02f2485cd86a683cbe370324eb",
-        "sp_artist_id": "2wXBWJhbm1gfEVjyEEuhDH",
-        "sp_popularity": 49,
-        "score": 72.8
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=uLAiFcrRp25RpzBcHgCILphUoDg0hsvx4F4sL4oO-nA=&f=3",
+        "sp_date": "2020-05-08T00:00.000Z",
+        "sp_album_id": "04U30ZXN0MSjobRZhsH8ZZ",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e0212de2f32dfd45cd16da1be77",
+        "sp_artist_id": "7qKoy46vPnmIxKCN6ewBG4",
+        "sp_popularity": 44,
+        "score": 70.467
     },
     {
         "artist": "Joel Harrison",
@@ -309,33 +348,59 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02342e29969f9abe96f52b93a2",
         "sp_artist_id": "6BXA5FDonefcAe2hg4T7K5",
         "sp_popularity": 18,
-        "score": 72.6
+        "score": 70.267
     },
     {
-        "artist": "Shelby Lynne",
-        "title": "Shelby Lynne",
+        "artist": "Devon Williams",
+        "title": "Tear In the Fabric",
         "genre": "Pop/Rock",
         "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Gjp-bjglii3NTP-HhLn1yJhUoDg0hsvx4F4sL4oO-nA=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "6L9MAc8jkcsZLYFxMRmVYK",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02b4cdec092100fb374f206e77",
-        "sp_artist_id": "3xx17YXYvPl9PBx6Jzalk4",
-        "sp_popularity": 46,
-        "score": 72.2
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=ClbYOZCKOIxyCXU3bRsTsRyhM-OFI8zG4l-qVpXXB1I=&f=3",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "2VvgQh6VHGdlPWw7vFjtQm",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02aaa181ca394421341ed7ccc5",
+        "sp_artist_id": "6HARLjOsKxuYvgJjy2sMKO",
+        "sp_popularity": 23,
+        "score": 69.933
     },
     {
-        "artist": "Tech N9ne",
-        "title": "Enterfear",
-        "genre": "Rap",
+        "artist": "BOAT",
+        "title": "Tread Lightly",
+        "genre": "Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=rYkP4zCjOb2yuv-9xuydYIAf7E_1E-2MlBBPmPAXRBU=&f=3",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "2Thzy2Hc3SeRRbzGUdg72s",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e026c5f2083eada48715ecd592d",
+        "sp_artist_id": "7M3a7BPGoWXciQUx5kfz3e",
+        "sp_popularity": 22,
+        "score": 69.733
+    },
+    {
+        "artist": "American Aquarium",
+        "title": "Lamentations",
+        "genre": "Pop/Rock",
         "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=jJypcpDBwTaZbA5iqfyS5QSijaXJlYnq0St31qpAJWo=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "5K3xDXfwsVR99q5ruH4iJ6",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0223f76b8315f99229d5a16f63",
-        "sp_artist_id": "6UBA15slIuadJ8h2lPRPos",
-        "sp_popularity": 75,
-        "score": 72.0
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=epuqKkLi6xOdbhM9Yh9QRgSijaXJlYnq0St31qpAJWo=&f=3",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "16cNE8Er5s7OeJAe0Ki3vC",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e0220550b203c8e9be067e62231",
+        "sp_artist_id": "7nSYcucRT6IGiMepEmiZgT",
+        "sp_popularity": 51,
+        "score": 69.533
+    },
+    {
+        "artist": "Man Man",
+        "title": "Dream Hunting in the Valley of the In-Between",
+        "genre": "Pop/Rock",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=ClbYOZCKOIxyCXU3bRsTsT6KsMttLlyBmmVTZ6_CLs0=&f=3",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "7pus9stm2bEyhG71TG0IAa",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02aa25e787394d70771d064790",
+        "sp_artist_id": "0zprAu7NrzRehc0Q0Jc7mL",
+        "sp_popularity": 50,
+        "score": 69.333
     },
     {
         "artist": "The Pack A.D.",
@@ -347,8 +412,8 @@
         "sp_album_id": "1AXmSHA1ltK7gYTcR00zXx",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0234e6e13888f150faf08d83d4",
         "sp_artist_id": "2gbOUPIhea9nrCmAeZBgpo",
-        "sp_popularity": 44,
-        "score": 71.8
+        "sp_popularity": 43,
+        "score": 69.267
     },
     {
         "artist": "Hala",
@@ -361,33 +426,20 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02568c7bfe07163dfff82ac778",
         "sp_artist_id": "1dTBAtLZBUB8Ir4PmJYw9t",
         "sp_popularity": 49,
-        "score": 71.467
+        "score": 69.133
     },
     {
-        "artist": "American Aquarium",
-        "title": "Lamentations",
+        "artist": "Joan as Police Woman",
+        "title": "Cover Two",
         "genre": "Pop/Rock",
         "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=epuqKkLi6xOdbhM9Yh9QRgSijaXJlYnq0St31qpAJWo=&f=3",
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=8OqENTx_Im66UYeAGn8itQSijaXJlYnq0St31qpAJWo=&f=3",
         "sp_date": "2020-05-01T00:00.000Z",
-        "sp_album_id": "16cNE8Er5s7OeJAe0Ki3vC",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0220550b203c8e9be067e62231",
-        "sp_artist_id": "7nSYcucRT6IGiMepEmiZgT",
+        "sp_album_id": "14ryj2ZqsyytYNTsSRuLX6",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02732a2fb6a4242e938c604f46",
+        "sp_artist_id": "6PBv8t9YTLggA9ZMwpeoqj",
         "sp_popularity": 48,
-        "score": 71.267
-    },
-    {
-        "artist": "Active Child",
-        "title": "In Another Life",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://cdn-s3.allmusic.com/release-covers/250/0005/187/0005187354.jpg",
-        "sp_date": "2020-04-10T00:00.000Z",
-        "sp_album_id": "6WlmR977FLZn35bctH2DWv",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02e058a0f1ad2c38282d8817e5",
-        "sp_artist_id": "54KTsBl98buzGkELjGlnuU",
-        "sp_popularity": 51,
-        "score": 70.867
+        "score": 68.933
     },
     {
         "artist": "White Poppy",
@@ -399,47 +451,8 @@
         "sp_album_id": "0wWZnaJrmpIfM2L46RIkar",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02e34da338c76e84c8abde41fc",
         "sp_artist_id": "65BcicEkX7VQAJ1Cl9fgxM",
-        "sp_popularity": 27,
-        "score": 70.733
-    },
-    {
-        "artist": "BOAT",
-        "title": "Tread Lightly",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=rYkP4zCjOb2yuv-9xuydYIAf7E_1E-2MlBBPmPAXRBU=&f=3",
-        "sp_date": "2020-05-01T00:00.000Z",
-        "sp_album_id": "2Thzy2Hc3SeRRbzGUdg72s",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e026c5f2083eada48715ecd592d",
-        "sp_artist_id": "7M3a7BPGoWXciQUx5kfz3e",
-        "sp_popularity": 15,
-        "score": 70.667
-    },
-    {
-        "artist": "Hazel English",
-        "title": "Wake Up!",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=hmQj-By3GD_B9f5HQMLdbz6KsMttLlyBmmVTZ6_CLs0=&f=3",
-        "sp_date": "2020-04-24T00:00.000Z",
-        "sp_album_id": "2A2k0MgzDEiFjW3ejlpxxV",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e023dda680164a173c3bba09f96",
-        "sp_artist_id": "1nEGjL7aMVdNQzsfQPKdGr",
-        "sp_popularity": 55,
-        "score": 70.333
-    },
-    {
-        "artist": "Marker Starling",
-        "title": "High January",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=uwp0JZ3k7oX8Zzq1lTIeCVWnbEN5fCjifro6xhIBuB4=&f=3",
-        "sp_date": "2020-04-24T00:00.000Z",
-        "sp_album_id": "3er7U7Xz3YFryjGaFnpKSE",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02f6787eb03d47ee293131f9f3",
-        "sp_artist_id": "3ng4JmUTAES0oTSlDkF3if",
-        "sp_popularity": 25,
-        "score": 70.333
+        "sp_popularity": 29,
+        "score": 68.8
     },
     {
         "artist": "Klara Lewis",
@@ -451,8 +464,47 @@
         "sp_album_id": "7renot42MHAlSDvO2NbmYG",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02fc8c58e076b06e091d2976e3",
         "sp_artist_id": "0kyeczWICSebymos0FqJvt",
-        "sp_popularity": 13,
-        "score": 70.267
+        "sp_popularity": 15,
+        "score": 68.333
+    },
+    {
+        "artist": "Happyness",
+        "title": "Floatr",
+        "genre": "Pop/Rock",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=BuPBSH2tK4Vh9GeiRXiAGFWnbEN5fCjifro6xhIBuB4=&f=3",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "0HQX0uEli8pgJPzY8j6hGy",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e0214ec02baaa24a8bdc76b5a18",
+        "sp_artist_id": "4nddgNqdf0SFeeqhbDN6rN",
+        "sp_popularity": 43,
+        "score": 67.933
+    },
+    {
+        "artist": "Hazel English",
+        "title": "Wake Up!",
+        "genre": "Pop/Rock",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=hmQj-By3GD_B9f5HQMLdbz6KsMttLlyBmmVTZ6_CLs0=&f=3",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "2A2k0MgzDEiFjW3ejlpxxV",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e023dda680164a173c3bba09f96",
+        "sp_artist_id": "1nEGjL7aMVdNQzsfQPKdGr",
+        "sp_popularity": 54,
+        "score": 67.8
+    },
+    {
+        "artist": "Marker Starling",
+        "title": "High January",
+        "genre": "Pop/Rock",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=uwp0JZ3k7oX8Zzq1lTIeCVWnbEN5fCjifro6xhIBuB4=&f=3",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "3er7U7Xz3YFryjGaFnpKSE",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02f6787eb03d47ee293131f9f3",
+        "sp_artist_id": "3ng4JmUTAES0oTSlDkF3if",
+        "sp_popularity": 24,
+        "score": 67.8
     },
     {
         "artist": "Andrew Gold",
@@ -465,7 +517,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0228ab474eb5a228a3bc134807",
         "sp_artist_id": "5fmvGUlMVgmnCn45f1he7d",
         "sp_popularity": 54,
-        "score": 70.133
+        "score": 67.8
     },
     {
         "artist": "Alice Bag",
@@ -477,21 +529,21 @@
         "sp_album_id": "79otKGft668fFqnQK37E47",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02385213572f8ab3e986939301",
         "sp_artist_id": "0LK0Nj6UFKDtcCju1cD1sm",
-        "sp_popularity": 23,
-        "score": 69.933
+        "sp_popularity": 22,
+        "score": 67.4
     },
     {
-        "artist": "Happyness",
-        "title": "Floatr",
-        "genre": "Pop/Rock",
+        "artist": "Ital Tek",
+        "title": "Outland",
+        "genre": "Electronic",
         "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=BuPBSH2tK4Vh9GeiRXiAGFWnbEN5fCjifro6xhIBuB4=&f=3",
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=ClbYOZCKOIxyCXU3bRsTsQ4Q1ghY8VaPylnm7PwcKNY=&f=3",
         "sp_date": "2020-05-01T00:00.000Z",
-        "sp_album_id": "0HQX0uEli8pgJPzY8j6hGy",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0214ec02baaa24a8bdc76b5a18",
-        "sp_artist_id": "4nddgNqdf0SFeeqhbDN6rN",
-        "sp_popularity": 41,
-        "score": 69.867
+        "sp_album_id": "2xVQGGbx2T5ow3F71Ywrtf",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e020d6d30a0d457f64236e2d616",
+        "sp_artist_id": "6Auo6gEPwhb9aZindgVpZJ",
+        "sp_popularity": 40,
+        "score": 67.333
     },
     {
         "artist": "Chris Keys",
@@ -504,33 +556,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02b897ecace90f2f389a5de388",
         "sp_artist_id": "2SlUrJAcTYbWR8GcmB9IEi",
         "sp_popularity": 51,
-        "score": 69.533
-    },
-    {
-        "artist": "Ital Tek",
-        "title": "Outland",
-        "genre": "Electronic",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=ClbYOZCKOIxyCXU3bRsTsQ4Q1ghY8VaPylnm7PwcKNY=&f=3",
-        "sp_date": "2020-05-01T00:00.000Z",
-        "sp_album_id": "2xVQGGbx2T5ow3F71Ywrtf",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e020d6d30a0d457f64236e2d616",
-        "sp_artist_id": "6Auo6gEPwhb9aZindgVpZJ",
-        "sp_popularity": 38,
-        "score": 69.267
-    },
-    {
-        "artist": "Soul Asylum",
-        "title": "Hurry Up and Wait",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Rsglqwuc-4nDLgO7-Yvx6RyhM-OFI8zG4l-qVpXXB1I=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "0ieij2cknuPnu2OnXZraMl",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e022a21cbd720353b72e42f11b4",
-        "sp_artist_id": "02da1vDJ2hWqfK7aJL6SJm",
-        "sp_popularity": 60,
-        "score": 69.0
+        "score": 67.2
     },
     {
         "artist": "Wares",
@@ -543,20 +569,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02e0e478c87b8848e164a79c7f",
         "sp_artist_id": "4IJfEp4CKdYvIGGm6Y8xf6",
         "sp_popularity": 18,
-        "score": 68.933
-    },
-    {
-        "artist": "Richard Bishop",
-        "title": "Oneiric Formulary",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Y9Yv67U_815luprU6uTDDASijaXJlYnq0St31qpAJWo=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "090ESXJ3E68GloDqOesbRM",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0250ac6fef6e39f53aeb389632",
-        "sp_artist_id": "36GbLKvZbVebDmu6hS6Zfa",
-        "sp_popularity": 26,
-        "score": 68.2
+        "score": 66.6
     },
     {
         "artist": "Brendan Benson",
@@ -569,7 +582,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02d7372c43a3c8a7bcfd88005a",
         "sp_artist_id": "2Ij97fuR3unjlboQfIYs31",
         "sp_popularity": 44,
-        "score": 68.133
+        "score": 65.8
     },
     {
         "artist": "Mark Kozelek",
@@ -581,8 +594,8 @@
         "sp_album_id": "6fS8h2nlPhRbglRmpAjuq2",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0295be8db8f1694d1756863744",
         "sp_artist_id": "0qt6QSruHshcWT9QOzyfZp",
-        "sp_popularity": 44,
-        "score": 68.133
+        "sp_popularity": 43,
+        "score": 65.6
     },
     {
         "artist": "Dead Ghosts",
@@ -594,21 +607,8 @@
         "sp_album_id": "5v7w9iSJ0ims5ix9WMJwDg",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e020cd22b9def26e93eed815ebe",
         "sp_artist_id": "3p0vuGnsU3JN0ZVBLiJwmp",
-        "sp_popularity": 44,
-        "score": 68.133
-    },
-    {
-        "artist": "Datura4",
-        "title": "West Coast Highway Cosmic",
-        "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Inu05zuXJxm0luxcBmWmat_M69_UI9rrJSVvWL2-yAg=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "6ESKOF1LXXDCTcK0HoLByo",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e027c79787da6338f17c917ba88",
-        "sp_artist_id": "3mA3sO1zseVtFQ56oqlJYk",
-        "sp_popularity": 24,
-        "score": 67.8
+        "sp_popularity": 43,
+        "score": 65.6
     },
     {
         "artist": "Field Works",
@@ -621,7 +621,20 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e027f110c57d35c10e6cc63dce6",
         "sp_artist_id": "0LyfQWJT6nXafLPZqxe9Of",
         "sp_popularity": 0,
-        "score": 67.667
+        "score": 65.333
+    },
+    {
+        "artist": "Modern Studies",
+        "title": "The Weight of the Sun",
+        "genre": "Pop/Rock",
+        "rating": 3.5,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=aF8KIPmQQ7578KTujzQe_lWnbEN5fCjifro6xhIBuB4=&f=3",
+        "sp_date": "2020-05-08T00:00.000Z",
+        "sp_album_id": "7rhOJfZBgPv1vb6brVO3uQ",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e027f470513d68675fdc4e06120",
+        "sp_artist_id": "2ige11rdVKinc21Zpr5lb8",
+        "sp_popularity": 18,
+        "score": 65.267
     },
     {
         "artist": "Sophie Tassignon",
@@ -634,33 +647,46 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02ee0e529b4e3ef906f5333d51",
         "sp_artist_id": "2DUrF7J2tf7do5V6qwe2pp",
         "sp_popularity": 10,
-        "score": 67.333
+        "score": 65.0
     },
     {
-        "artist": "Devon Williams",
-        "title": "Tear In the Fabric",
+        "artist": "Choir Boy",
+        "title": "Gathering Swans",
         "genre": "Pop/Rock",
-        "rating": 4.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=ClbYOZCKOIxyCXU3bRsTsRyhM-OFI8zG4l-qVpXXB1I=&f=3",
-        "sp_date": "2020-04-22T00:00.000Z",
-        "sp_album_id": "0GBEes8sGP3mAUH0y2Sigk",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02a97dd2969f6e6d0baa129fa3",
-        "sp_artist_id": "6HARLjOsKxuYvgJjy2sMKO",
-        "sp_popularity": 13,
-        "score": 67.267
+        "rating": 3.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=7PXMiDiDpgQzvownpRj15Q4Q1ghY8VaPylnm7PwcKNY=&f=3",
+        "sp_date": "2020-05-08T00:00.000Z",
+        "sp_album_id": "3VO4Fu1NTkAadM3usPlXnW",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02593f70a7ff3400fcb215ed8b",
+        "sp_artist_id": "2EvEdhJhS6JhayAsJZyAyL",
+        "sp_popularity": 43,
+        "score": 64.267
     },
     {
-        "artist": "Shabazz Palaces",
-        "title": "The Don of Diamond Dreams",
-        "genre": "Rap",
+        "artist": "Houses of Heaven",
+        "title": "Silent Places",
+        "genre": "Pop/Rock",
         "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=RV3qP-nlMVk9SIPOmehJDipQg_7iAU1wjqLgK_xGXts=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "3SCw5AabAqeNygf0OUDVUn",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e029af51aaa31c6e9813f8f8dd1",
-        "sp_artist_id": "6C403AR4y6PjN0xNNGh42m",
-        "sp_popularity": 49,
-        "score": 66.8
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=epuqKkLi6xOdbhM9Yh9QRlWnbEN5fCjifro6xhIBuB4=&f=3",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "1U7IzoOLlrQKyCraDK0tOr",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e0289c7088ebc0b77204690a497",
+        "sp_artist_id": "0IR8xlqcSRQShBhCebrdiv",
+        "sp_popularity": 21,
+        "score": 63.533
+    },
+    {
+        "artist": "Diane Schuur",
+        "title": "Running On Faith",
+        "genre": "Vocal",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=VF9-yKhMeo_Y6gmZlXiNwh_TZlp6n_cq-Emr2zx15tU=&f=3",
+        "sp_date": "2020-04-02T00:00.000Z",
+        "sp_album_id": "6QFU1JtCOaV4P0aaEA9Aw9",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e026aee1142fb41ed7513f26f49",
+        "sp_artist_id": "3YowTUlFJJA6E5Yd67GZNv",
+        "sp_popularity": 38,
+        "score": 63.267
     },
     {
         "artist": "Lucinda Williams",
@@ -673,33 +699,33 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0208189e54529b8a52362e4612",
         "sp_artist_id": "60ht0hWRy1yjUDfNsLuHuP",
         "sp_popularity": 60,
-        "score": 65.333
+        "score": 63.0
     },
     {
-        "artist": "Houses of Heaven",
-        "title": "Silent Places",
+        "artist": "Johanna Warren",
+        "title": "Chaotic Good",
         "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=epuqKkLi6xOdbhM9Yh9QRlWnbEN5fCjifro6xhIBuB4=&f=3",
+        "rating": 3.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=bo6nT8DUeEnJrtzPvu24e5hUoDg0hsvx4F4sL4oO-nA=&f=3",
         "sp_date": "2020-05-01T00:00.000Z",
-        "sp_album_id": "1U7IzoOLlrQKyCraDK0tOr",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0289c7088ebc0b77204690a497",
-        "sp_artist_id": "0IR8xlqcSRQShBhCebrdiv",
-        "sp_popularity": 17,
-        "score": 65.067
+        "sp_album_id": "5k4HEcYp1adly3U1Sx3sFP",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02ec16b745cdd878b7597dec6d",
+        "sp_artist_id": "2K5c4N7j15hUwrvv0ejlvV",
+        "sp_popularity": 39,
+        "score": 61.133
     },
     {
-        "artist": "Leslie Mendelson",
-        "title": "If You Can't Say Anything Nice",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=epuqKkLi6xOdbhM9Yh9QRipQg_7iAU1wjqLgK_xGXts=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "6HGDbOu7tp53BBP56kpayF",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0269feca8fd29e3a1a38451bd5",
-        "sp_artist_id": "5Nfp6FbYdlF3KQ2wojhW0l",
-        "sp_popularity": 27,
-        "score": 62.4
+        "artist": "Ali Shaheed Muhammad",
+        "title": "Jazz Is Dead 001",
+        "genre": "Jazz",
+        "rating": 4.0,
+        "image": "https://rovimusic.rovicorp.com/image.jpg?c=IQEhrV4FetTlb9PqLpaFwD6KsMttLlyBmmVTZ6_CLs0=&f=3",
+        "sp_date": "2020-03-20T00:00.000Z",
+        "sp_album_id": "02KoSNAnxGaOMXXRS16cZJ",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e021be842b8458048794f4ae27c",
+        "sp_artist_id": "4aMeIY7MkJoZg7O91cmDDd",
+        "sp_popularity": 48,
+        "score": 60.933
     },
     {
         "artist": "Macula Dog",
@@ -711,47 +737,8 @@
         "sp_album_id": "48WkJLbRNosch4fZfoUyYP",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02a282fc66f1ff99fac41ea4bd",
         "sp_artist_id": "3UnInNZgdl0q6Wd24imO3T",
-        "sp_popularity": 15,
-        "score": 62.333
-    },
-    {
-        "artist": "EOB",
-        "title": "Earth",
-        "genre": "Pop/Rock",
-        "rating": 3.0,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Gjp-bjglii3NTP-HhLn1yIAf7E_1E-2MlBBPmPAXRBU=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "01oZaEB5otlVEliljooL82",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e020af4290716ea10135b8e99b3",
-        "sp_artist_id": "4CX6yOoTFQeiwL5yxuFuIG",
-        "sp_popularity": 53,
-        "score": 61.6
-    },
-    {
-        "artist": "The Howling Hex",
-        "title": "Knuckleball Express",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=9ETCyfRVFEaoY5c6mxWdnT6KsMttLlyBmmVTZ6_CLs0=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "0kUYO1M30G5ROSst0tlfrk",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e024c0ff6361850c1dd3f0c9824",
-        "sp_artist_id": "4bKYclYcmlfz3GaEXZYuQw",
-        "sp_popularity": 22,
-        "score": 61.4
-    },
-    {
-        "artist": "Primo",
-        "title": "Sogni",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=_YWT1X9uDIO8v6xn5fX7OQSijaXJlYnq0St31qpAJWo=&f=3",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "6wjyemPyv0sq0KS5j64ltw",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0261fa116180e6728b92e9692a",
-        "sp_artist_id": "2vsgzWoIxqa2qjugu7a1jH",
-        "sp_popularity": 22,
-        "score": 61.4
+        "sp_popularity": 16,
+        "score": 60.2
     },
     {
         "artist": "Caleb Landry Jones",
@@ -763,8 +750,8 @@
         "sp_album_id": "0dLhoomGBGqOt40K7feMH8",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02dfc44f8dc038a639738c6675",
         "sp_artist_id": "736HHrEfkWjQB7zYV2aeXV",
-        "sp_popularity": 24,
-        "score": 60.467
+        "sp_popularity": 32,
+        "score": 59.733
     },
     {
         "artist": "Danzig",
@@ -777,19 +764,6 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02dc4cd6adc2ef4df795f4e628",
         "sp_artist_id": "34c4iQ5tkaZKu6Sv28BTde",
         "sp_popularity": 61,
-        "score": 59.533
-    },
-    {
-        "artist": "Louis Prince",
-        "title": "Thirteen",
-        "genre": "Pop/Rock",
-        "rating": 3.5,
-        "image": "https://rovimusic.rovicorp.com/image.jpg?c=Jlba4ldQwTVl1EvE8yaBJlWnbEN5fCjifro6xhIBuB4=&f=3",
-        "sp_date": "2020-03-13T00:00.000Z",
-        "sp_album_id": "3cfDbE4fmsak6G1uZ0bi9q",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e025f883fbc682aa4e7e45c3c39",
-        "sp_artist_id": "28UHHsOtyPTT2OOIMA48Ps",
-        "sp_popularity": 33,
-        "score": 51.933
+        "score": 57.2
     }
 ]

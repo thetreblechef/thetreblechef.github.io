@@ -1,16 +1,68 @@
 [
     {
-        "artist": "Fiona Apple",
-        "title": "Fetch the Bolt Cutters",
+        "artist": "Blake Mills",
+        "title": "Mutable Set",
         "genre": "Rock",
-        "rating": 10.0,
-        "image": "https://media.pitchfork.com/photos/5e98fd8b34830c0008097f47/1:1/w_320/FIONAAPPLECOVER.jpg",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "0fO1KemWL2uCCQmM22iKlj",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02841292c1316c4bf85447bcd9",
-        "sp_artist_id": "3g2kUQ6tHLLbmkV7T4GPtL",
-        "sp_popularity": 76,
-        "score": 90.2
+        "rating": 8.3,
+        "image": "https://media.pitchfork.com/photos/5eb18d03ce714c8d7cfce7ff/1:1/w_320/Mutable%20Set_Blake%20Mills.jpg",
+        "sp_date": "2020-05-08T00:00.000Z",
+        "sp_album_id": "3WBhKuBk77KL4nUHkP2xaW",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e021458148758e5b7c8ea04ca9d",
+        "sp_artist_id": "4LhV33vJvXmFGSM3m5RzUR",
+        "sp_popularity": 50,
+        "score": 79.467
+    },
+    {
+        "artist": "Drake",
+        "title": "Dark Lane Demo Tapes",
+        "genre": "Rap",
+        "rating": 6.8,
+        "image": "https://media.pitchfork.com/photos/5eb04c24ce714c8d7cfce6f1/1:1/w_320/Dark%20Lane%20Demo%20Tapes_Drake.jpg",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "6OQ9gBfg5EXeNAEwGSs6jK",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02bba7cfaf7c59ff0898acba1f",
+        "sp_artist_id": "3TVXtAsR1Inumwj472S9r4",
+        "sp_popularity": 100,
+        "score": 78.133
+    },
+    {
+        "artist": "Clams Casino",
+        "title": "Instrumental Relics",
+        "genre": "Rap",
+        "rating": 8.0,
+        "image": "https://media.pitchfork.com/photos/5eb074aba1bcd64187eed46e/1:1/w_320/Instrumental%20Relics_Clams%20Casino.jpg",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "66eXLlqksAwNndmHaHWtCq",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e029dd5e36b53cdc72c1780c70a",
+        "sp_artist_id": "5vSQUyT33qxr1xAX2Tkf3A",
+        "sp_popularity": 66,
+        "score": 76.2
+    },
+    {
+        "artist": "The Soft Pink Truth",
+        "title": "Shall We Go On Sinning So That Grace May Increase?",
+        "genre": "Electronic",
+        "rating": 8.3,
+        "image": "https://media.pitchfork.com/photos/5ea88483895a1b000858e6d3/1:1/w_320/Shall%20We%20Go%20on%20Sinning%20So%20That%20Grace%20May%20Increase?_The%20Soft%20Pink%20Truth.jpg",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "1e3s36bc0Ell9KOKEsf16V",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e026b2282eb3feec8103c3d973e",
+        "sp_artist_id": "1TzvxOvPV19Pr7UiCne5Ei",
+        "sp_popularity": 41,
+        "score": 75.333
+    },
+    {
+        "artist": "Mozzy",
+        "title": "Beyond Bulletproof",
+        "genre": "Rap",
+        "rating": 7.3,
+        "image": "https://media.pitchfork.com/photos/5eb18638a4765fb4ce1855f1/1:1/w_320/Beyond%20Bulletproof_Mozzy.jpg",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "3Ud5r7QHfMF1UhH8a5M1cH",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02d6f5ddb2d84b88b8a7f80668",
+        "sp_artist_id": "4AA474G2hRfrHyGrfyDseO",
+        "sp_popularity": 70,
+        "score": 75.133
     },
     {
         "artist": "Lucinda Williams",
@@ -23,7 +75,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0208189e54529b8a52362e4612",
         "sp_artist_id": "60ht0hWRy1yjUDfNsLuHuP",
         "sp_popularity": 60,
-        "score": 77.333
+        "score": 75.0
     },
     {
         "artist": "YoungBoy Never Broke Again",
@@ -35,47 +87,21 @@
         "sp_album_id": "5vjOhA7AkB9WK7I2NnzIex",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e021af4894da220a8af6c7a1347",
         "sp_artist_id": "7wlFDEWiM5OoIAt8RSli8b",
-        "sp_popularity": 89,
-        "score": 77.133
+        "sp_popularity": 88,
+        "score": 74.6
     },
     {
-        "artist": "Westside Gunn",
-        "title": "Pray For Paris",
-        "genre": "Rap",
-        "rating": 8.0,
-        "image": "https://media.pitchfork.com/photos/5e99dc30e21e4f0009eaf086/1:1/w_320/prayforparis.jpg",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "6GK7MOPqacKl84T0r6Rctc",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02c5c36d134537b2809a8c22c6",
-        "sp_artist_id": "0ABk515kENDyATUdpCKVfW",
-        "sp_popularity": 68,
-        "score": 76.6
-    },
-    {
-        "artist": "Pink Siifu",
-        "title": "Negro",
-        "genre": "Rap",
-        "rating": 7.8,
-        "image": "https://media.pitchfork.com/photos/5e90d39bac9e490008f40868/1:1/w_320/Negro_Pink%20Siifu.jpg",
-        "sp_date": "2020-04-29T00:00.000Z",
-        "sp_album_id": "50rainFuN70XbsWiLxc6tA",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02f0becd61e6df33e40ca80464",
-        "sp_artist_id": "40ZElxHldNyvn7x8WRC6fh",
-        "sp_popularity": 54,
-        "score": 76.6
-    },
-    {
-        "artist": "The Mountain Goats",
-        "title": "Songs for Pierre Chuvin",
+        "artist": "Chicano Batman",
+        "title": "Invisible People",
         "genre": "Rock",
-        "rating": 8.1,
-        "image": "https://media.pitchfork.com/photos/5e94971d1a3ea30008764f25/1:1/w_320/Songs%20for%20Pierre%20Chuvin_The%20Mountain%20Goats.jpg",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "6mO1tSf7N2BXxAcGrW9Mt4",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02f5323bfefe45e663924c8235",
-        "sp_artist_id": "3hyGGjxu73JuzBa757H6R5",
-        "sp_popularity": 61,
-        "score": 75.8
+        "rating": 7.4,
+        "image": "https://media.pitchfork.com/photos/5ea9a4b1f8ea2c000863d1c7/1:1/w_320/Invisible%20People_Chicano%20Batman.jpg",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "2sS14o33EFyvcUPu2dfPOT",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02943d9325c71f05330ac89ce2",
+        "sp_artist_id": "0LklyUMMUhpIjMgYHlV0hN",
+        "sp_popularity": 59,
+        "score": 73.533
     },
     {
         "artist": "X",
@@ -88,33 +114,33 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0245126c8b37b9a99b4071d63f",
         "sp_artist_id": "54NqjhP2rT524Mi2GicG4K",
         "sp_popularity": 50,
-        "score": 75.267
+        "score": 72.933
     },
     {
-        "artist": "Rina Sawayama",
-        "title": "SAWAYAMA",
-        "genre": "Pop/R&B",
-        "rating": 7.7,
-        "image": "https://media.pitchfork.com/photos/5e94b867b09a5100092ba764/1:1/w_320/SAWAYAMA_Rina%20Sawayama.jpg",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "3stadz88XVpHcXnVYMHc4J",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0266a89b08608325d5a34f31d2",
-        "sp_artist_id": "2KEqzdPS7M5YwGmiuPTdr5",
-        "sp_popularity": 70,
-        "score": 75.2
+        "artist": "Johanna Warren",
+        "title": "Chaotic Good",
+        "genre": "Folk/Country",
+        "rating": 7.9,
+        "image": "https://media.pitchfork.com/photos/5ea886739c8ca90009f7f3c2/1:1/w_320/Chaotic%20Good_Johanna%20Warren.jpg",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "5k4HEcYp1adly3U1Sx3sFP",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02ec16b745cdd878b7597dec6d",
+        "sp_artist_id": "2K5c4N7j15hUwrvv0ejlvV",
+        "sp_popularity": 39,
+        "score": 72.533
     },
     {
-        "artist": "DaBaby",
-        "title": "Blame It on Baby",
-        "genre": "Rap",
-        "rating": 6.8,
-        "image": "https://media.pitchfork.com/photos/5e9de95a2071a50008c2bd34/1:1/w_320/Blame%20It%20On%20Baby_DaBaby.jpg",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "623PL2MBg50Br5dLXC9E9e",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0220e08c8cc23f404d723b5647",
-        "sp_artist_id": "4r63FhuTkUYltbVAg5TQnk",
-        "sp_popularity": 94,
-        "score": 74.6
+        "artist": "serpentwithfeet",
+        "title": "Apparition",
+        "genre": "Experimental",
+        "rating": 7.8,
+        "image": "https://media.pitchfork.com/photos/5eb18748aa1f4567491c2e6f/1:1/w_320/Apparition%20EP_serpentwithfeet.jpg",
+        "sp_date": "2020-04-29T00:00.000Z",
+        "sp_album_id": "7FCpNm4l9fNtBeakrvpVf8",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02c4765ebee72d3126128ab9f9",
+        "sp_artist_id": "1O9iHQjrVuiAYOJFCBeFSl",
+        "sp_popularity": 45,
+        "score": 72.467
     },
     {
         "artist": "Tom Misch",
@@ -127,20 +153,20 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02bd93bbf0c3df5e0242b84831",
         "sp_artist_id": "1uiEZYehlNivdK3iQyAbye",
         "sp_popularity": 76,
-        "score": 73.933
+        "score": 71.6
     },
     {
-        "artist": "Lido Pimienta",
-        "title": "Miss Colombia",
-        "genre": "Pop/R&B",
-        "rating": 8.0,
-        "image": "https://media.pitchfork.com/photos/5e988b3b2eea7f00096658df/1:1/w_320/Miss%20Colombia_Lido%20Pimienta.jpg",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "6H6MZ54B5FLBLXXxWGEl7y",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02802fedd4354077a836e6a3e2",
-        "sp_artist_id": "1IdkKQ9CM1i0wygfxYV4Z3",
+        "artist": "Austra",
+        "title": "HiRUDiN",
+        "genre": "Electronic",
+        "rating": 7.3,
+        "image": "https://media.pitchfork.com/photos/5eb189127a1620531f133751/1:1/w_320/HiRUDiN_Austra.jpg",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "70dAWY6KDpSriewnxFngXt",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02cfc2352d0739633c24dd3cf8",
+        "sp_artist_id": "1o43SzzuLoyOxqThmp7s0g",
         "sp_popularity": 52,
-        "score": 73.4
+        "score": 71.533
     },
     {
         "artist": "K-LONE",
@@ -152,8 +178,21 @@
         "sp_album_id": "3u3jFYNTOIEyc5mqB6txFv",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0280afad53f0215740b5b20b7a",
         "sp_artist_id": "6VC4hWnnMMmOxpH6KsAXBU",
-        "sp_popularity": 35,
-        "score": 72.333
+        "sp_popularity": 38,
+        "score": 70.6
+    },
+    {
+        "artist": "Pure X",
+        "title": "Pure X",
+        "genre": "Rock",
+        "rating": 7.5,
+        "image": "https://media.pitchfork.com/photos/5eb18b18a4765fb4ce1855f5/1:1/w_320/Pure%20X_Pure%20X.jpg",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "7hX1ZmgUvA56hbbbQGKYzk",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e0254c36f03101992054edbcb74",
+        "sp_artist_id": "1jofoMyHK5JjLIESpm991n",
+        "sp_popularity": 39,
+        "score": 70.133
     },
     {
         "artist": "Car Seat Headrest",
@@ -165,8 +204,8 @@
         "sp_album_id": "1tuoWW0TpoI5oacIjwYBdL",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02962ca53ba96df449c656bf38",
         "sp_artist_id": "5PbpKlxQE0Ktl5lcNABoFf",
-        "sp_popularity": 65,
-        "score": 72.267
+        "sp_popularity": 66,
+        "score": 70.133
     },
     {
         "artist": "The-Dream",
@@ -178,21 +217,8 @@
         "sp_album_id": "5Ke6vjEihf54mzJJ7M3VyI",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02dfd72c88f2d2bb694bb7326b",
         "sp_artist_id": "1W3FSF1BLpY3hlVIgvenLz",
-        "sp_popularity": 70,
-        "score": 72.2
-    },
-    {
-        "artist": "dvsn",
-        "title": "A Muse in Her Feelings",
-        "genre": "Pop/R&B",
-        "rating": 7.0,
-        "image": "https://media.pitchfork.com/photos/5e9e0f9b7b32470008c19537/1:1/w_320/A%20Muse%20In%20Her%20Feelings_dvsn.jpg",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "153lLZKTVw25BTcLuXB8ME",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e023aba3bf1aad3ff1bb393e4b2",
-        "sp_artist_id": "7e1ICztHM2Sc4JNLxeMXYl",
-        "sp_popularity": 75,
-        "score": 72.0
+        "sp_popularity": 69,
+        "score": 69.667
     },
     {
         "artist": "Quelle Chris",
@@ -205,7 +231,20 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02b897ecace90f2f389a5de388",
         "sp_artist_id": "2SlUrJAcTYbWR8GcmB9IEi",
         "sp_popularity": 51,
-        "score": 71.333
+        "score": 69.0
+    },
+    {
+        "artist": "Fire-Toolz",
+        "title": "Rainbow Bridge",
+        "genre": "Experimental",
+        "rating": 7.5,
+        "image": "https://media.pitchfork.com/photos/5eb1d90f7a1620531f133791/1:1/w_320/Rainbow%20Bridge_Fire-Toolz.jpg",
+        "sp_date": "2020-05-08T00:00.000Z",
+        "sp_album_id": "10fIvLCAysemioEBmquDfG",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02e12b5433ae2c66d5e6202b62",
+        "sp_artist_id": "7nJawFIm90c4jAQFLabc1o",
+        "sp_popularity": 21,
+        "score": 68.867
     },
     {
         "artist": "Lorenzo Senni",
@@ -218,20 +257,20 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02d4dcfe76f3a83328bcbc776d",
         "sp_artist_id": "7mKwhB3UiepqzM946jBOyi",
         "sp_popularity": 41,
-        "score": 71.133
+        "score": 68.8
     },
     {
-        "artist": "Shabazz Palaces",
-        "title": "The Don of Diamond Dreams",
-        "genre": "Rap",
-        "rating": 7.6,
-        "image": "https://media.pitchfork.com/photos/5e98ad3ce21e4f0009eaf07a/1:1/w_320/The%20Don%20of%20Diamond%20Dreams_Shabazz%20Palaces.jpg",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "3SCw5AabAqeNygf0OUDVUn",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e029af51aaa31c6e9813f8f8dd1",
-        "sp_artist_id": "6C403AR4y6PjN0xNNGh42m",
-        "sp_popularity": 49,
-        "score": 70.4
+        "artist": "LAKE",
+        "title": "Roundelay",
+        "genre": "Pop/R&B",
+        "rating": 7.5,
+        "image": "https://media.pitchfork.com/photos/5eb1dccbce714c8d7cfce806/1:1/w_320/Roundelay_LAKE.jpg",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "6rB5OTI6GOW8X1PRjGYv6l",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02e0c42720f8defd0671918158",
+        "sp_artist_id": "1KvWSkU2qrxVTpkMgdMqqF",
+        "sp_popularity": 40,
+        "score": 68.0
     },
     {
         "artist": "Zeroh",
@@ -244,7 +283,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02934974398a01b94821e4c224",
         "sp_artist_id": "0NguUtkS6xigUQdSkSf4km",
         "sp_popularity": 38,
-        "score": 69.933
+        "score": 67.6
     },
     {
         "artist": "Zsela",
@@ -256,8 +295,8 @@
         "sp_album_id": "55ICRQmIlXrgsAS1JfKnEI",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02c00886d6e190818af0269c2c",
         "sp_artist_id": "7IYuY1VszmoEUu4o3tNgC6",
-        "sp_popularity": 39,
-        "score": 69.533
+        "sp_popularity": 40,
+        "score": 67.4
     },
     {
         "artist": "Chucky73",
@@ -270,20 +309,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e024ec8f1ecb8b2c11616f9495b",
         "sp_artist_id": "38epWdyauFwdRkldqUMfWE",
         "sp_popularity": 56,
-        "score": 69.4
-    },
-    {
-        "artist": "Serengeti",
-        "title": "Ajai",
-        "genre": "Rap",
-        "rating": 8.0,
-        "image": "https://media.pitchfork.com/photos/5e94bb3583ce9a0008c4a90a/1:1/w_320/Ajai_Serengeti.jpg",
-        "sp_date": "2020-04-05T00:00.000Z",
-        "sp_album_id": "6GxPfQqYT05ncrAIvyjwRY",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02f3ca8ddbe89f1407bafb8c02",
-        "sp_artist_id": "13vr2QqzoWOWDyaAZDuEGO",
-        "sp_popularity": 51,
-        "score": 69.2
+        "score": 67.067
     },
     {
         "artist": "Black Dresses",
@@ -295,34 +321,8 @@
         "sp_album_id": "6xf8VTV1vcs2VAVLg4nMLG",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02387112a76ede40ce864b540d",
         "sp_artist_id": "7FFwJQ58hAy7PMo4lUBW96",
-        "sp_popularity": 46,
-        "score": 68.467
-    },
-    {
-        "artist": "Bladee",
-        "title": "Exeter",
-        "genre": null,
-        "rating": 7.2,
-        "image": "https://media.pitchfork.com/photos/5e949f3eb09a5100092ba763/1:1/w_320/Exteter_Bladee.jpg",
-        "sp_date": "2020-04-08T00:00.000Z",
-        "sp_album_id": "240kXkWGQeYwhl9JD2ThZ5",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02be23c28439a744f625cdcd63",
-        "sp_artist_id": "2xvtxDNInKDV4AvGmjw6d1",
-        "sp_popularity": 66,
-        "score": 68.4
-    },
-    {
-        "artist": "Ambar Lucid",
-        "title": "Garden of Lucid",
-        "genre": "Rock",
-        "rating": 7.4,
-        "image": "https://media.pitchfork.com/photos/5e949b92936cf300086dad7c/1:1/w_320/Garden%20of%20Lucid_Ambar%20Lucid.jpg",
-        "sp_date": "2020-04-10T00:00.000Z",
-        "sp_album_id": "1ysIsiNZ4iKrrXjVu85wGp",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0234e9b0cfc19fdc0a9749a684",
-        "sp_artist_id": "4nzV0hThyodYzrwksnS86G",
-        "sp_popularity": 56,
-        "score": 68.267
+        "sp_popularity": 49,
+        "score": 66.733
     },
     {
         "artist": "White Poppy",
@@ -334,8 +334,8 @@
         "sp_album_id": "0wWZnaJrmpIfM2L46RIkar",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02e34da338c76e84c8abde41fc",
         "sp_artist_id": "65BcicEkX7VQAJ1Cl9fgxM",
-        "sp_popularity": 27,
-        "score": 67.733
+        "sp_popularity": 29,
+        "score": 65.8
     },
     {
         "artist": "David Bowie",
@@ -348,7 +348,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e023cfd876c0e5db6147394be77",
         "sp_artist_id": "0oSGxfWSnnOXhD2fKuz2Gy",
         "sp_popularity": 82,
-        "score": 67.4
+        "score": 65.067
     },
     {
         "artist": "Hodge",
@@ -361,7 +361,33 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0272e263c05037a1f3c7cf41fa",
         "sp_artist_id": "2oLMqtx0PbqCXJDXs5lRvA",
         "sp_popularity": 36,
-        "score": 67.2
+        "score": 64.867
+    },
+    {
+        "artist": "Beatriz Ferreyra",
+        "title": "Huellas Entreveradas",
+        "genre": "Experimental",
+        "rating": 7.3,
+        "image": "https://media.pitchfork.com/photos/5eb1daff3707e26f99351b51/1:1/w_320/Huellas%20Entreveradas_Beatriz%20Ferreyra%20.jpg",
+        "sp_date": "2020-05-05T00:00.000Z",
+        "sp_album_id": "2l7Lj5gQcooFRfEs0ogT7v",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02f97388d7b236e02e34359ad5",
+        "sp_artist_id": "0OPtaxS6whUvvhElm7AMLL",
+        "sp_popularity": 11,
+        "score": 64.667
+    },
+    {
+        "artist": "Fivio Foreign",
+        "title": "800 BC",
+        "genre": "Rap",
+        "rating": 5.8,
+        "image": "https://media.pitchfork.com/photos/5eb0763daa1f4567491c2ced/1:1/w_320/800%20B.C._Fivio%20Foreign.jpg",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "2F8sqO6n3U3NO8t1qVLWs0",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02d5d1cc65dfc6163a8bcfaf80",
+        "sp_artist_id": "14CHVeJGrR5xgUGQFV5BVM",
+        "sp_popularity": 74,
+        "score": 64.6
     },
     {
         "artist": "Pinty",
@@ -374,20 +400,20 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02276d9430182d70f9961fc31d",
         "sp_artist_id": "0TUhwf3LG9K23fyL6oftFV",
         "sp_popularity": 37,
-        "score": 66.733
+        "score": 64.4
     },
     {
-        "artist": "GuiltyBeatz",
-        "title": "Different",
-        "genre": "Global",
-        "rating": 7.6,
-        "image": "https://media.pitchfork.com/photos/5e9debbfd836c60009bec961/1:1/w_320/Different%20EP_GuiltyBeatz.jpg",
-        "sp_date": "2020-04-03T00:00.000Z",
-        "sp_album_id": "3LwxYFcSGFzxzoQCQ9u3CK",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02b3c87f0b83d9a8b26f2ac743",
-        "sp_artist_id": "5DCdWXQ0QHQYlok4KK97em",
-        "sp_popularity": 50,
-        "score": 65.933
+        "artist": "Minais B",
+        "title": "Quiet Bloom",
+        "genre": "Experimental",
+        "rating": 7.5,
+        "image": "https://media.pitchfork.com/photos/5eab31806e7c12d69fed0ed7/1:1/w_320/Quiet%20Bloom_Minais%20B.jpg",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "4gsUCd8UUBHUEqh9YLuFuQ",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02212197976d933d35fc715641",
+        "sp_artist_id": "6gckWcukg2qBdk7qdEkBwD",
+        "sp_popularity": 18,
+        "score": 63.6
     },
     {
         "artist": "Otik",
@@ -400,7 +426,7 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e029d9567cb7ab59dfaa26632e0",
         "sp_artist_id": "6yvENIf7GmNwYnspB8UCpB",
         "sp_popularity": 35,
-        "score": 65.8
+        "score": 63.467
     },
     {
         "artist": "Trouble",
@@ -413,33 +439,20 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0286a11dc23e63348d7b3e55e4",
         "sp_artist_id": "0701LAQrkY5Il5vt06uNnC",
         "sp_popularity": 59,
-        "score": 65.733
+        "score": 63.4
     },
     {
-        "artist": "Stay Inside",
-        "title": "Viewing",
+        "artist": "Harkin",
+        "title": "Harkin",
         "genre": "Rock",
-        "rating": 7.7,
-        "image": "https://media.pitchfork.com/photos/5e9891ad524f9300087cc965/1:1/w_320/Viewing_Stay%20Inside.jpg",
-        "sp_date": "2020-04-10T00:00.000Z",
-        "sp_album_id": "5IQv4Dr6KeSSFC8akkYpic",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02835f55979ac1100c82c00e71",
-        "sp_artist_id": "59QLiM8EVDaCyuHV6ifMpv",
-        "sp_popularity": 33,
-        "score": 65.467
-    },
-    {
-        "artist": "KeiyaA",
-        "title": "Forever, Ya Girl",
-        "genre": "Pop/R&B",
-        "rating": 8.2,
-        "image": "https://media.pitchfork.com/photos/5e94b3f1b2ee63000804337c/1:1/w_320/Forever,%20Ya%20Girl_KeiyaA.jpg",
-        "sp_date": "2020-03-27T00:00.000Z",
-        "sp_album_id": "6bMdCDoTp3dLXiG1oXRGYV",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02e1beafb10900a5eb6e6c15a7",
-        "sp_artist_id": "542BY6B2YGEdf2XWvBFUJV",
-        "sp_popularity": 41,
-        "score": 65.4
+        "rating": 7.1,
+        "image": "https://media.pitchfork.com/photos/5ea889189c8ca90009f7f3c3/1:1/w_320/Harkin_Harkin.jpg",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "4lFMxrBwNtHkmvcPAT5BAx",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e0257e4de0dc2163ec6b0e63b4a",
+        "sp_artist_id": "2CkIcwjceliibK7p26g6gH",
+        "sp_popularity": 28,
+        "score": 63.2
     },
     {
         "artist": "John Carroll Kirby",
@@ -452,7 +465,46 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02a32610bc3dc8bdcd5c576b4e",
         "sp_artist_id": "7FQiZr787umw7P5dO3zqld",
         "sp_popularity": 39,
-        "score": 65.333
+        "score": 63.0
+    },
+    {
+        "artist": "Sven Wunder",
+        "title": "Eastern Flowers",
+        "genre": "Jazz",
+        "rating": 7.4,
+        "image": "https://media.pitchfork.com/photos/5eb18fd17a1620531f133755/1:1/w_320/Eastern%20Flowers_Sven%20Wunder.jpg",
+        "sp_date": "2020-04-17T00:00.000Z",
+        "sp_album_id": "1Z821RvawUQZ5ExkogGKCU",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02902a8e6ad12d93e5c654acb1",
+        "sp_artist_id": "2fQf2M7SkTwCv2MOEIP2Ly",
+        "sp_popularity": 29,
+        "score": 62.867
+    },
+    {
+        "artist": "Bad History Month",
+        "title": "Old Blues",
+        "genre": "Rock",
+        "rating": 7.3,
+        "image": "https://media.pitchfork.com/photos/5eb19240a4765fb4ce1855fb/1:1/w_320/Old%20Blues_Bad%20History%20Month.jpg",
+        "sp_date": "2020-04-24T00:00.000Z",
+        "sp_album_id": "1yNq2fSabT5GtHWYOu203i",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e029525d14b6da7e83193b5a5ba",
+        "sp_artist_id": "0pZup8YQscNrnOy6Yw9pea",
+        "sp_popularity": 20,
+        "score": 62.8
+    },
+    {
+        "artist": "Primo!",
+        "title": "Sogni",
+        "genre": "Rock",
+        "rating": 7.5,
+        "image": "https://media.pitchfork.com/photos/5eb1df30a1bcd64187eed65a/1:1/w_320/Sogni_Primo!.jpg",
+        "sp_date": "2020-04-17T00:00.000Z",
+        "sp_album_id": "6wjyemPyv0sq0KS5j64ltw",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e0261fa116180e6728b92e9692a",
+        "sp_artist_id": "2vsgzWoIxqa2qjugu7a1jH",
+        "sp_popularity": 25,
+        "score": 62.667
     },
     {
         "artist": "Skylar Gudasz",
@@ -465,7 +517,20 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e020a5d9c67c8d35a2053f8a6ca",
         "sp_artist_id": "0isq0T851tBgpJagOHHYHQ",
         "sp_popularity": 28,
-        "score": 65.0
+        "score": 62.667
+    },
+    {
+        "artist": "Caleb Landry Jones",
+        "title": "The Mother Stone",
+        "genre": "Rock",
+        "rating": 6.4,
+        "image": "https://media.pitchfork.com/photos/5eab2f61bae33a8e8fd0b11d/1:1/w_320/The%20Mother%20Stone_Caleb%20Landry%20Jones.jpg",
+        "sp_date": "2020-05-01T00:00.000Z",
+        "sp_album_id": "0dLhoomGBGqOt40K7feMH8",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02dfc44f8dc038a639738c6675",
+        "sp_artist_id": "736HHrEfkWjQB7zYV2aeXV",
+        "sp_popularity": 32,
+        "score": 62.133
     },
     {
         "artist": "Dean Blunt",
@@ -477,21 +542,8 @@
         "sp_album_id": "4ycaKvYlGxhy1jDJXwnq83",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02f6d3bda295c7b94181dd24f1",
         "sp_artist_id": "5CFSYjc0PAiQvndFjafabk",
-        "sp_popularity": 50,
-        "score": 64.133
-    },
-    {
-        "artist": "The Howling Hex",
-        "title": "Knuckleball Express",
-        "genre": "Rock",
-        "rating": 7.4,
-        "image": "https://media.pitchfork.com/photos/5e98b384e21e4f0009eaf07c/1:1/w_320/Knuckleball%20Express_The%20Howling%20Hex.jpg",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "0kUYO1M30G5ROSst0tlfrk",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e024c0ff6361850c1dd3f0c9824",
-        "sp_artist_id": "4bKYclYcmlfz3GaEXZYuQw",
-        "sp_popularity": 22,
-        "score": 63.8
+        "sp_popularity": 49,
+        "score": 61.6
     },
     {
         "artist": "Sir Richard Bishop",
@@ -503,60 +555,21 @@
         "sp_album_id": "090ESXJ3E68GloDqOesbRM",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0250ac6fef6e39f53aeb389632",
         "sp_artist_id": "36GbLKvZbVebDmu6hS6Zfa",
-        "sp_popularity": 26,
-        "score": 62.8
+        "sp_popularity": 25,
+        "score": 60.267
     },
     {
-        "artist": "Duke Dumont",
-        "title": "Duality",
-        "genre": "Electronic",
-        "rating": 5.2,
-        "image": "https://media.pitchfork.com/photos/5e9e12506be2540008370e5c/1:1/w_320/Duality_Duke%20Dumont.jpg",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "6AlOjPdNpM41lMVSjjsrUM",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e023ce84b2c05a3bac3d48c8217",
-        "sp_artist_id": "61lyPtntblHJvA7FMMhi7E",
-        "sp_popularity": 73,
-        "score": 60.8
-    },
-    {
-        "artist": "Active Child",
-        "title": "In Another Life",
+        "artist": "Midwife",
+        "title": "Forever",
         "genre": "Rock",
-        "rating": 6.2,
-        "image": "https://media.pitchfork.com/photos/5e90d8a21a3ea30008764f17/1:1/w_320/In%20Another%20Life_Active%20Child.jpg",
+        "rating": 7.1,
+        "image": "https://media.pitchfork.com/photos/5eb1dfb83707e26f99351b56/1:1/w_320/Forever_Midwife.jpg",
         "sp_date": "2020-04-10T00:00.000Z",
-        "sp_album_id": "6WlmR977FLZn35bctH2DWv",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02e058a0f1ad2c38282d8817e5",
-        "sp_artist_id": "54KTsBl98buzGkELjGlnuU",
-        "sp_popularity": 51,
-        "score": 60.067
-    },
-    {
-        "artist": "EOB",
-        "title": "Earth",
-        "genre": null,
-        "rating": 5.7,
-        "image": "https://media.pitchfork.com/photos/5e99e01f1845400008028bbc/1:1/w_320/eartheob.jpg",
-        "sp_date": "2020-04-17T00:00.000Z",
-        "sp_album_id": "01oZaEB5otlVEliljooL82",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e020af4290716ea10135b8e99b3",
-        "sp_artist_id": "4CX6yOoTFQeiwL5yxuFuIG",
-        "sp_popularity": 53,
-        "score": 59.8
-    },
-    {
-        "artist": "Bryce Hackford",
-        "title": "Safe (Exits)",
-        "genre": null,
-        "rating": 7.3,
-        "image": "https://media.pitchfork.com/photos/5e99d494b1cd0e00081a751b/1:1/w_320/bryce.jpg",
-        "sp_date": "2020-04-09T00:00.000Z",
-        "sp_album_id": "1LL2jojxaNNgentiB7D3E7",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e0252bb8b913a0ef446cc82d503",
-        "sp_artist_id": "3Hi0jlPrKcpV6cmRRsFgPq",
-        "sp_popularity": 16,
-        "score": 59.333
+        "sp_album_id": "2P71q1cH8pCpiBvQNnkZMJ",
+        "sp_img": "https://i.scdn.co/image/ab67616d00001e02876284f936fd232493e9a3cf",
+        "sp_artist_id": "5vjIHa1u3TnOlDvVDR9qQa",
+        "sp_popularity": 31,
+        "score": 59.133
     },
     {
         "artist": "Peel Dream Magazine",
@@ -568,21 +581,8 @@
         "sp_album_id": "4HV6z8mtYVANzu3NHgnxXc",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e02134de77ccfc02a7552e37e7f",
         "sp_artist_id": "0Un1afF0WG8Eh94e1NqOEd",
-        "sp_popularity": 36,
-        "score": 58.933
-    },
-    {
-        "artist": "Evan Caminiti",
-        "title": "Varispeed Hydra",
-        "genre": "Experimental",
-        "rating": 7.2,
-        "image": "https://media.pitchfork.com/photos/5e94ccdcecfafc0008428b58/1:1/w_320/Varispeed%20Hydra_Evan%20Caminiti.jpg",
-        "sp_date": "2020-04-03T00:00.000Z",
-        "sp_album_id": "33hqDVDEPz2wrMTeJ6gjuY",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e029489cbc86684d4405ed11f48",
-        "sp_artist_id": "6WdrFGN3q3sjFJqieOi8K6",
-        "sp_popularity": 25,
-        "score": 58.533
+        "sp_popularity": 35,
+        "score": 56.4
     },
     {
         "artist": "Flat Worms",
@@ -594,21 +594,8 @@
         "sp_album_id": "4uACXZZQ3FnjRpLQLgwJhG",
         "sp_img": "https://i.scdn.co/image/ab67616d00001e0277396b4bf8b05d7f48ba8a77",
         "sp_artist_id": "5Ssue4NKgXFwte9xe6azsu",
-        "sp_popularity": 35,
-        "score": 54.467
-    },
-    {
-        "artist": "Ellis",
-        "title": "Born Again",
-        "genre": "Rock",
-        "rating": 5.9,
-        "image": "https://media.pitchfork.com/photos/5e90e4e620b67c0009b3b2b0/1:1/w_320/Born%20Again_Ellis.jpg",
-        "sp_date": "2020-04-03T00:00.000Z",
-        "sp_album_id": "31sHh9Pw2G8kDls8pLRbUF",
-        "sp_img": "https://i.scdn.co/image/ab67616d00001e02b973e893836f5abe2385eeb5",
-        "sp_artist_id": "7EQmY1hAAeuJLa0GUNpKNN",
-        "sp_popularity": 35,
-        "score": 52.733
+        "sp_popularity": 34,
+        "score": 51.933
     },
     {
         "artist": "Asher Roth",
@@ -621,6 +608,6 @@
         "sp_img": "https://i.scdn.co/image/ab67616d00001e028bf8dbc4b2404f5df8acce5c",
         "sp_artist_id": "1wgY8huggK60P5nvYrwcYT",
         "sp_popularity": 57,
-        "score": 45.8
+        "score": 43.467
     }
 ]
