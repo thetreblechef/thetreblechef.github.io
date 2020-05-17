@@ -15,8 +15,8 @@ LOCATION_CODES = {'novascotia': 6091530, 'ottawa': 6094817, 'pei': 6113358,
 def get_bandcamp_releases(tag_str, page_count=10,
         location_id=0, region_str=None, sort_str='pop'):
     url = 'https://bandcamp.com/api/hub/2/dig_deeper'
-    GENRES_TO_IGNORE = ['metal', 'podcasts', 'classical', 'latin'
-        'spoken word', 'comedy', 'kids', 'ambient', 'audiobooks']
+    GENRES_TO_IGNORE = ['metal', 'podcasts', 'classical', 'latin',
+        'spoken word', 'comedy', 'kids', 'audiobooks']
 
     # If no region input, assume it is the same as the input tag.
     if not(region_str):
@@ -28,7 +28,7 @@ def get_bandcamp_releases(tag_str, page_count=10,
         json_obj = {"filters": {"format": "all", "location": location_id,
             "sort": sort_str, "tags": [tag_str]}, "page": i}
         x = requests.post(url, json=json_obj)
-        request_results = json.loads(x.text)
+        request_results = x.json()
 
         for result in request_results['items']:
             # Skip albums that have genre within the ignore list.
@@ -93,12 +93,11 @@ for region_str, location_id in LOCATION_CODES.items():
             releases_full.append(result)
 
 # Write results to a csv file before the spotify search for debugging.
-with open('results/canada_pre.csv', mode='w') as csv_file:
-    fieldnames = ['artist', 'title', 'genre', 'url', 'region']
-    csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-
-    csv_writer.writeheader()
-    csv_writer.writerows(releases_full)
+# with open('results/canada_pre.csv', mode='w') as csv_file:
+#    fieldnames = ['artist', 'title', 'genre', 'url', 'region']
+#    csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+#    csv_writer.writeheader()
+#    csv_writer.writerows(releases_full)
 
 print('Fetching Spotify Information', end='', flush=True)
 current_time = datetime.now()
