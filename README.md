@@ -6,5 +6,5 @@ The code below offers a recent snapshot of the database in the form of a [static
 
 ## Instructions
 
-If you wish to generate the data yourself, run the scrape\_\*.py files in the scripts directory to pull recent data, and then run server.py to generate the static webpages that are stored in the static directory. You can then move them to the root directory to allow GitHub to host them for free.
+If you wish to generate the data yourself, run the scrape\_\*.py files in the scripts directory to pull recent data, and then run server.py to generate the static webpages that are stored in the build directory. You can then move them to the root directory to allow GitHub to host them for free.
 
