@@ -2,7 +2,7 @@
 
 This is the original repository for a Canadian music retrieval service now managed [here](https://github.com/jpnaterer/sonicboards).
 
-The code below offers a recent snapshot of the database in the form of a [static webpage](thetreblechef.github.io/). The main drawback is true databasing. All data is stored in local json files and the webpages are generated via a static flask snapshot. However, this code is still available if I ever wish to return to statically hosting the webpage for free on GitHub.
+The code below offers a recent snapshot of the database in the form of a [static webpage](http:/thetreblechef.github.io/). The main drawback is true databasing. All data is stored in local json files and the webpages are generated via a static flask snapshot. However, this code is still available if I ever wish to return to statically hosting the webpage for free on GitHub.
 
 ## Instructions
 
